@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>1</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>125</LINE><COLUMN>29</COLUMN><FILENAME>filter.cpp</FILENAME><FILEPATH>d:\zhang\avstream\</FILEPATH></SFA><DEFECTCODE>28170</DEFECTCODE><DESCRIPTION>The function 'DispatchClose' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.</DESCRIPTION><FUNCTION>CCaptureFilter::DispatchClose</FUNCTION><FUNCLINE>125</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

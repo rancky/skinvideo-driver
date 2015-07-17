@@ -1,0 +1,32 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\purecall.obj \
+ $(OBJ_PATH)\$O\debugutil.obj \
+ $(OBJ_PATH)\$O\basetype.obj \
+ $(OBJ_PATH)\$O\facetracking.obj \
+ $(OBJ_PATH)\$O\jpeg.obj \
+ $(OBJ_PATH)\$O\scale.obj \
+ $(OBJ_PATH)\$O\shell.obj \
+ $(OBJ_PATH)\$O\usbdev.obj \
+ $(OBJ_PATH)\$O\streamdata.obj \
+ $(OBJ_PATH)\$O\device.obj \
+ $(OBJ_PATH)\$O\filter.obj \
+ $(OBJ_PATH)\$O\capture.obj \
+ $(OBJ_PATH)\$O\still.obj \
+ $(OBJ_PATH)\$O\videostream.obj \
+ $(OBJ_PATH)\$O\videodevice.obj \
+ $(OBJ_PATH)\$O\transportstream.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\st50220.res
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=d:\zhang\avstream
+OBJ_PATH=d:\zhang\avstream
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

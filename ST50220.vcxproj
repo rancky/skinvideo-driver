@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pure Version|Win32">
+      <Configuration>Pure Version</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pure Version|x64">
+      <Configuration>Pure Version</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{739C7CF6-B290-46D5-8444-25DAF4D55572}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Pure Version|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Pure Version|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Pure Version|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Pure Version|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.1 fre WIN7 ADD_FORMAT</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.1 fre WIN7 ADD_FORMAT</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>ST50220.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>__VIDEO_CLASS_H__;__KERNEL_MODE__;_VGA_OUTPUT_;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>.\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.0 fre x64 ADD_FORMAT</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.0 fre x64 ADD_FORMAT</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>ST50220.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>__KERNEL_MODE__;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WinDDK\7600.16385.1 chk WIN7 ADD_FORMAT</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WinDDK\7600.16385.1 chk WIN7 ADD_FORMAT</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>ST50220.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>__KERNEL_MODE__;_VGA_OUTPUT_;DBG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>.\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.0 chk x64 ADD_FORMAT</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>%ComSpec% /E:ON /Kwdmbuild C:\WINDDK\7600.16385.0 chk x64 ADD_FORMAT</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>ST50220.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>__KERNEL_MODE__;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Pure Version|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.0 fre WIN7 _NOEFFECT</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.0 fre WIN7 _NOEFFECT</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>ST50220.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>__VIDEO_CLASS_H__;__KERNEL_MODE__;_VGA_OUTPUT_;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Pure Version|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.0 fre x64 _NOEFFECT</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>%ComSpec% /E:ON /K wdmbuild C:\WINDDK\7600.16385.0 fre x64 _NOEFFECT</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>ST50220.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>__KERNEL_MODE__;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseType.cpp" />
+    <ClCompile Include="capture.cpp" />
+    <ClCompile Include="debugutil.cpp" />
+    <ClCompile Include="device.cpp" />
+    <ClCompile Include="FaceTracking.cpp" />
+    <ClCompile Include="filter.cpp" />
+    <ClCompile Include="JPEG.cpp" />
+    <ClCompile Include="purecall.c" />
+    <ClCompile Include="Scale.cpp" />
+    <ClCompile Include="Shell.cpp" />
+    <ClCompile Include="still.cpp" />
+    <ClCompile Include="streamdata.cpp" />
+    <ClCompile Include="TransportStream.cpp" />
+    <ClCompile Include="UsbDev.cpp" />
+    <ClCompile Include="VideoDevice.cpp" />
+    <ClCompile Include="VideoStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseType.h" />
+    <ClInclude Include="capture.h" />
+    <ClInclude Include="customprop.h" />
+    <ClInclude Include="DebugUtil.h" />
+    <ClInclude Include="DEVDEP.H" />
+    <ClInclude Include="device.h" />
+    <ClInclude Include="effectlib.h" />
+    <ClInclude Include="FaceData.h" />
+    <ClInclude Include="FaceTracking.h" />
+    <ClInclude Include="filter.h" />
+    <ClInclude Include="JPEG.H" />
+    <ClInclude Include="kcom.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scale.h" />
+    <ClInclude Include="Shell.h" />
+    <ClInclude Include="SnCam.h" />
+    <ClInclude Include="still.h" />
+    <ClInclude Include="streamdata.h" />
+    <ClInclude Include="TransportStream.h" />
+    <ClInclude Include="UsbDev.h" />
+    <ClInclude Include="VidClass.h" />
+    <ClInclude Include="VideoDevice.h" />
+    <ClInclude Include="VideoStream.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ST50220.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SOURCES" />
+    <None Include="ST50220.bsc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

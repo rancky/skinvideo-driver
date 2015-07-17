@@ -1,0 +1,117 @@
+##########################################################################
+#
+# Copyright (C) Sonix Technology Co., Ltd. 2009-2010
+# All Rights Reserved
+#
+# Source for Sonix AVStream Driver
+#
+##########################################################################
+
+#===========================================
+# Part 1-1: Common setting (Must)
+#===========================================
+TARGETTYPE=DRIVER
+DRIVERTYPE=WDM
+TARGETNAME=snp2uvc
+#TARGETPATH=.\sonix_$(DDKBUILDENV)
+
+TARGETLIBS= $(DDK_LIB_PATH)\ks.lib \
+			$(DDK_LIB_PATH)\usbd.lib \
+			$(DDK_LIB_PATH)\ksguid.lib \
+			$(DDK_LIB_PATH)\dxapi.lib \
+			$(DDK_LIB_PATH)\libcntpr.lib \
+
+SOURCES = ST50220.rc				\
+					DebugUtil.cpp			\
+					BaseType.cpp			\
+					FaceTracking.cpp	\
+					JPEG.cpp					\
+					Scale.cpp					\
+					Shell.cpp					\
+					usbdev.cpp				\
+					StreamData.cpp		\
+					device.cpp				\
+					filter.cpp				\
+					capture.cpp				\
+					still.cpp					\
+					VideoStream.cpp		\
+					VideoDevice.cpp		\
+					purecall.c				\
+					TransportStream.cpp \
+
+#===========================================
+# Part 1-2: Common setting (Optional)
+#===========================================
+USER_C_FLAGS=-Zm400
+MSC_WARNING_LEVEL=/W0 /WX
+C_DEFINES=$(C_DEFINES) /DUNICODE /DPNP_POWER /D__KERNEL_MODE__ /DINITGUID /DMAX_TRACE /D__VIDEO_CLASS__ /D_VGA_OUTPUT_ /D_NOEFFECT
+INCLUDES=$(DDK_INC_PATH)
+
+LINKER_FLAGS =$(LINKER_FLAGS) -map -merge:PAGECONST=PAGE
+#USE_MAPSYM=1
+
+##########################################################################
+
+#===========================================
+# Part 2-1: Arch specific setting (x86)
+#===========================================
+!IF "$(_BUILDARCH)" == "x86"
+
+#EFFECT_LIB_PATH = Effect_Lib\i386
+#TARGETLIBS = $(TARGETLIBS) \
+#    $(EFFECT_LIB_PATH)\EffectLib.lib \
+#    $(EFFECT_LIB_PATH)\ZLib.lib \
+
+#===========================================
+# Part 2-2: Arch specific setting (AMD64)
+#===========================================
+!ELSEIF "$(_BUILDARCH)" == "AMD64"
+
+C_DEFINES = $(C_DEFINES) /D_WIN64
+
+#EFFECT_LIB_PATH = Effect_Lib\AMD64
+#TARGETLIBS=$(TARGETLIBS) \
+#    $(EFFECT_LIB_PATH)\EffectLib.lib \
+#    $(EFFECT_LIB_PATH)\ZLib.lib \
+
+#===========================================
+# Part 2-3: Arch specific setting (Otherwise)
+#===========================================
+!ELSE
+!ERROR Not supported build architecture
+!ENDIF
+
+##########################################################################
+
+#===========================================
+# Part 3-1: BuildEnv specific setting (fre)
+#===========================================
+!IF "$(DDKBUILDENV)" == "fre"
+
+#===========================================
+# Part 3-2: BuildEnv specific setting (chk)
+#===========================================
+!ELSEIF "$(DDKBUILDENV)" == "chk"
+
+#C_DEFINES=$(C_DEFINES) /DDBG
+
+#===========================================
+# Part 3-3: BuildEnv specific setting (Otherwise)
+#===========================================
+!ELSE
+!ERROR Not supported build environment
+!ENDIF
+
+##########################################################################
+
+C_DEFINES=$(C_DEFINES) $(CUSTOMTYPE)
+
+!IF "$(CUSTOMTYPE)" == "/D_NOEFFECT"
+
+TARGETPATH=.\sonixpure_$(DDKBUILDENV)
+
+!ELSE
+
+TARGETPATH=.\sonix_$(DDKBUILDENV)
+
+!ENDIF

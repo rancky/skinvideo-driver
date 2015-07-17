@@ -1,0 +1,1659 @@
+ snp2uvc
+
+ Timestamp is 55a725fe (Thu Jul 16 11:33:18 2015)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000302a6H .text                   CODE
+ 0001:000302b0 00009636H .text$s                 CODE
+ 0002:00000000 00000148H .idata$5                DATA
+ 0002:00000150 000047acH .rdata                  DATA
+ 0002:000048fc 00000045H .rdata$debug            DATA
+ 0003:00000000 000013d0H .data                   DATA
+ 0003:000013e0 0000a038H .bss                    DATA
+ 0004:00000000 0018c1d8H PAGE                    CODE
+ 0004:0018c1e0 000007e4H PAGE$s                  CODE
+ 0005:00000000 0000004eH INIT                    CODE
+ 0005:00000050 00000050H .idata$2                CODE
+ 0005:000000a0 00000014H .idata$3                CODE
+ 0005:000000b4 00000148H .idata$4                CODE
+ 0005:000001fc 000006a6H .idata$6                CODE
+ 0006:00000000 00000058H .rsrc$01                DATA
+ 0006:00000060 000002b8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000010       ??3@YAXPAX@Z               00010490 f i debugutil.obj
+ 0001:00000030       ?DbgUtilPrintfEx@@YAXKPBDZZ 000104b0 f   debugutil.obj
+ 0001:000000f0       ?DbgUtilError@@YAXPBDZZ    00010570 f   debugutil.obj
+ 0001:00000200       ?DbgUtilWarning@@YAXPBDZZ  00010680 f   debugutil.obj
+ 0001:00000300       ?DbgUtilInfo@@YAXPBDZZ     00010780 f   debugutil.obj
+ 0001:00000400       ?DbgUtilTrace@@YAXPBDZZ    00010880 f   debugutil.obj
+ 0001:000004e0       ?fabs@@YAMM@Z              00010960 f i facetracking.obj
+ 0001:00000500       _fabsf@4                   00010980 f i facetracking.obj
+ 0001:00000520       ?abs@@YAJJ@Z               000109a0 f i facetracking.obj
+ 0001:00000540       ?CJPEG_CJPEG@@YGPAU_CJPEG@@XZ 000109c0 f   jpeg.obj
+ 0001:000007e0       ?CScale__CScale@@YGXPAU_CScale@@@Z 00010c60 f   scale.obj
+ 0001:000007e0       ?CJPEG__CJPEG@@YGXPAU_CJPEG@@@Z 00010c60 f   jpeg.obj
+ 0001:00000800       ?CScale_Reset@@YGXPAU_CScale@@@Z 00010c80 f   scale.obj
+ 0001:00000800       ?CJPEG_Reset@@YGXPAU_CJPEG@@@Z 00010c80 f   jpeg.obj
+ 0001:00000810       ?CJPEG_SetJPEGSize@@YGHPAU_CJPEG@@JJJJJJJJ@Z 00010c90 f   jpeg.obj
+ 0001:00000960       ?CJPEG_Set_Y_QTAB@@YGXPAU_CJPEG@@PAE@Z 00010de0 f   jpeg.obj
+ 0001:00000b50       ?CJPEG_Set_C_QTAB@@YGXPAU_CJPEG@@PAE@Z 00010fd0 f   jpeg.obj
+ 0001:00000d50       ?CJPEG_GetHeader@@YGXPAU_CJPEG@@PAE@Z 000111d0 f   jpeg.obj
+ 0001:00000d80       ?CScale_GetParam@@YGPAUScaleParam@@PAU_CScale@@@Z 00011200 f   scale.obj
+ 0001:00000d80       ?CJPEG_GetParam@@YGPAUJPEGParam@@PAU_CJPEG@@@Z 00011200 f   jpeg.obj
+ 0001:00000da0       ?CJPEG_GetReport@@YGPAUJPEGReport@@PAU_CJPEG@@@Z 00011220 f   jpeg.obj
+ 0001:00000dc0       ?CJPEG_JPEGDecode@@YGXPAU_CJPEG@@PAE1K@Z 00011240 f   jpeg.obj
+ 0001:00001f80       ?CJPEG_GetBits@@YGKPAUStreamBuf@@J@Z 00012400 f i jpeg.obj
+ 0001:00002080       ?CJPEG_HuffDecode@@YGJPAUStreamBuf@@PAUHuffTable@@@Z 00012500 f i jpeg.obj
+ 0001:00002110       ?CJPEG_HuffExtend@@YGJJJ@Z 00012590 f i jpeg.obj
+ 0001:00002150       ?IDCTY@@YGXPAF0PAE0JH@Z    000125d0 f   jpeg.obj
+ 0001:000026a0       ?IDCTC@@YGXPAF0PAE0JH@Z    00012b20 f   jpeg.obj
+ 0001:00002b20       ?CScale_CScale@@YGPAU_CScale@@XZ 00012fa0 f   scale.obj
+ 0001:00002b70       ?CScale_SetScaleSize@@YGHPAU_CScale@@HHHHHHHHQAH1@Z 00012ff0 f   scale.obj
+ 0001:00002ca0       ?CScale_CreateScalingTap@@YGXPAU_CScale@@@Z 00013120 f   scale.obj
+ 0001:00002ef0       ?CScale_UpSample@@YGXPAU_CScale@@PAE1@Z 00013370 f   scale.obj
+ 0001:00003640       ?CShell_CShell@@YGPAU_CShell@@XZ 00013ac0 f   shell.obj
+ 0001:00003850       ?CShell__CShell@@YGXPAU_CShell@@@Z 00013cd0 f   shell.obj
+ 0001:00003920       ?CShell_Reset@@YGXPAU_CShell@@@Z 00013da0 f   shell.obj
+ 0001:00003a00       ?CShell_ReadFaceTrackParamFromReg@@YGXPAU_CShell@@PAK@Z 00013e80 f   shell.obj
+ 0001:00003a30       ?CShell_SetProcessInfo@@YGXPAU_CShell@@KPAE1PAUQTableInfo@@@Z 00013eb0 f   shell.obj
+ 0001:00003a70       ?CShell_SetSize@@YGHPAU_CShell@@HHHHHHHHHHQAH1H@Z 00013ef0 f   shell.obj
+ 0001:00003bc0       ?CShell_SetHMirror@@YGHPAU_CShell@@H@Z 00014040 f   shell.obj
+ 0001:00003be0       ?CShell_SetVMirror@@YGHPAU_CShell@@H@Z 00014060 f   shell.obj
+ 0001:00003c00       ?CShell_SetColorSpace@@YGHPAU_CShell@@W4ColorSpace@@@Z 00014080 f   shell.obj
+ 0001:00003c20       ?CShell_SetRotateState@@YGHPAU_CShell@@W4RotateState@@@Z 000140a0 f   shell.obj
+ 0001:00003c40       ?CShell_Process@@YGXPAU_CShell@@HW4DataInput@@W4ColorSpace@@@Z 000140c0 f   shell.obj
+ 0001:000041e0       ?CShell_YUV2RGB24@@YGXPAU_CShell@@@Z 00014660 f   shell.obj
+ 0001:00004d00       ?CShell_YUV2I420@@YGXPAU_CShell@@@Z 00015180 f   shell.obj
+ 0001:000056d0       ?CShell_YUV2YUY2@@YGXPAU_CShell@@@Z 00015b50 f   shell.obj
+ 0001:00005de0       ?CShell_YUVRotate@@YGXPAU_CShell@@@Z 00016260 f   shell.obj
+ 0001:000060f0       ?CShell_GetJPEGParam@@YGPAUJPEGParam@@PAU_CShell@@@Z 00016570 f   shell.obj
+ 0001:00006110       ?CShell_GetJPEGReport@@YGPAUJPEGReport@@PAU_CShell@@@Z 00016590 f   shell.obj
+ 0001:00006130       ?CShell_GetScaleParam@@YGPAUScaleParam@@PAU_CShell@@@Z 000165b0 f   shell.obj
+ 0001:00006150       ?CShell_GetFaceReport@@YGPAUFaceReport@@PAU_CShell@@@Z 000165d0 f   shell.obj
+ 0001:00006170       ?CShell_SetBW@@YGXPAU_CShell@@H@Z 000165f0 f   shell.obj
+ 0001:00006190       ?CShell_YUVDefectCompensation@@YGXPAU_CShell@@@Z 00016610 f   shell.obj
+ 0001:00007680       ?CShell_BlackWhite@@YGXPAU_CShell@@@Z 00017b00 f   shell.obj
+ 0001:000077a0       ?CShell_YUYVProcess@@YGXPAU_CShell@@@Z 00017c20 f   shell.obj
+ 0001:00007970       ?CShell_YUYV_S420_Process@@YGXPAU_CShell@@@Z 00017df0 f   shell.obj
+ 0001:00007c20       ?CShell_DenoiseTech@@YGXPAU_CShell@@@Z 000180a0 f   shell.obj
+ 0001:0000a020       ??0UsbDev@@QAE@XZ          0001a4a0 f   usbdev.obj
+ 0001:0000a0d0       ??1UsbDev@@QAE@XZ          0001a550 f   usbdev.obj
+ 0001:0000a1a0       ?InitializeUsbDevice@UsbDev@@QAEJPAX@Z 0001a620 f   usbdev.obj
+ 0001:0000a220       ?SetAlternate@UsbDev@@QAEJEE@Z 0001a6a0 f   usbdev.obj
+ 0001:0000a620       ?GetNoOfAlternateSetting@UsbDev@@QAEHE@Z 0001aaa0 f   usbdev.obj
+ 0001:0000a6a0       ?GetPipeInfo@UsbDev@@QAEJEEPAU_USBD_PIPE_INFORMATION@@@Z 0001ab20 f   usbdev.obj
+ 0001:0000a740       ?UsbControlVendorTransfer@UsbDev@@QAEJGHEGGPAXK@Z 0001abc0 f   usbdev.obj
+ 0001:0000a820       ?UsbBulkOrInterruptTransfer@UsbDev@@QAEJPAU_IRP@@PAU_URB@@PAU_USBD_PIPE_INFORMATION@@HPAXPAU_MDL@@K33@Z 0001aca0 f   usbdev.obj
+ 0001:0000a930       _IoGetNextIrpStackLocation@4 0001adb0 f i usbdev.obj
+ 0001:0000a980       _IoSetCompletionRoutine@24 0001ae00 f i usbdev.obj
+ 0001:0000aa60       ?UsbIsochronousTransfer@UsbDev@@QAEJPAU_IRP@@PAU_URB@@PAU_USBD_PIPE_INFORMATION@@HPAXPAU_MDL@@33@Z 0001aee0 f   usbdev.obj
+ 0001:0000ac10       ?PipeAbortOrReset@UsbDev@@QAEJEEE@Z 0001b090 f   usbdev.obj
+ 0001:0000ad70       ?SetUsbPDO@UsbDev@@IAEXPAU_DEVICE_OBJECT@@@Z 0001b1f0 f   usbdev.obj
+ 0001:0000ad90       ?SyncCompletionRoutine@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z 0001b210 f   usbdev.obj
+ 0001:0000adc0       ?SendAwaitUrb@UsbDev@@IAEJPAU_URB@@@Z 0001b240 f   usbdev.obj
+ 0001:0000af40       ?GetDeviceDescriptor@UsbDev@@IAEJXZ 0001b3c0 f   usbdev.obj
+ 0001:0000b180       ?GetConfigurationDescriptor@UsbDev@@IAEJXZ 0001b600 f   usbdev.obj
+ 0001:0000b450       ?SetConfiguration@UsbDev@@IAEJXZ 0001b8d0 f   usbdev.obj
+ 0001:0000b900       ?ReturnConfigDesc@UsbDev@@QAEPAU_USB_CONFIGURATION_DESCRIPTOR@@E@Z 0001bd80 f   usbdev.obj
+ 0001:0000b920       ?SendDeviceSetPowerComplete@@YGXPAU_DEVICE_OBJECT@@ET_POWER_STATE@@PAU_SDSP_CONTEXT@@PAU_IO_STATUS_BLOCK@@@Z 0001bda0 f   usbdev.obj
+ 0001:0000b950       ?SendDeviceSetPower@UsbDev@@QAEJW4_DEVICE_POWER_STATE@@H@Z 0001bdd0 f   usbdev.obj
+ 0001:0000ba10       ?SelectiveSuspendCallback@@YGXPAVUsbDev@@@Z 0001be90 f   usbdev.obj
+ 0001:0000bab0       ?SelectiveSuspendCompletionRoutine@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAVUsbDev@@@Z 0001bf30 f   usbdev.obj
+ 0001:0000bb30       ?SubmitIdleRequestIrp@UsbDev@@QAEJXZ 0001bfb0 f   usbdev.obj
+ 0001:0000bcb0       ?CancelSelectiveSuspend@UsbDev@@QAEXXZ 0001c130 f   usbdev.obj
+ 0001:0000bd70       ?UninitializeUsbDevice@UsbDev@@QAEJXZ 0001c1f0 f   usbdev.obj
+ 0001:0000bda0       ?DispatchSetState@CCapturePin@@SGJPAU_KSPIN@@W4KSSTATE@@1@Z 0001c220 f i streamdata.obj
+ 0001:0000bdd0       ?DispatchProcess@CCapturePin@@SGJPAU_KSPIN@@@Z 0001c250 f i streamdata.obj
+ 0001:0000bdf0       ?DispatchSetState@CStillPin@@SGJPAU_KSPIN@@W4KSSTATE@@1@Z 0001c270 f i streamdata.obj
+ 0001:0000be20       ?DispatchProcess@CStillPin@@SGJPAU_KSPIN@@@Z 0001c2a0 f i streamdata.obj
+ 0001:0000be40       ?DispatchRemove@CCaptureDevice@@SGXPAU_KSDEVICE@@PAU_IRP@@@Z 0001c2c0 f i device.obj
+ 0001:0000be60       ?DispatchPnpStart@CCaptureDevice@@SGJPAU_KSDEVICE@@PAU_IRP@@PAU_CM_RESOURCE_LIST@@2@Z 0001c2e0 f i device.obj
+ 0001:0000be90       ?DispatchPostStart@CCaptureDevice@@SGJPAU_KSDEVICE@@@Z 0001c310 f i device.obj
+ 0001:0000beb0       ?DispatchSetPower@CCaptureDevice@@SGXPAU_KSDEVICE@@PAU_IRP@@W4_DEVICE_POWER_STATE@@2@Z 0001c330 f i device.obj
+ 0001:0000bee0       ?DispatchPnpStop@CCaptureDevice@@SGXPAU_KSDEVICE@@PAU_IRP@@@Z 0001c360 f i device.obj
+ 0001:0000bf00       ?DispatchPnpSurpriseRemoval@CCaptureDevice@@SGXPAU_KSDEVICE@@PAU_IRP@@@Z 0001c380 f i device.obj
+ 0001:0000bf20       ?DispatchQueryCapabilities@CCaptureDevice@@SGJPAU_KSDEVICE@@PAU_IRP@@PAU_DEVICE_CAPABILITIES@@@Z 0001c3a0 f i device.obj
+ 0001:0000bf40       ??0CCaptureDevice@@QAE@PAU_KSDEVICE@@@Z 0001c3c0 f   device.obj
+ 0001:0000bfc0       ??1CCaptureDevice@@QAE@XZ  0001c440 f   device.obj
+ 0001:0000c020       ?DispatchCreate@CCaptureDevice@@SGJPAU_KSDEVICE@@@Z 0001c4a0 f   device.obj
+ 0001:0000c270       _DbgRaiseAssertionFailure@0 0001c6f0 f i device.obj
+ 0001:0000c280       ??2@YGPAXIW4_POOL_TYPE@@@Z 0001c700 f i device.obj
+ 0001:0000c2d0       ?Cleanup@CCaptureDevice@@CGXPAV1@@Z 0001c750 f i device.obj
+ 0001:0000c320       ??_GCCaptureDevice@@QAEPAXI@Z 0001c7a0 f i device.obj
+ 0001:0000c360       ?Cleanup@CStillPin@@CGXPAV1@@Z 0001c7e0 f i still.obj
+ 0001:0000c360       ?Cleanup@CCaptureFilter@@CGXPAV1@@Z 0001c7e0 f i filter.obj
+ 0001:0000c360       ?Cleanup@CVideoStream@@SGXPAV1@@Z 0001c7e0 f i device.obj
+ 0001:0000c360       ?Cleanup@CCapturePin@@CGXPAV1@@Z 0001c7e0 f i capture.obj
+ 0001:0000c3b0       ??_GCVideoStream@@QAEPAXI@Z 0001c830 f i device.obj
+ 0001:0000c3b0       ??_GCCaptureFilter@@QAEPAXI@Z 0001c830 f i filter.obj
+ 0001:0000c3b0       ??_GCStillPin@@QAEPAXI@Z   0001c830 f i still.obj
+ 0001:0000c3b0       ??_GCCapturePin@@QAEPAXI@Z 0001c830 f i capture.obj
+ 0001:0000c3f0       ?RemoveDevice@CCaptureDevice@@AAEXXZ 0001c870 f   device.obj
+ 0001:0000c440       ?PnpStart@CCaptureDevice@@AAEJPAU_CM_RESOURCE_LIST@@0@Z 0001c8c0 f   device.obj
+ 0001:0000c550       ?PostStart@CCaptureDevice@@AAEJXZ 0001c9d0 f   device.obj
+ 0001:0000c6c0       ?PnpStop@CCaptureDevice@@AAEXXZ 0001cb40 f   device.obj
+ 0001:0000c750       ?SurpriseRemoval@CCaptureDevice@@AAEXXZ 0001cbd0 f   device.obj
+ 0001:0000c830       ?AcquireHardwareResources@CCaptureDevice@@QAEJPAUtagKS_VIDEOINFOHEADER@@K@Z 0001ccb0 f   device.obj
+ 0001:0000cad0       ?ReleaseHardwareResources@CCaptureDevice@@QAEXK@Z 0001cf50 f   device.obj
+ 0001:0000cb90       ?StreamOpen@CCaptureDevice@@QAEJHPAU_KSPIN@@@Z 0001d010 f   device.obj
+ 0001:0000cca0       ?Start@CCaptureDevice@@QAEJPAU_KSPIN@@@Z 0001d120 f   device.obj
+ 0001:0000cd30       ?Pause@CCaptureDevice@@QAEJPAU_KSPIN@@E@Z 0001d1b0 f   device.obj
+ 0001:0000cde0       ?Stop@CCaptureDevice@@QAEJPAU_KSPIN@@@Z 0001d260 f   device.obj
+ 0001:0000ce70       ?FrameReadingProcess@CCaptureDevice@@QAEJPAU_KSPIN@@PAUKSSTREAM_HEADER@@@Z 0001d2f0 f   device.obj
+ 0001:0000cf20       ?QueryCapabilities@CCaptureDevice@@AAEJPAU_DEVICE_CAPABILITIES@@@Z 0001d3a0 f   device.obj
+ 0001:0000cfb0       ?SetPowerState@CCaptureDevice@@AAEXW4_DEVICE_POWER_STATE@@0@Z 0001d430 f   device.obj
+ 0001:0000d0d0       _DriverEntry@8             0001d550 f   device.obj
+ 0001:0000d100       ??0CCaptureFilter@@QAE@PAU_KSFILTER@@@Z 0001d580 f i filter.obj
+ 0001:0000d130       ??0CCapturePin@@QAE@PAU_KSPIN@@@Z 0001d5b0 f   capture.obj
+ 0001:0000d1c0       _KsPinGetDevice@4          0001d640 f i capture.obj
+ 0001:0000d1e0       ?DispatchCreate@CCapturePin@@SGJPAU_KSPIN@@PAU_IRP@@@Z 0001d660 f   capture.obj
+ 0001:0000d500       ?DispatchClose@CCapturePin@@SGJPAU_KSPIN@@PAU_IRP@@@Z 0001d980 f   capture.obj
+ 0001:0000d5b0       ?CaptureVideoInfoHeader@CCapturePin@@AAEPAUtagKS_VIDEOINFOHEADER@@XZ 0001da30 f   capture.obj
+ 0001:0000d6b0       ?WorkaroundHPBug@@YGXPAEPAK@Z 0001db30 f   capture.obj
+ 0001:0000d780       ?Process@CCapturePin@@AAEJXZ 0001dc00 f   capture.obj
+ 0001:0000dc00       ?KeDelay@@YGJH@Z           0001e080 f i capture.obj
+ 0001:0000dc40       ?CleanupReferences@CCapturePin@@AAEJXZ 0001e0c0 f   capture.obj
+ 0001:0000dcf0       ?SetState@CCapturePin@@AAEJW4KSSTATE@@0@Z 0001e170 f   capture.obj
+ 0001:0000dfc0       ?IntersectHandler@CCapturePin@@SGJPAU_KSFILTER@@PAU_IRP@@PAUKSP_PIN@@PATKSDATAFORMAT@@3KPAXPAK@Z 0001e440 f   capture.obj
+ 0001:0000e350       _IsEqualGUID@8             0001e7d0 f i capture.obj
+ 0001:0000e380       ?MultiplyCheckOverflow@@YGHKKPAK@Z 0001e800 f   capture.obj
+ 0001:0000e3e0       ?DispatchSetFormat@CCapturePin@@SGJPAU_KSPIN@@PATKSDATAFORMAT@@PAUKSMULTIPLE_ITEM@@PBT3@PBUKSATTRIBUTE_LIST@@@Z 0001e860 f   capture.obj
+ 0001:0000e650       ?KsGateInitializeAnd@@YGXPAU_KSGATE@@0@Z 0001ead0 f i still.obj
+ 0001:0000e670       ?KsGateInitialize@@YGXPAU_KSGATE@@J0E@Z 0001eaf0 f i still.obj
+ 0001:0000e6f0       ?KsGateTurnInputOn@@YGXPAU_KSGATE@@@Z 0001eb70 f i still.obj
+ 0001:0000e720       ?KsGateTurnInputOff@@YGXPAU_KSGATE@@@Z 0001eba0 f i still.obj
+ 0001:0000e750       ??0CVideoStream@@QAE@PAU_KSDEVICE@@@Z 0001ebd0 f   videostream.obj
+ 0001:0000e7e0       ??1CCaptureFilter@@QAE@XZ  0001ec60 f   filter.obj
+ 0001:0000e7e0       ??1CStillPin@@QAE@XZ       0001ec60 f   still.obj
+ 0001:0000e7e0       ??1CVideoStream@@QAE@XZ    0001ec60 f   videostream.obj
+ 0001:0000e7e0       ??1CCapturePin@@QAE@XZ     0001ec60 f   capture.obj
+ 0001:0000e800       ?InitializeDevice@CVideoStream@@QAEJXZ 0001ec80 f   videostream.obj
+ 0001:00011a10       ?InitializationComplete@CVideoStream@@QAEJXZ 00021e90 f   videostream.obj
+ 0001:00011b10       ?SurpriseRemoval@CVideoStream@@QAEJXZ 00021f90 f   videostream.obj
+ 0001:00011b90       ?UninitializeDevice@CVideoStream@@QAEJXZ 00022010 f   videostream.obj
+ 0001:00011ea0       ??_GCVideoDevice@@QAEPAXI@Z 00022320 f i videostream.obj
+ 0001:00011ee0       ?OpenStream@CVideoStream@@QAEJPAU_KSPIN@@@Z 00022360 f   videostream.obj
+ 0001:00012790       ?CloseStream@CVideoStream@@QAEJPAU_KSPIN@@@Z 00022c10 f   videostream.obj
+ 0001:000128f0       ?SetStreamState@CVideoStream@@QAEJPAU_KSPIN@@W4KSSTATE@@@Z 00022d70 f   videostream.obj
+ 0001:00012c00       ?SetDeviceProperty@CVideoStream@@QAEJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z 00023080 f   videostream.obj
+ 0001:00014430       _IoGetCurrentIrpStackLocation@4 000248b0 f i videostream.obj
+ 0001:00014490       ??0CDbgUtilFn@@QAE@PBD0K@Z 00024910 f i videostream.obj
+ 0001:00014590       ??1CDbgUtilFn@@QAE@XZ      00024a10 f i videostream.obj
+ 0001:000145e0       ?GetDeviceProperty@CVideoStream@@QAEJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z 00024a60 f   videostream.obj
+ 0001:00015c60       ?GetStreamProperty@CVideoStream@@QAEJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z 000260e0 f   videostream.obj
+ 0001:00016100       ?ReadData@CVideoStream@@QAEJPAU_KSPIN@@PAUKSSTREAM_HEADER@@K@Z 00026580 f   videostream.obj
+ 0001:00016a30       ?SubmitCurrentSettings@@YGXPAX@Z 00026eb0 f   videostream.obj
+ 0001:00016a90       ?ChangePowerState@CVideoStream@@QAEJW4_DEVICE_POWER_STATE@@0@Z 00026f10 f   videostream.obj
+ 0001:00016c40       ?SetImageFormat@CVideoStream@@AAEJXZ 000270c0 f   videostream.obj
+ 0001:000178c0       ?CurrentDevExt@CVideoStream@@IAEPAUDevExt@@XZ 00027d40 f i videostream.obj
+ 0001:00017900       ?LoadHWDefaultValues@CVideoStream@@AAEJXZ 00027d80 f   videostream.obj
+ 0001:0001a150       ?LoadDefaultSettings@CVideoStream@@AAEJHE@Z 0002a5d0 f   videostream.obj
+ 0001:0001b400       ?CurrentSettings@CVideoStream@@QAEJHH@Z 0002b880 f   videostream.obj
+ 0001:0001d2a0       ?pow@@YANNH@Z              0002d720 f i videostream.obj
+ 0001:0001d2c0       ?Get_ExUnit_Control_Value@CVideoStream@@QAEJKKKKEEPAE@Z 0002d740 f   videostream.obj
+ 0001:0001d4e0       ?Set_ExUnit_Control_Value@CVideoStream@@QAEJKKKKEEPAE@Z 0002d960 f   videostream.obj
+ 0001:0001d5f0       ?Get_Cur_AUXLED_Value@CVideoStream@@QAEJPAJ@Z 0002da70 f   videostream.obj
+ 0001:0001d710       ?Set_Cur_AUXLED_Value@CVideoStream@@QAEJJ@Z 0002db90 f   videostream.obj
+ 0001:0001d810       ?Get_Cur_WBC_Value@CVideoStream@@QAEJPAJ@Z 0002dc90 f   videostream.obj
+ 0001:0001d920       ?Set_Cur_WBC_Value@CVideoStream@@QAEJJ@Z 0002dda0 f   videostream.obj
+ 0001:0001da30       ?Get_Cur_WBC_Green_Value@CVideoStream@@QAEJPAJ@Z 0002deb0 f   videostream.obj
+ 0001:0001dad0       ?Set_Cur_WBC_Green_Value@CVideoStream@@QAEJJ@Z 0002df50 f   videostream.obj
+ 0001:0001db80       ?Get_Cur_WBCAuto_Value@CVideoStream@@QAEJPAJ@Z 0002e000 f   videostream.obj
+ 0001:0001dc10       ?Set_Cur_WBCAuto_Value@CVideoStream@@QAEJJ@Z 0002e090 f   videostream.obj
+ 0001:0001dcb0       ?Get_Cur_Privacy_Value@CVideoStream@@QAEJPAJ@Z 0002e130 f   videostream.obj
+ 0001:0001dd40       ??$_Pow_int@N@@YGNNH@Z     0002e1c0 f i videostream.obj
+ 0001:0001ddc0       ??0CVideoDevice@@QAE@XZ    0002e240 f   videodevice.obj
+ 0001:0001df40       ??1CVideoDevice@@QAE@XZ    0002e3c0 f   videodevice.obj
+ 0001:0001e340       ?AllocateStramingBuffer@CVideoDevice@@QAEJXZ 0002e7c0 f   videodevice.obj
+ 0001:0001e5c0       ?FreeStramingBuffer@CVideoDevice@@QAEXXZ 0002ea40 f   videodevice.obj
+ 0001:0001e740       ?PreparingStreamIrps@CVideoDevice@@QAEJPAUDevExt@@PAU_DEVICE_OBJECT@@@Z 0002ebc0 f   videodevice.obj
+ 0001:0001e970       ?UnPreparingStreamIrps@CVideoDevice@@QAEJPAUDevExt@@@Z 0002edf0 f   videodevice.obj
+ 0001:0001ea80       ?CheckForSonix@CVideoDevice@@AAEJXZ 0002ef00 f   videodevice.obj
+ 0001:0001ec20       ?GetUsbIoCount@CVideoDevice@@QAEJXZ 0002f0a0 f   videodevice.obj
+ 0001:0001ec60       ?USB_ControlClassCommand@CVideoDevice@@QAEJEGGPAXKE@Z 0002f0e0 f   videodevice.obj
+ 0001:0001ed20       ?InitializeDevice@CVideoDevice@@QAEJPAUDevExt@@PAU_DEVICE_OBJECT@@1@Z 0002f1a0 f   videodevice.obj
+ 0001:0001f630       ?GetInstanceKey@CVideoDevice@@AAEJPAU_DEVICE_OBJECT@@@Z 0002fab0 f   videodevice.obj
+ 0001:0001f900       ?WriteDeviceInfoToReg@CVideoDevice@@QAEJJ@Z 0002fd80 f   videodevice.obj
+ 0001:0001fa40       ?StillPinTrigger@CVideoDevice@@QAEJXZ 0002fec0 f   videodevice.obj
+ 0001:000201d0       ?StillPinProbeCommit@CVideoDevice@@AAEJEE@Z 00030650 f   videodevice.obj
+ 0001:00020370       ?CapturePinProbeCommit@CVideoDevice@@AAEJKEEK@Z 000307f0 f   videodevice.obj
+ 0001:000205c0       ?ReadSnapShotStateFromReg@CVideoDevice@@AAEJXZ 00030a40 f   videodevice.obj
+ 0001:00020640       ?WriteSnapShotStateToReg@CVideoDevice@@AAEJXZ 00030ac0 f   videodevice.obj
+ 0001:000206d0       ?IsoCompleteRoutine@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z 00030b50 f   videodevice.obj
+ 0001:00020c50       ?BulkCompleteRoutine@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z 000310d0 f   videodevice.obj
+ 0001:00020e20       ?IntCompleteRoutine@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z 000312a0 f   videodevice.obj
+ 0001:00021010       ?GetDataBuffer@CVideoDevice@@AAEPAUDataBufContent@@W4DATABUFOP@@K@Z 00031490 f   videodevice.obj
+ 0001:000212f0       ?ReturnDataBuffer@CVideoDevice@@AAEXW4DATABUFOP@@K@Z 00031770 f   videodevice.obj
+ 0001:000215d0       ?ParseTransferBuffer@CVideoDevice@@AAEJPAEKKK@Z 00031a50 f   videodevice.obj
+ 0001:00021c10       ?SetASICShellSize@CVideoDevice@@QAEKIIIHHH_NH@Z 00032090 f   videodevice.obj
+ 0001:000221c0       ?CheckCapturePinBandwidth@CVideoDevice@@QAEJAAUtagKS_VIDEOINFOHEADER@@@Z 00032640 f   videodevice.obj
+ 0001:00022590       ?CheckStillPinBandwidth@CVideoDevice@@QAEJAAUtagKS_VIDEOINFOHEADER@@@Z 00032a10 f   videodevice.obj
+ 0001:000229b0       ?Run@CVideoDevice@@QAEJAAUtagKS_VIDEOINFOHEADER@@PAU_KSPIN@@@Z 00032e30 f   videodevice.obj
+ 0001:000238d0       ?Pause@CVideoDevice@@QAEJK@Z 00033d50 f   videodevice.obj
+ 0001:000239c0       ?Stop@CVideoDevice@@QAEJK@Z 00033e40 f   videodevice.obj
+ 0001:00023bf0       ?ReadStill@CVideoDevice@@QAEJPAEPAUtagKS_VIDEOINFOHEADER@@@Z 00034070 f   videodevice.obj
+ 0001:000242d0       ?Read@CVideoDevice@@QAEJPAEPAUtagKS_VIDEOINFOHEADER@@_JH@Z 00034750 f   videodevice.obj
+ 0001:000267a0       ?StartInterruptTransfer@CVideoDevice@@QAEJXZ 00036c20 f   videodevice.obj
+ 0001:00026890       ?StopInterruptPipe@CVideoDevice@@QAEJXZ 00036d10 f   videodevice.obj
+ 0001:000268e0       ?SurpriseRemoval@CVideoDevice@@QAEJXZ 00036d60 f   videodevice.obj
+ 0001:00026960       ?EventHandler@CVideoDevice@@IAEXXZ 00036de0 f   videodevice.obj
+ 0001:00026fe0       ?UpdateImageControlProperties@CVideoDevice@@QAEJKHJ@Z 00037460 f   videodevice.obj
+ 0001:00027d30       ?UVC_ParseConfigurationDescriptor@CVideoDevice@@AAEJPAU_USB_CONFIGURATION_DESCRIPTOR@@@Z 000381b0 f   videodevice.obj
+ 0001:0002b870       ?EventHandlerRoutine@@YGXPAVCVideoDevice@@@Z 0003bcf0 f   videodevice.obj
+ 0001:0002b8d0       ?ASIC_Communication@CVideoDevice@@QAEJEEGPAE@Z 0003bd50 f   videodevice.obj
+ 0001:0002ba00       ?SF_Communication@CVideoDevice@@QAEJEGGPAE@Z 0003be80 f   videodevice.obj
+ 0001:0002baf0       ?GetSectorTableAddr@CVideoDevice@@QAEJPAG@Z 0003bf70 f   videodevice.obj
+ 0001:0002bb80       ?GetExtensionFrameRate@CVideoDevice@@QAEJXZ 0003c000 f   videodevice.obj
+ 0001:0002c260       ?GetExposureValue@CVideoDevice@@QAEFK@Z 0003c6e0 f   videodevice.obj
+ 0001:0002c2c0       ?StartMuxThread@CVideoDevice@@AAEJXZ 0003c740 f   videodevice.obj
+ 0001:0002c330       ?TSMuxRoutine@@YGXPAVCVideoDevice@@@Z 0003c7b0 f   videodevice.obj
+ 0001:0002c740       ?Report_Black_Image@CVideoDevice@@AAEHPAUtagKS_VIDEOINFOHEADER@@PAEE@Z 0003cbc0 f   videodevice.obj
+ 0001:0002c890       ?RunningWindowsVersion@CVideoDevice@@QAEGXZ 0003cd10 f   videodevice.obj
+ 0001:0002c8c0       ?Construct_TS@@YGXHPBEHPAEAAH@Z 0003cd40 f   transportstream.obj
+ 0001:0002c940       ?UpdateProgramTable@@YGXG@Z 0003cdc0 f   transportstream.obj
+ 0001:0002c9e0       ?Set_TS_Header@@YGXPAUSTRUCT_TS@@GHH_N@Z 0003ce60 f   transportstream.obj
+ 0001:0002ccd0       ?Construct_PES_TO_TS@@YG_NPBEHGPAEAAH@Z 0003d150 f   transportstream.obj
+ 0001:0002d340       ?Construct_PES@@YGHPAUSTRUCT_PES@@PBEH@Z 0003d7c0 f   transportstream.obj
+ 0001:0002d950       ?Combine_PES@@YGHPAUSTRUCT_PES@@@Z 0003ddd0 f   transportstream.obj
+ 0001:0002dae0       ?Construct_PAT_TO_TS@@YGXPAE@Z 0003df60 f   transportstream.obj
+ 0001:0002db80       ?Construct_PAT@@YGXPAUSTRUCT_PAT@@@Z 0003e000 f   transportstream.obj
+ 0001:0002de60       ?GenerateCRCInput_PAT@@YGXPAUSTRUCT_PAT@@HPAE@Z 0003e2e0 f   transportstream.obj
+ 0001:0002df50       ?GenerateCRCInput_PMT@@YGXPAUSTRUCT_PMT@@HPAE@Z 0003e3d0 f   transportstream.obj
+ 0001:0002e080       ?Combine_PAT@@YGXPAUSTRUCT_PAT@@HH@Z 0003e500 f   transportstream.obj
+ 0001:0002e1f0       ?Comine_Packet_TO_TS@@YGXPAUSTRUCT_TS@@PAEH@Z 0003e670 f   transportstream.obj
+ 0001:0002e300       ?Construct_PMT_TO_TS@@YGXPAE@Z 0003e780 f   transportstream.obj
+ 0001:0002e3b0       ?Construct_PMT@@YGXPAUSTRUCT_PMT@@@Z 0003e830 f   transportstream.obj
+ 0001:0002e780       ?Combine_PMT@@YGXPAUSTRUCT_PMT@@HH@Z 0003ec00 f   transportstream.obj
+ 0001:0002e940       ?InitGlobalVar@@YGXXZ      0003edc0 f   transportstream.obj
+ 0001:0002ea50       ?BitMaskRange@@YGEHH@Z     0003eed0 f   transportstream.obj
+ 0001:0002eaa0       ?GetByteVal@@YGEEHH@Z      0003ef20 f   transportstream.obj
+ 0001:0002ead0       ?ByteToByte@@YG_NEHHAAEHH@Z 0003ef50 f   transportstream.obj
+ 0001:0002eb50       ?Write_To_File@@YG_NPAEH@Z 0003efd0 f   transportstream.obj
+ 0001:0002eb60       ?Return_Contin_Counter@@YGEG@Z 0003efe0 f   transportstream.obj
+ 0001:0002ebb0       ?Calc_PCR@@YGXPAE0@Z       0003f030 f   transportstream.obj
+ 0001:0002ed10       ?Calc_PTS@@YGXPAE@Z        0003f190 f   transportstream.obj
+ 0001:0002ee60       ?Calc_DTS@@YGXPAE@Z        0003f2e0 f   transportstream.obj
+ 0001:0002efb0       ?crc32@@YGKPBEH@Z          0003f430 f   transportstream.obj
+ 0001:0002f010       ?FreePMT@@YGXPAUSTRUCT_PMT@@@Z 0003f490 f   transportstream.obj
+ 0001:0002f010       ?FreeTS@@YGXPAUSTRUCT_TS@@@Z 0003f490 f   transportstream.obj
+ 0001:0002f010       ?FreePAT@@YGXPAUSTRUCT_PAT@@@Z 0003f490 f   transportstream.obj
+ 0001:0002f040       ?FreePES@@YGXPAUSTRUCT_PES@@@Z 0003f4c0 f   transportstream.obj
+ 0001:0002f0d4       @__security_check_cookie@4 0003f554 f   BufferOverflowK:secchk.obj
+ 0001:0002f0e9       ___report_gsfailure        0003f569 f   BufferOverflowK:gs_report.obj
+ 0001:0002f114       _DbgPrint                  0003f594 f   wdm:ntoskrnl.exe
+ 0001:0002f120       _memset                    0003f5a0 f   wdm:ntoskrnl.exe
+ 0001:0002f12c       _memcpy                    0003f5ac f   wdm:ntoskrnl.exe
+ 0001:0002f140       __allshl                   0003f5c0 f   wdm:llshl.obj
+ 0001:0002f170       __alldiv                   0003f5f0 f   wdm:lldiv.obj
+ 0001:0002f220       __allmul                   0003f6a0 f   wdm:llmul.obj
+ 0001:0002f260       __aulldiv                  0003f6e0 f   wdm:ulldiv.obj
+ 0001:0002f2d0       __allshr                   0003f750 f   wdm:llshr.obj
+ 0001:0002f300       _sin                       0003f780 f   libcntpr:sin.obj
+ 0001:0002f304       __CIsin                    0003f784 f   libcntpr:sin.obj
+ 0001:0002f306       __CIsin_default            0003f786 f   libcntpr:sin.obj
+ 0001:0002f31a       __sin_default              0003f79a     libcntpr:sin.obj
+ 0001:0002f3c0       _cos                       0003f840 f   libcntpr:cos.obj
+ 0001:0002f3c4       __CIcos                    0003f844 f   libcntpr:cos.obj
+ 0001:0002f3c6       __CIcos_default            0003f846 f   libcntpr:cos.obj
+ 0001:0002f3da       __cos_default              0003f85a     libcntpr:cos.obj
+ 0001:0002f480       __ftol2_sse                0003f900 f   libcntpr:ftol2.obj
+ 0001:0002f482       __ftol2                    0003f902 f   libcntpr:ftol2.obj
+ 0001:0002f500       _asin                      0003f980 f   libcntpr:asin.obj
+ 0001:0002f504       __CIasin                   0003f984 f   libcntpr:asin.obj
+ 0001:0002f506       __CIasin_default           0003f986 f   libcntpr:asin.obj
+ 0001:0002f51a       __asin_default             0003f99a     libcntpr:asin.obj
+ 0001:0002f5e0       __CIsqrt                   0003fa60 f   libcntpr:sqrt.obj
+ 0001:0002f5f4       _sqrt                      0003fa74     libcntpr:sqrt.obj
+ 0001:0002f6a0       __chkstk                   0003fb20 f   libcntpr:chkstk.obj
+ 0001:0002f6a0       __alloca_probe             0003fb20     libcntpr:chkstk.obj
+ 0001:0002f6d0       __trandisp1                0003fb50 f   libcntpr:87disp.obj
+ 0001:0002f737       __trandisp2                0003fbb7 f   libcntpr:87disp.obj
+ 0001:0002f7c3       __rttospopde               0003fc43     libcntpr:87disp.obj
+ 0001:0002f7c8       __rttospop                 0003fc48     libcntpr:87disp.obj
+ 0001:0002f7ca       __rtnospop                 0003fc4a     libcntpr:87disp.obj
+ 0001:0002f7cc       __rttosnpop                0003fc4c     libcntpr:87disp.obj
+ 0001:0002f7cd       __rtnospopde               0003fc4d     libcntpr:87disp.obj
+ 0001:0002f7d4       __rtzeropop                0003fc54     libcntpr:87disp.obj
+ 0001:0002f7d6       __rtzeronpop               0003fc56     libcntpr:87disp.obj
+ 0001:0002f7db       __rtonepop                 0003fc5b     libcntpr:87disp.obj
+ 0001:0002f7dd       __rtonenpop                0003fc5d     libcntpr:87disp.obj
+ 0001:0002f7e2       __tosnan1                  0003fc62     libcntpr:87disp.obj
+ 0001:0002f80d       __nosnan2                  0003fc8d     libcntpr:87disp.obj
+ 0001:0002f80f       __tosnan2                  0003fc8f     libcntpr:87disp.obj
+ 0001:0002f837       __nan2                     0003fcb7     libcntpr:87disp.obj
+ 0001:0002f876       __rtindfpop                0003fcf6     libcntpr:87disp.obj
+ 0001:0002f878       __rtindfnpop               0003fcf8     libcntpr:87disp.obj
+ 0001:0002f889       __rttosnpopde              0003fd09     libcntpr:87disp.obj
+ 0001:0002f893       __rtchsifneg               0003fd13     libcntpr:87disp.obj
+ 0001:0002f8a0       __twoToTOS                 0003fd20 f   libcntpr:common.obj
+ 0001:0002f8b5       __load_CW                  0003fd35 f   libcntpr:common.obj
+ 0001:0002f8cc       __convertTOStoQNaN         0003fd4c f   libcntpr:common.obj
+ 0001:0002f8e5       __fload_withFB             0003fd65 f   libcntpr:common.obj
+ 0001:0002f928       __checkTOS_withFB          0003fda8 f   libcntpr:common.obj
+ 0001:0002f93e       __fast_exit                0003fdbe f   libcntpr:common.obj
+ 0001:0002f94b       __math_exit                0003fdcb f   libcntpr:common.obj
+ 0001:0002f975       __check_overflow_exit      0003fdf5 f   libcntpr:common.obj
+ 0001:0002f989       __check_range_exit         0003fe09 f   libcntpr:common.obj
+ 0001:0002fa40       __startTwoArgErrorHandling 0003fec0 f   libcntpr:genexcep.obj
+ 0001:0002fa57       __startOneArgErrorHandling 0003fed7 f   libcntpr:genexcep.obj
+ 0001:0002fa98       __87except                 0003ff18 f   libcntpr:87except.obj
+ 0001:0002fbdc       _RaiseException@16         0004005c f   libcntpr:fpexcept.obj
+ 0001:0002fc38       __raise_exc_ex             000400b8 f   libcntpr:fpexcept.obj
+ 0001:0002feb4       __raise_exc                00040334 f   libcntpr:fpexcept.obj
+ 0001:0002fedc       __handle_exc               0004035c f   libcntpr:fpexcept.obj
+ 0001:000300c3       __set_errno_from_matherr   00040543 f   libcntpr:fpexcept.obj
+ 0001:000300f3       __matherr                  00040573 f   libcntpr:matherr.obj
+ 0001:000300fb       __statfp                   0004057b f   libcntpr:fpctrl.obj
+ 0001:00030110       __clrfp                    00040590 f   libcntpr:fpctrl.obj
+ 0001:00030126       __ctrlfp                   000405a6 f   libcntpr:fpctrl.obj
+ 0001:00030154       __set_statfp               000405d4 f   libcntpr:fpctrl.obj
+ 0001:000301b1       __set_exp                  00040631 f   libcntpr:util.obj
+ 0001:000301e2       __decomp                   00040662 f   libcntpr:util.obj
+ 0001:000302a0       _RtlRaiseException@4       00040720 f   wdm:ntoskrnl.exe
+ 0001:000302b0       ??_C@_06IFLDIGI@?$FLERR?5?$FN?$AA@FNODOBFM@ 00040730     debugutil.obj
+ 0001:000302c0       ??_C@_06CDEMJAIA@?$FLWARN?$FN?$AA@FNODOBFM@ 00040740     debugutil.obj
+ 0001:000302d0       ??_C@_06EGHJMOEF@?$FLINFO?$FN?$AA@FNODOBFM@ 00040750     debugutil.obj
+ 0001:000302e0       ??_C@_00CNPNBAHC@?$AA@FNODOBFM@ 00040760     debugutil.obj
+ 0001:000302f0       ??_C@_0BK@JCPEMLH@CShell_YUYV_S420_Process?6?$AA@FNODOBFM@ 00040770     shell.obj
+ 0001:00030310       ??_C@_0BE@HOAGJCFM@CShell_YUYVProcess?6?$AA@FNODOBFM@ 00040790     shell.obj
+ 0001:00030330       ??_C@_0BE@CFDFBEDM@?$EA?$EAUsbDev?3?3UsbDev?$CI?$CJ?6?$AA@FNODOBFM@ 000407b0     usbdev.obj
+ 0001:00030350       ??_C@_0CE@GPNJGCOM@ExFreePoolWithTag?5m_pInterface?$FL?$CF@FNODOBFM@ 000407d0     usbdev.obj
+ 0001:00030380       ??_C@_0BF@FPOFELJF@?$EA?$EAUsbDev?3?3?$HOUsbDev?$CI?$CJ?6?$AA@FNODOBFM@ 00040800     usbdev.obj
+ 0001:000303a0       ??_C@_0CH@BCCKNHDE@UsbDev?3?3InitializeUsbDevice?5retu@FNODOBFM@ 00040820     usbdev.obj
+ 0001:000303d0       ??_C@_0CC@IIGHNCJE@?$DO?$DO?$DOUsbDev?3?3InitializeUsbDevice?5?$CB@FNODOBFM@ 00040850     usbdev.obj
+ 0001:00030400       ??_C@_0BK@EJBANDCM@pInterfaceInfo?5?$DN?$DN?5NULL?5?$CB?6?$AA@FNODOBFM@ 00040880     usbdev.obj
+ 0001:00030420       ??_C@_0BI@GCIIKINM@?5MaximumPacketSize?3?5?$CFx?6?$AA@FNODOBFM@ 000408a0     usbdev.obj
+ 0001:00030440       ??_C@_0BB@HJIKEDNC@?5PipeHandle?3?5?$CFx?6?$AA@FNODOBFM@ 000408c0     usbdev.obj
+ 0001:00030460       ??_C@_0P@MBKNEGOM@?5PipeType?3?5?$CFx?6?$AA@FNODOBFM@ 000408e0     usbdev.obj
+ 0001:00030470       ??_C@_0BG@DFLMJKGH@?5EndpointAddress?3?5?$CFx?6?$AA@FNODOBFM@ 000408f0     usbdev.obj
+ 0001:00030490       ??_C@_0BJ@CLMNMKEB@?5Pipes?5?$CI?$CFx?$CJ?5Information?6?$AA@FNODOBFM@ 00040910     usbdev.obj
+ 0001:000304b0       ??_C@_0BG@JDIJHNDF@?5InterfaceHandle?3?5?$CFx?6?$AA@FNODOBFM@ 00040930     usbdev.obj
+ 0001:000304d0       ??_C@_0P@BKGJOBGH@?5Protocol?3?5?$CFx?6?$AA@FNODOBFM@ 00040950     usbdev.obj
+ 0001:000304e0       ??_C@_0P@PLMGMGFD@?5SubClass?3?5?$CFx?6?$AA@FNODOBFM@ 00040960     usbdev.obj
+ 0001:000304f0       ??_C@_0M@PPOMDFPL@?5Class?3?5?$CFx?6?$AA@FNODOBFM@ 00040970     usbdev.obj
+ 0001:00030500       ??_C@_0BE@FFAELGOF@?5NumberOfPipes?3?5?$CFx?6?$AA@FNODOBFM@ 00040980     usbdev.obj
+ 0001:00030520       ??_C@_0BH@KCEEHGGB@?5AlternateSetting?3?5?$CFx?6?$AA@FNODOBFM@ 000409a0     usbdev.obj
+ 0001:00030540       ??_C@_0BG@EHIABEHO@?5InterfaceNumber?3?5?$CFx?6?$AA@FNODOBFM@ 000409c0     usbdev.obj
+ 0001:00030560       ??_C@_0N@GDLBPCGE@?5Length?3?5?$CFx?6?$AA@FNODOBFM@ 000409e0     usbdev.obj
+ 0001:00030570       ??_C@_0CG@MHBEJFJC@?5?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@FNODOBFM@ 000409f0     usbdev.obj
+ 0001:000305a0       ??_C@_0BI@DCBFJAKA@?5Interface?5Information?6?$AA@FNODOBFM@ 00040a20     usbdev.obj
+ 0001:000305c0       ??_C@_0CH@ECCLHFCN@ERR?3?5Fail?5to?5set?5alternate?5setti@FNODOBFM@ 00040a40     usbdev.obj
+ 0001:000305f0       ??_C@_0CG@GGHEKNLO@Change?5information?5for?5ISO?5Inter@FNODOBFM@ 00040a70     usbdev.obj
+ 0001:00030620       ??_C@_0BL@JKJGJCGA@?$DO?$DO?$DOUsbDev?3?3SetAlternate?5?$CB?6?$AA@FNODOBFM@ 00040aa0     usbdev.obj
+ 0001:00030640       ??_C@_0BG@DEKCMJKO@GetPipeInfo?5Failure?$CB?6?$AA@FNODOBFM@ 00040ac0     usbdev.obj
+ 0001:00030660       ??_C@_0BJ@HKMILGM@Irp?9?$DOCurrentLocation?5?$DO?50?$AA@FNODOBFM@ 00040ae0     usbdev.obj
+ 0001:00030680       ??_C@_0CF@LIHGPBLF@c?3?2winddk?27600?416385?41?2inc?2ddk?2w@FNODOBFM@ 00040b00     usbdev.obj
+ 0001:000306b0       ??_C@_0FK@JAEDPCKJ@?$CIInvokeOnSuccess?5?$HM?$HM?5InvokeOnErro@FNODOBFM@ 00040b30     usbdev.obj
+ 0001:00030710       ??_C@_0EA@KCDEHHEP@UsbDev?3?3PipeAbortOrReset?5?$CB?5Num?5?$DN@FNODOBFM@ 00040b90     usbdev.obj
+ 0001:00030750       ??_C@_0EA@IHMKPOFJ@UsbDev?3?3PipeAbortOrReset?5?$CB?5Num?5?$DN@FNODOBFM@ 00040bd0     usbdev.obj
+ 0001:00030790       ??_C@_0DI@JHIECJIC@PipeAbort?5KeSetEvent?$CI?$CGm_MEPG2Dat@FNODOBFM@ 00040c10     usbdev.obj
+ 0001:000307d0       ??_C@_0DD@IAFLPGBF@PipeAbort?5KeSetEvent?$CI?$CGm_DataRead@FNODOBFM@ 00040c50     usbdev.obj
+ 0001:00030810       ??_C@_0BP@KBCPAAMI@SendAwaitUrb?3?5UrbStatus?$CI?$CFX?$CJ?5?$CB?6?$AA@FNODOBFM@ 00040c90     usbdev.obj
+ 0001:00030830       ??_C@_0BO@KIEGGMEJ@SendAwaitUrb?3?5ntStatus?$CI?$CFX?$CJ?5?$CB?6?$AA@FNODOBFM@ 00040cb0     usbdev.obj
+ 0001:00030850       ??_C@_0DN@MADMEGDE@UsbDev?3?3SendAwaitUrb?5STATUS_IO_T@FNODOBFM@ 00040cd0     usbdev.obj
+ 0001:00030890       ??_C@_0BG@JNOKJKGJ@UsbDev?3?3SendAwaitUrb?6?$AA@FNODOBFM@ 00040d10     usbdev.obj
+ 0001:000308b0       ??_C@_0CK@KKFIIENG@ERR?3?5Fail?5to?5allocate?5memory?5for@FNODOBFM@ 00040d30     usbdev.obj
+ 0001:000308e0       ??_C@_0CG@IHLJCICN@ERR?3?5Cannot?5get?5device?5descripto@FNODOBFM@ 00040d60     usbdev.obj
+ 0001:00030910       ??_C@_0BL@HKOMAPKI@?5?5bNumConfigurations?50x?$CFx?6?$AA@FNODOBFM@ 00040d90     usbdev.obj
+ 0001:00030930       ??_C@_0BG@BAJOGMOJ@?5?5iSerialNumber?50x?$CFx?6?$AA@FNODOBFM@ 00040db0     usbdev.obj
+ 0001:00030950       ??_C@_0BB@BELIHGFO@?5?5iProduct?50x?$CFx?6?$AA@FNODOBFM@ 00040dd0     usbdev.obj
+ 0001:00030970       ??_C@_0BG@CPNCDGMK@?5?5iManufacturer?50x?$CFx?6?$AA@FNODOBFM@ 00040df0     usbdev.obj
+ 0001:00030990       ??_C@_0BC@KNBDGCPE@?5?5bcdDevice?50x?$CFx?6?$AA@FNODOBFM@ 00040e10     usbdev.obj
+ 0001:000309b0       ??_C@_0BC@OIABHKLG@?5?5idProduct?50x?$CFx?6?$AA@FNODOBFM@ 00040e30     usbdev.obj
+ 0001:000309d0       ??_C@_0BB@DFKKDMDC@?5?5idVendor?50x?$CFx?6?$AA@FNODOBFM@ 00040e50     usbdev.obj
+ 0001:000309f0       ??_C@_0BI@BCAHCPCP@?5?5bMaxPacketSize0?50x?$CFx?6?$AA@FNODOBFM@ 00040e70     usbdev.obj
+ 0001:00030a10       ??_C@_0BI@PEBGOLBF@?5?5bDeviceProtocol?50x?$CFx?6?$AA@FNODOBFM@ 00040e90     usbdev.obj
+ 0001:00030a30       ??_C@_0BI@NFEDLAIH@?5?5bDeviceSubClass?50x?$CFx?6?$AA@FNODOBFM@ 00040eb0     usbdev.obj
+ 0001:00030a50       ??_C@_0BF@LMCBPIMD@?5?5bDeviceClass?50x?$CFx?6?$AA@FNODOBFM@ 00040ed0     usbdev.obj
+ 0001:00030a70       ??_C@_0P@PGDNGAHH@?5?5bcdUSB?50x?$CFx?6?$AA@FNODOBFM@ 00040ef0     usbdev.obj
+ 0001:00030a80       ??_C@_0BI@CHAHLJOM@?5?5bDescriptorType?50x?$CFx?6?$AA@FNODOBFM@ 00040f00     usbdev.obj
+ 0001:00030aa0       ??_C@_0O@DLIECIGP@?5?5bLength?5?$CFx?6?$AA@FNODOBFM@ 00040f20     usbdev.obj
+ 0001:00030ab0       ??_C@_0BN@LHKAGHAP@?5?5?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?6?$AA@FNODOBFM@ 00040f30     usbdev.obj
+ 0001:00030ad0       ??_C@_0BG@OLDJEAMK@?5?5Device?5Descriptor?3?6?$AA@FNODOBFM@ 00040f50     usbdev.obj
+ 0001:00030af0       ??_C@_0CC@LDLCJGDK@?$DO?$DO?$DOUsbDev?3?3GetDeviceDescriptor?5?$CB@FNODOBFM@ 00040f70     usbdev.obj
+ 0001:00030b20       ??_C@_0DD@CAPHHEDG@ERR?3?5Fail?5to?5allocate?5memory?5for@FNODOBFM@ 00040fa0     usbdev.obj
+ 0001:00030b60       ??_C@_0P@JFCFOGAM@?5?5MaxPower?5?$CFx?6?$AA@FNODOBFM@ 00040fe0     usbdev.obj
+ 0001:00030b70       ??_C@_0BF@LECJGPFA@?5?5iConfiguration?5?$CFx?6?$AA@FNODOBFM@ 00040ff0     usbdev.obj
+ 0001:00030b90       ??_C@_0BK@FCJBKMJP@?5?5bConfigurationValue?5?$CFx?6?$AA@FNODOBFM@ 00041010     usbdev.obj
+ 0001:00030bb0       ??_C@_0BF@NDOGPHOO@?5?5bNumInterfaces?5?$CFx?6?$AA@FNODOBFM@ 00041030     usbdev.obj
+ 0001:00030bd0       ??_C@_0BD@LCIADJPA@?5?5wTotalLength?5?$CFx?6?$AA@FNODOBFM@ 00041050     usbdev.obj
+ 0001:00030bf0       ??_C@_0BG@NDBEAEAD@?5?5bDescriptorType?5?$CFx?6?$AA@FNODOBFM@ 00041070     usbdev.obj
+ 0001:00030c10       ??_C@_0CA@GFJACEAE@?5?5Configuration?5Descriptor?3?5?$CFx?6?$AA@FNODOBFM@ 00041090     usbdev.obj
+ 0001:00030c30       ??_C@_0CO@CKODIFKL@ERR?3?5Fail?5to?5get?5configuration?5d@FNODOBFM@ 000410b0     usbdev.obj
+ 0001:00030c60       ??_C@_0CJ@JKGFDLI@?$DO?$DO?$DOUsbDev?3?3GetConfigurationDescr@FNODOBFM@ 000410e0     usbdev.obj
+ 0001:00030c90       ??_C@_0DL@LJMJLENK@RtlCopyMemory?5Interface?$FL?$CFd?$FN?5STAT@FNODOBFM@ 00041110     usbdev.obj
+ 0001:00030cd0       ??_C@_0CJ@OEKGEMFO@MJ?5RtlCopyMemory?5Interface?$FL?$CFd?$FN?5l@FNODOBFM@ 00041150     usbdev.obj
+ 0001:00030d00       ??_C@_0CA@HJMEMIKF@Fail?5to?5configure?5usb?5device?5?$CB?6?$AA@FNODOBFM@ 00041180     usbdev.obj
+ 0001:00030d20       ??_C@_0BG@PHJMBALM@No?5of?5endpoints?5?3?5?$CFd?6?$AA@FNODOBFM@ 000411a0     usbdev.obj
+ 0001:00030d40       ??_C@_0DC@JIPJDLKA@?$DO?$DO?$DOUsbDev?3?3SetConfiguration?5?$CB?5No@FNODOBFM@ 000411c0     usbdev.obj
+ 0001:00030d80       ??_C@_0CC@FEGGLBIA@SendDeviceSetPower?5D?$CFd?5return?5?$CFX@FNODOBFM@ 00041200     usbdev.obj
+ 0001:00030db0       ??_C@_0CH@IJKBIGGI@Camera?5goes?5into?5Selective?5Suspe@FNODOBFM@ 00041230     usbdev.obj
+ 0001:00030de0       ??_C@_0CH@IIGDOMFP@Camera?5goes?5into?5Selective?5Suspe@FNODOBFM@ 00041260     usbdev.obj
+ 0001:00030e10       ??_C@_0FB@CKIAOJOE@Device?5goes?5into?5Selective?5Suspe@FNODOBFM@ 00041290     usbdev.obj
+ 0001:00030e70       ??_C@_0BM@BFBGNJDA@Cancel?5Selective?5Suspend?4?4?6?$AA@FNODOBFM@ 000412f0     usbdev.obj
+ 0001:00030e90       ??_C@_0CP@LDNOALMB@IoFreeIrp?5Suspend?5IRP?5at?5Complet@FNODOBFM@ 00041310     usbdev.obj
+ 0001:00030ec0       ??_C@_0CL@GBDHGKAK@SelectiveSuspendCompletionRoutin@FNODOBFM@ 00041340     usbdev.obj
+ 0001:00030ef0       ??_C@_0CN@FOHAIOGC@IssueSelectiveSuspendRequest?3STA@FNODOBFM@ 00041370     usbdev.obj
+ 0001:00030f20       ??_C@_0CB@DIDJAPPE@Invalid?5device?5power?5state?5?$CI?$CFd?$CJ?6@FNODOBFM@ 000413a0     usbdev.obj
+ 0001:00030f50       ??_C@_0DG@PJEBGDOG@Previous?5SelectiveSuspendRequest@FNODOBFM@ 000413d0     usbdev.obj
+ 0001:00030f90       ??_C@_0CE@HDMENIGJ@Enter?5IssueSelectiveSuspendReque@FNODOBFM@ 00041410     usbdev.obj
+ 0001:00030fc0       ??_C@_0BL@HGDMHCM@IoCancelIrp?$CIIrp?$CJ?5Complete?6?$AA@FNODOBFM@ 00041440     usbdev.obj
+ 0001:00030fe0       ??_C@_0BC@GMMPGPBJ@IoCancelIrp?$CIIrp?$CJ?6?$AA@FNODOBFM@ 00041460     usbdev.obj
+ 0001:00031000       ??_C@_0BK@KCMDKLDE@CancelSelectiveSuspend?$CI?$CJ?6?$AA@FNODOBFM@ 00041480     usbdev.obj
+ 0001:00031020       ??_C@_0CG@DNGECDH@?$EA?$EA?$DO?$DO?$DOUsbDev?3?3UninitializeUsbDevi@FNODOBFM@ 000414a0     usbdev.obj
+ 0001:00031050       ??_C@_0BC@GIFPNGEP@CCaptureDevice?$CI?$CJ?6?$AA@FNODOBFM@ 000414d0     device.obj
+ 0001:00031070       ??_C@_0BD@DJPPGHMN@?$HOCCaptureDevice?$CI?$CJ?6?$AA@FNODOBFM@ 000414f0     device.obj
+ 0001:00031090       ??_C@_0DA@FJOIIEPG@Leave?5CCaptureDevice?3?3DispatchCr@FNODOBFM@ 00041510     device.obj
+ 0001:000310c0       ??_C@_0BD@HIFJIANG@ST50220?5AVStream?3?5?$AA@FNODOBFM@ 00041540     device.obj
+ 0001:000310e0       ??_C@_0CC@BFMAIBPM@CCaptureDevice?3?3DispatchCreate?$CI?$CJ@FNODOBFM@ 00041560     device.obj
+ 0001:00031110       ??_C@_0CF@FOPNHIJF@EX?3?5Pageable?5code?5called?5at?5IRQL@FNODOBFM@ 00041590     device.obj
+ 0001:00031140       ??_C@_0CE@MLIAENDO@Leave?5CCaptureDevice?3?3RemoveDevi@FNODOBFM@ 000415c0     device.obj
+ 0001:00031170       ??_C@_0CE@NLOLHFAP@Enter?5CCaptureDevice?3?3RemoveDevi@FNODOBFM@ 000415f0     device.obj
+ 0001:000311a0       ??_C@_0CA@JNACHGBK@Leave?5CCaptureDevice?3?3PnpStart?6?$AA@FNODOBFM@ 00041620     device.obj
+ 0001:000311c0       ??_C@_0DD@CKELJBFC@pVideoStream?9?$DOInitializeDevice?$CI?$CJ@FNODOBFM@ 00041640     device.obj
+ 0001:00031200       ??_C@_0CA@GKECKPNP@Enter?5CCaptureDevice?3?3PnpStart?6?$AA@FNODOBFM@ 00041680     device.obj
+ 0001:00031220       ??_C@_0CB@CHKJEMNM@Leave?5CCaptureDevice?3?3PostStart?6@FNODOBFM@ 000416a0     device.obj
+ 0001:00031250       ??_C@_1O@COJGIGIJ@?$AAG?$AAL?$AAO?$AAB?$AAA?$AAL?$AA?$AA@FNODOBFM@ 000416d0     device.obj
+ 0001:00031260       ??_C@_0CB@MMFADKDK@Enter?5CCaptureDevice?3?3PostStart?6@FNODOBFM@ 000416e0     device.obj
+ 0001:00031290       ??_C@_08LCAGOEDG@m_Device?$AA@FNODOBFM@ 00041710     device.obj
+ 0001:000312a0       ??_C@_0BN@GDNCMHGM@d?3?2zhang?2avstream?2device?4cpp?$AA@FNODOBFM@ 00041720     device.obj
+ 0001:000312c0       ??_C@_0BP@GCDDKLLO@Leave?5CCaptureDevice?3?3PnpStop?6?$AA@FNODOBFM@ 00041740     device.obj
+ 0001:000312e0       ??_C@_0BP@EALNDDCK@Enter?5CCaptureDevice?3?3PnpStop?6?$AA@FNODOBFM@ 00041760     device.obj
+ 0001:00031300       ??_C@_0CH@HOLJPLJJ@Leave?5CCaptureDevice?3?3SurpriseRe@FNODOBFM@ 00041780     device.obj
+ 0001:00031330       ??_C@_0CH@JGOPHAAF@Enter?5CCaptureDevice?3?3SurpriseRe@FNODOBFM@ 000417b0     device.obj
+ 0001:00031360       ??_C@_0EB@EFHAOOOF@Leave?5CCaptureDevice?3?3AcquireHar@FNODOBFM@ 000417e0     device.obj
+ 0001:000313b0       ??_C@_0BN@HDDFBGLB@Allocate?5Still?5Frame?5Buffer?6?$AA@FNODOBFM@ 00041830     device.obj
+ 0001:000313d0       ??_C@_0CB@FHFEGMHC@pdx?9?$DOm_pStillFrameBuffer?5?$DN?$DN?5NULL@FNODOBFM@ 00041850     device.obj
+ 0001:00031400       ??_C@_0DK@MHAANALL@Failure?5?3?5Synthesize?5none?5of?5RGB@FNODOBFM@ 00041880     device.obj
+ 0001:00031440       ??_C@_0BE@FIDOKBBJ@Format?5MJPG?5Match?$CB?6?$AA@FNODOBFM@ 000418c0     device.obj
+ 0001:00031460       ??_C@_0BE@DJCBGPIB@Format?5YUY2?5Match?$CB?6?$AA@FNODOBFM@ 000418e0     device.obj
+ 0001:00031480       ??_C@_0BE@EJNBCIHN@Format?5I420?5Match?$CB?6?$AA@FNODOBFM@ 00041900     device.obj
+ 0001:000314a0       ??_C@_0BF@CFNBCFEI@Format?5RGB24?5Match?$CB?6?$AA@FNODOBFM@ 00041920     device.obj
+ 0001:000314c0       ??_C@_0BK@BEFPADPG@X?$DN?$CFd?0?5Y?$DN?$CFd?0?5BI?$DN?$CFd?0?5CP?$DN?$CFd?6?$AA@FNODOBFM@ 00041940     device.obj
+ 0001:000314e0       ??_C@_0BE@OEOEAEAD@Format?5M2TS?5Match?$CB?6?$AA@FNODOBFM@ 00041960     device.obj
+ 0001:00031500       ??_C@_0DA@CIOPIBE@Enter?5CCaptureDevice?3?3AcquireHar@FNODOBFM@ 00041980     device.obj
+ 0001:00031530       ??_C@_0DA@FDPOLJBL@Enter?5CCaptureDevice?3?3ReleaseHar@FNODOBFM@ 000419b0     device.obj
+ 0001:00031560       ??_C@_0CP@EIPKCEGB@Error?3?5Open?5still?5pin?5before?5cap@FNODOBFM@ 000419e0     device.obj
+ 0001:00031590       ??_C@_0BN@HLHFJGIB@Enter?5CCaptureDevice?3?3Start?6?$AA@FNODOBFM@ 00041a10     device.obj
+ 0001:000315b0       ??_C@_0BN@CJLOIAFE@Enter?5CCaptureDevice?3?3Pause?6?$AA@FNODOBFM@ 00041a30     device.obj
+ 0001:000315d0       ??_C@_0BM@HGIPDBPB@Enter?5CCaptureDevice?3?3Stop?6?$AA@FNODOBFM@ 00041a50     device.obj
+ 0001:000315f0       ??_C@_0CJ@IKDLGGDI@Leave?5CCaptureDevice?3?3QueryCapab@FNODOBFM@ 00041a70     device.obj
+ 0001:00031620       ??_C@_0CJ@CNKFBBNA@Enter?5CCaptureDevice?3?3QueryCapab@FNODOBFM@ 00041aa0     device.obj
+ 0001:00031650       ??_C@_0CM@HJEIFCKL@Leave?5CCaptureDevice?3?3SetPowerSt@FNODOBFM@ 00041ad0     device.obj
+ 0001:00031680       ??_C@_0CO@DIDBFFAJ@Enter?5CCaptureDevice?3?3SetPowerSt@FNODOBFM@ 00041b00     device.obj
+ 0001:000316b0       ??_C@_0CN@MBOAIJIB@Exit?5CCapturePin?3?3DispatchCreate@FNODOBFM@ 00041b30     capture.obj
+ 0001:000316e0       ??_C@_0EA@HHABMJMO@Framing?5?9?$DO?5FramingItem?5?$FL0?$FN?4Frami@FNODOBFM@ 00041b60     capture.obj
+ 0001:00031720       ??_C@_0CD@KFKEKKAO@Enter?5CCapturePin?3?3DispatchCreat@FNODOBFM@ 00041ba0     capture.obj
+ 0001:00031750       ??_C@_0CC@DIDHNGEI@Enter?5CCapturePin?3?3DispatchClose@FNODOBFM@ 00041bd0     capture.obj
+ 0001:00031780       ??_C@_0CL@CALMNMMJ@Enter?5CCapturePin?3?3CaptureVideoI@FNODOBFM@ 00041c00     capture.obj
+ 0001:000317b0       ??_C@_0DC@GJPOPLKF@Leave?5CCapturePin?3?3Process?5Strea@FNODOBFM@ 00041c30     capture.obj
+ 0001:000317f0       ??_C@_0CI@OCFMCEKA@CCapturePin?3?3Process?5?3?5m_Clock?5?$DN@FNODOBFM@ 00041c70     capture.obj
+ 0001:00031820       ??_C@_0FH@IFKNPJAB@CCapturePin?3?3Process?5?3?5m_Clock?5?$CB@FNODOBFM@ 00041ca0     capture.obj
+ 0001:00031880       ??_C@_0BH@NIAAMADB@buffer?5Remaining?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00041d00     capture.obj
+ 0001:000318a0       ??_C@_0BO@MLDEKDFC@M2TS?5?3?5buffer?5Remaining?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00041d20     capture.obj
+ 0001:000318c0       ??_C@_0CE@JCFFJCHD@Stream?5State?5is?5not?5KSSTATE_RUN?5@FNODOBFM@ 00041d40     capture.obj
+ 0001:000318f0       ??_C@_0EE@OIAAGNKO@DeviceState?5is?5not?5KSSTATE_RUN?5o@FNODOBFM@ 00041d70     capture.obj
+ 0001:00031940       ??_C@_05DHGBKDOG@m_Pin?$AA@FNODOBFM@ 00041dc0     capture.obj
+ 0001:00031950       ??_C@_0BO@GAHFMNOE@d?3?2zhang?2avstream?2capture?4cpp?$AA@FNODOBFM@ 00041dd0     capture.obj
+ 0001:00031970       ??_C@_0CL@HKCOOICL@Enter?5CCapturePin?3?3Process?5Strea@FNODOBFM@ 00041df0     capture.obj
+ 0001:000319a0       ??_C@_0CG@MKMDFKII@Enter?5CCapturePin?3?3CleanupRefere@FNODOBFM@ 00041e20     capture.obj
+ 0001:000319d0       ??_C@_0CO@IMFKBMMM@Leave?5CCapturePin?3?3SetState?5with@FNODOBFM@ 00041e50     capture.obj
+ 0001:00031a00       ??_C@_0CC@MAAADJMM@Enter?5KSSTATE_PAUSE?5StreamID?$DN?5?$CFd@FNODOBFM@ 00041e80     capture.obj
+ 0001:00031a30       ??_C@_0CB@IEOBJFMG@Enter?5KSSTATE_STOP?5StreamID?$DN?5?$CFd?6@FNODOBFM@ 00041eb0     capture.obj
+ 0001:00031a60       ??_C@_0CC@NIDIKHGI@m_Device?5of?5CCapturePin?5is?5NULL?$CB@FNODOBFM@ 00041ee0     capture.obj
+ 0001:00031a90       ??_C@_0CL@GFKDLFID@Enter?5CCapturePin?3?3SetState?5from@FNODOBFM@ 00041f10     capture.obj
+ 0001:00031ac0       ??_C@_0DE@PDOPPPBH@Check?5that?5biSize?0?5return?5STATUS@FNODOBFM@ 00041f40     capture.obj
+ 0001:00031b00       ??_C@_08CFDHEOEO@DataSize?$AA@FNODOBFM@ 00041f80     capture.obj
+ 0001:00031b10       ??_C@_0BE@GPOFNLIB@DescriptorDataRange?$AA@FNODOBFM@ 00041f90     capture.obj
+ 0001:00031b30       ??_C@_0BA@HJIEDKFC@CallerDataRange?$AA@FNODOBFM@ 00041fb0     capture.obj
+ 0001:00031b40       ??_C@_0M@ILDFEJAA@PinInstance?$AA@FNODOBFM@ 00041fc0     capture.obj
+ 0001:00031b50       ??_C@_03EAONPCJM@Irp?$AA@FNODOBFM@ 00041fd0     capture.obj
+ 0001:00031b60       ??_C@_06IBDJIBGI@Filter?$AA@FNODOBFM@ 00041fe0     capture.obj
+ 0001:00031b70       ??_C@_0CE@CNBOBENO@MultiplyCheckOverflow?5return?5FAL@FNODOBFM@ 00041ff0     capture.obj
+ 0001:00031ba0       ??_C@_0CD@NHCLGADO@MultiplyCheckOverflow?5return?5TRU@FNODOBFM@ 00042020     capture.obj
+ 0001:00031bd0       ??_C@_0BN@BCCMFMLJ@Enter?5MultiplyCheckOverflow?6?$AA@FNODOBFM@ 00042050     capture.obj
+ 0001:00031bf0       ??_C@_0CG@NGNEJEDA@Enter?5CCapturePin?3?3DispatchSetFo@FNODOBFM@ 00042070     capture.obj
+ 0001:00031c20       ??_C@_04BLOGEDLD@Gate?$AA@FNODOBFM@ 000420a0     still.obj
+ 0001:00031c30       ??_C@_0CE@BBOFPGFF@c?3?2winddk?27600?416385?41?2inc?2api?2k@FNODOBFM@ 000420b0     still.obj
+ 0001:00031c60       ??_C@_0BM@IMJKBBJI@InitializeDevice?5return?5?$CFd?6?$AA@FNODOBFM@ 000420e0     videostream.obj
+ 0001:00031c80       ??_C@_0CA@CFJCLNMO@?$DN?$DN?$DN?$DO?5m_FaceTrackParams?$FL0?$FN?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00042100     videostream.obj
+ 0001:00031ca0       ??_C@_1CC@OLACDEBM@?$AAS?$AAn?$AAa?$AAp?$AAS?$AAh?$AAo?$AAt?$AAF?$AAi?$AAl?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@FNODOBFM@ 00042120     videostream.obj
+ 0001:00031cd0       ??_C@_1BM@IPJLIMAA@?$AAi?$AAm?$AAg?$AA2?$AA?9?$AA?$CF?$AA0?$AA3?$AAd?$AA?4?$AAr?$AAa?$AAw?$AA?$AA@FNODOBFM@ 00042150     videostream.obj
+ 0001:00031cf0       ??_C@_1BE@LLBHECDN@?$AAU?$AAS?$AAB?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AA?$AA@FNODOBFM@ 00042170     videostream.obj
+ 0001:00031d10       ??_C@_0BK@NFOFMLDN@SetImageFormat?5return?5?$CFX?6?$AA@FNODOBFM@ 00042190     videostream.obj
+ 0001:00031d30       ??_C@_0BP@FLDKKLLA@LoadDefaultSettings?5return?5?$CFX?6?$AA@FNODOBFM@ 000421b0     videostream.obj
+ 0001:00031d50       ??_C@_0BP@GDDEBLDN@LoadHWDefaultValues?5return?5?$CFX?6?$AA@FNODOBFM@ 000421d0     videostream.obj
+ 0001:00031d70       ??_C@_0BG@GEPHKMOK@Serial?5flash?5exist?$CB?$CB?6?$AA@FNODOBFM@ 000421f0     videostream.obj
+ 0001:00031d90       ??_C@_0BO@DCCFCJCO@Serial?5flash?5doesn?8t?5exist?$CB?$CB?6?$AA@FNODOBFM@ 00042210     videostream.obj
+ 0001:00031db0       ??_C@_0BC@JPHMEFE@GetBuffer?$FL?$CFd?$FN?$DN?$CFc?6?$AA@FNODOBFM@ 00042230     videostream.obj
+ 0001:00031dd0       ??_C@_0BL@KPLIJPNC@pDevExt?9?$DOm_ChipID?5?$DN?$DN?50x15?6?$AA@FNODOBFM@ 00042250     videostream.obj
+ 0001:00031df0       ??_C@_0BA@KDBLFKCD@m_DefXUID?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00042270     videostream.obj
+ 0001:00031e00       ??_C@_0BN@BKBABFHJ@ASIC_Communication?5fail?52?5?$CFx?$AA@FNODOBFM@ 00042280     videostream.obj
+ 0001:00031e20       ??_C@_0BN@FNLAGPKJ@ASIC_Communication?5fail?51?5?$CFx?$AA@FNODOBFM@ 000422a0     videostream.obj
+ 0001:00031e40       ??_C@_0BM@LKKLPADI@This?5is?5213B?5or?5213MR?5chip?6?$AA@FNODOBFM@ 000422c0     videostream.obj
+ 0001:00031e60       ??_C@_0N@HAKNDMJO@pData?$FL5?$FN?$DN?$CFx?6?$AA@FNODOBFM@ 000422e0     videostream.obj
+ 0001:00031e70       ??_C@_0O@IKGNNOJG@pData?$FL?$CFd?$FN?$DN?$CFc?6?$AA@FNODOBFM@ 000422f0     videostream.obj
+ 0001:00031e80       ??_C@_0BL@LIECCGLJ@pDevExt?9?$DOm_ChipID?5?$DN?$DN?50x22?6?$AA@FNODOBFM@ 00042300     videostream.obj
+ 0001:00031ea0       ??_C@_0DK@IMEPNCJG@Null?5m_Device?5or?5Device?5extensio@FNODOBFM@ 00042320     videostream.obj
+ 0001:00031ee0       ??_C@_0CC@DFHNIPBC@InitializationComplete?5return?5?$CFX@FNODOBFM@ 00042360     videostream.obj
+ 0001:00031f10       ??_C@_0CA@BPJGIIKC@Fail?5to?5create?5system?5thread?5?$CB?6?$AA@FNODOBFM@ 00042390     videostream.obj
+ 0001:00031f30       ??_C@_0DE@JKNHOODP@Null?5Device?5extension?5at?5Initial@FNODOBFM@ 000423b0     videostream.obj
+ 0001:00031f70       ??_C@_0CM@ILCJIFNK@enter?5CVideoStream?3?3Initializati@FNODOBFM@ 000423f0     videostream.obj
+ 0001:00031fa0       ??_C@_0CN@OAGNANIA@Null?5Device?5extension?5at?5Surpris@FNODOBFM@ 00042420     videostream.obj
+ 0001:00031fd0       ??_C@_0CC@JPOENHHJ@?9?9?9?$DO?5Delete?5class?5pVideoDevice?5?$CB@FNODOBFM@ 00042450     videostream.obj
+ 0001:00032000       ??_C@_1BM@BLGPIPGJ@?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$AA@FNODOBFM@ 00042480     videostream.obj
+ 0001:00032020       ??_C@_1O@LOCCBOMO@?$AAi?$AAi?$AA?$CF?$AA0?$AA4?$AAd?$AA?$AA@FNODOBFM@ 000424a0     videostream.obj
+ 0001:00032030       ??_C@_1FO@EEHPMDN@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?2?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAS?$AAo?$AAn?$AAi?$AAx@FNODOBFM@ 000424b0     videostream.obj
+ 0001:00032090       ??_C@_0BE@GLNMIIJG@GetUsbIoCount?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00042510     videostream.obj
+ 0001:000320b0       ??_C@_0DA@HMOMHMIH@Null?5Device?5extension?5at?5Uniniti@FNODOBFM@ 00042530     videostream.obj
+ 0001:000320e0       ??_C@_0BG@MNPMLIEP@OpenStream?5return?5?$CFX?6?$AA@FNODOBFM@ 00042560     videostream.obj
+ 0001:00032100       ??_C@_0DI@NIPILGLE@we?5search?5all?5possible?5formats?5b@FNODOBFM@ 00042580     videostream.obj
+ 0001:00032140       ??_C@_0DG@KLCBLDIN@M2TS?5?3?5Specifier?5?$CB?$DN?5KSDATAFORMAT@FNODOBFM@ 000425c0     videostream.obj
+ 0001:00032180       ??_C@_0CP@BHMMOJHC@Specifier?5?$CB?$DN?5KSDATAFORMAT_SPECIF@FNODOBFM@ 00042600     videostream.obj
+ 0001:000321b0       ??_C@_0CK@EHCNJICH@Select?5different?5format?5with?5cap@FNODOBFM@ 00042630     videostream.obj
+ 0001:000321e0       ??_C@_0CJ@JILPMAHN@m_pVideoInfoHeader?$FLStreamNumber?$FN@FNODOBFM@ 00042660     videostream.obj
+ 0001:00032210       ??_C@_0CC@HFGBAJMP@d?3?2zhang?2avstream?2videostream?4cp@FNODOBFM@ 00042690     videostream.obj
+ 0001:00032240       ??_C@_0CG@JHIOLKHF@The?5stream?5is?5opened?5more?5than?5o@FNODOBFM@ 000426c0     videostream.obj
+ 0001:00032270       ??_C@_0DE@OENGEEII@m_StreamInstances?$DN?$CFd?0?5NumberOfPo@FNODOBFM@ 000426f0     videostream.obj
+ 0001:000322b0       ??_C@_0EH@FIGHGJNO@Calling?5OpenStream?5before?5Close?5@FNODOBFM@ 00042730     videostream.obj
+ 0001:00032300       ??_C@_0CI@BFANJNAA@Null?5Device?5extension?5at?5OpenStr@FNODOBFM@ 00042780     videostream.obj
+ 0001:00032330       ??_C@_0DD@FLOLEODJ@enter?5CVideoStream?3?3OpenStream?$CI?$CJ@FNODOBFM@ 000427b0     videostream.obj
+ 0001:00032370       ??_C@_0BH@BMFOACHL@CloseStream?5return?5?$CFX?6?$AA@FNODOBFM@ 000427f0     videostream.obj
+ 0001:00032390       ??_C@_0CK@CGOMHGNH@reset?5CurrentMaxAvailableFrameRa@FNODOBFM@ 00042810     videostream.obj
+ 0001:000323c0       ??_C@_0CJ@GPNDEKGA@Null?5Device?5extension?5at?5CloseSt@FNODOBFM@ 00042840     videostream.obj
+ 0001:000323f0       ??_C@_0CC@ODKIBNFH@enter?5CVideoStream?3?3CloseStream?$CI@FNODOBFM@ 00042870     videostream.obj
+ 0001:00032420       ??_C@_0CI@NKINANKH@CVideoStream?3?3SetStreamState?5ret@FNODOBFM@ 000428a0     videostream.obj
+ 0001:00032450       ??_C@_0CC@BDJOHBGO@pin?9?$DOId?5?$DN?$DN?5STREAM_Capture_MP2TS?5@FNODOBFM@ 000428d0     videostream.obj
+ 0001:00032480       ??_C@_0DF@OAKKEBH@wake?5up?5device?5from?5PowerDeviceD@FNODOBFM@ 00042900     videostream.obj
+ 0001:000324c0       ??_C@_0BE@JHKKPGLA@Set?5to?5Run?5State?5?$CB?6?$AA@FNODOBFM@ 00042940     videostream.obj
+ 0001:000324e0       ??_C@_0BG@MNIDKJBN@Set?5to?5Pause?5State?5?$CB?6?$AA@FNODOBFM@ 00042960     videostream.obj
+ 0001:00032500       ??_C@_0BI@MNFOMKHG@Set?5to?5Acquire?5State?5?$CB?6?$AA@FNODOBFM@ 00042980     videostream.obj
+ 0001:00032520       ??_C@_0BF@LMPFMNPM@Set?5to?5Stop?5State?5?$CB?6?$AA@FNODOBFM@ 000429a0     videostream.obj
+ 0001:00032540       ??_C@_0CM@NFDFFEMN@Null?5Device?5extension?5at?5SetStre@FNODOBFM@ 000429c0     videostream.obj
+ 0001:00032570       ??_C@_0CJ@BNPBGFJL@SetDeviceProperty?3?5return?5status@FNODOBFM@ 000429f0     videostream.obj
+ 0001:000325a0       ??_C@_0EC@ICBKEHEK@SetDeviceProperty?3We?5did?5not?5sup@FNODOBFM@ 00042a20     videostream.obj
+ 0001:000325f0       ??_C@_0BP@CCAHGHF@Michael?5Set?5XU_Ctrl?5return?5?$CFX?6?$AA@FNODOBFM@ 00042a70     videostream.obj
+ 0001:00032610       ??_C@_0CC@NFKOAOMM@Michael?5Set?5XU_Ctrl?5data?$FL?$CFd?$FN?5?$DN?5?$CF@FNODOBFM@ 00042a90     videostream.obj
+ 0001:00032640       ??_C@_0BO@NPAHLKPH@Michael?5Set?5XU_Ctrl?5len?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00042ac0     videostream.obj
+ 0001:00032660       ??_C@_0BN@PEMOGFCI@Michael?5Set?5XU_Ctrl?5ID?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00042ae0     videostream.obj
+ 0001:00032680       ??_C@_0CG@EHDFELMK@SET?5KSPROPERTY_CLIENT_PROP_ASICW@FNODOBFM@ 00042b00     videostream.obj
+ 0001:000326b0       ??_C@_0CJ@HCEMMEPH@Set?5PROPSETID_CLIENT_PROP_ST5022@FNODOBFM@ 00042b30     videostream.obj
+ 0001:000326e0       ??_C@_0BA@KLCDEAKF@?$CB?$CB?5Invalid?5Id?5?6?$AA@FNODOBFM@ 00042b60     videostream.obj
+ 0001:000326f0       ??_C@_0DB@HMBHKMAC@SET?5KSPROPERTY_ZOOM_PROP_ZOOM_EN@FNODOBFM@ 00042b70     videostream.obj
+ 0001:00032730       ??_C@_0CC@JJGMIPEO@SET?5KSPROPERTY_ZOOM_PROP_TILT_PO@FNODOBFM@ 00042bb0     videostream.obj
+ 0001:00032760       ??_C@_0CB@LDGPINIM@SET?5KSPROPERTY_ZOOM_PROP_PAN_POS@FNODOBFM@ 00042be0     videostream.obj
+ 0001:00032790       ??_C@_0CB@GOPNKG@SET?5KSPROPERTY_ZOOM_PROP_ZOOM_IN@FNODOBFM@ 00042c10     videostream.obj
+ 0001:000327c0       ??_C@_0BO@LEFDJDIO@SET?5KSPROPERTY_ZOOM_PROP_DOWN?$AA@FNODOBFM@ 00042c40     videostream.obj
+ 0001:000327e0       ??_C@_0BP@NKDIFKOP@SET?5KSPROPERTY_ZOOM_PROP_RIGHT?$AA@FNODOBFM@ 00042c60     videostream.obj
+ 0001:00032800       ??_C@_0BM@GAEEOOPN@SET?5KSPROPERTY_ZOOM_PROP_UP?$AA@FNODOBFM@ 00042c80     videostream.obj
+ 0001:00032820       ??_C@_0BO@EGFHALLH@SET?5KSPROPERTY_ZOOM_PROP_LEFT?$AA@FNODOBFM@ 00042ca0     videostream.obj
+ 0001:00032840       ??_C@_0CD@NIHPPPHK@PROPSETID_ZOOM_PROP_ST50220?5?3?5?$CFd@FNODOBFM@ 00042cc0     videostream.obj
+ 0001:00032870       ??_C@_0CM@CFNGNGAN@Set?5WBComponentControl_Green?5Cur@FNODOBFM@ 00042cf0     videostream.obj
+ 0001:000328a0       ??_C@_0CG@CIPJKIJF@Set?5WBComponentControl?5Current?5?$DN@FNODOBFM@ 00042d20     videostream.obj
+ 0001:000328d0       ??_C@_0CJ@OMPBHOGP@Set?5PROPSETID_CUSTOM_PROP_ST5022@FNODOBFM@ 00042d50     videostream.obj
+ 0001:00032900       ??_C@_0CG@PCNFGMM@set?5KSPROPERTY_VIDEOPROCAMP_GAIN@FNODOBFM@ 00042d80     videostream.obj
+ 0001:00032930       ??_C@_0DF@DADBGHEL@set?5KSPROPERTY_VIDEOPROCAMP_POWE@FNODOBFM@ 00042db0     videostream.obj
+ 0001:00032970       ??_C@_0DI@JNKJCNOO@set?5KSPROPERTY_VIDEOPROCAMP_BACK@FNODOBFM@ 00042df0     videostream.obj
+ 0001:000329b0       ??_C@_0CO@ILGCOJDK@set?5KSPROPERTY_VIDEOPROCAMP_WHIT@FNODOBFM@ 00042e30     videostream.obj
+ 0001:000329e0       ??_C@_0DD@FPBCMLLB@set?5KSPROPERTY_VIDEOPROCAMP_WHIT@FNODOBFM@ 00042e60     videostream.obj
+ 0001:00032a20       ??_C@_0CH@CPAHAOOA@set?5KSPROPERTY_VIDEOPROCAMP_GAMM@FNODOBFM@ 00042ea0     videostream.obj
+ 0001:00032a50       ??_C@_0CL@KOIPMDNH@set?5KSPROPERTY_VIDEOPROCAMP_SHAR@FNODOBFM@ 00042ed0     videostream.obj
+ 0001:00032a80       ??_C@_0CM@MMKNGMKN@set?5KSPROPERTY_VIDEOPROCAMP_SATU@FNODOBFM@ 00042f00     videostream.obj
+ 0001:00032ab0       ??_C@_0CF@OOOMPFHP@set?5KSPROPERTY_VIDEOPROCAMP_HUE?$CI@FNODOBFM@ 00042f30     videostream.obj
+ 0001:00032ae0       ??_C@_0CK@OHJFGNCH@set?5KSPROPERTY_VIDEOPROCAMP_CONT@FNODOBFM@ 00042f60     videostream.obj
+ 0001:00032b10       ??_C@_0CM@BGMFDPHJ@set?5KSPROPERTY_VIDEOPROCAMP_BRIG@FNODOBFM@ 00042f90     videostream.obj
+ 0001:00032b40       ??_C@_0CJ@MFGFHKKN@Set?5PROPSETID_VIDCAP_VIDEOPROCAM@FNODOBFM@ 00042fc0     videostream.obj
+ 0001:00032b70       ??_C@_0EL@OAHJMCEO@case?5KSPROPERTY_CAMERACONTROL_AU@FNODOBFM@ 00042ff0     videostream.obj
+ 0001:00032bc0       ??_C@_0DM@MNMFHOEI@case?5KSPROPERTY_CAMERACONTROL_PR@FNODOBFM@ 00043040     videostream.obj
+ 0001:00032c00       ??_C@_0DJ@DLCGNEOL@case?5KSPROPERTY_CAMERACONTROL_ZO@FNODOBFM@ 00043080     videostream.obj
+ 0001:00032c40       ??_C@_0DJ@ENGMNBBF@case?5KSPROPERTY_CAMERACONTROL_RO@FNODOBFM@ 000430c0     videostream.obj
+ 0001:00032c80       ??_C@_0DJ@JCLEGJIF@case?5KSPROPERTY_CAMERACONTROL_IR@FNODOBFM@ 00043100     videostream.obj
+ 0001:00032cc0       ??_C@_0DK@ONLDCCCC@case?5KSPROPERTY_CAMERACONTROL_FO@FNODOBFM@ 00043140     videostream.obj
+ 0001:00032d00       ??_C@_0BD@GOOKJMC@Invalid?5value?3?5?$CFd?6?$AA@FNODOBFM@ 00043180     videostream.obj
+ 0001:00032d20       ??_C@_0DB@JCCNFCPD@KSPROPERTY_VIDEOPROCAMP_EXPOSURE@FNODOBFM@ 000431a0     videostream.obj
+ 0001:00032d60       ??_C@_0DI@BCHJKHMI@KSPROPERTY_CAMERACONTROL_EXPOSUR@FNODOBFM@ 000431e0     videostream.obj
+ 0001:00032da0       ??_C@_0CK@MGBKHEDJ@Set?5PROPSETID_VIDCAP_CAMERACONTR@FNODOBFM@ 00043220     videostream.obj
+ 0001:00032dd0       ??_C@_0BF@GCBHKBJB@?$CB?$CB?5Invalid?5Id?5?$DN?$DN?5?$CFd?6?$AA@FNODOBFM@ 00043250     videostream.obj
+ 0001:00032df0       ??_C@_0BM@EFNGANFD@Software?5button?5trigger?5On?6?$AA@FNODOBFM@ 00043270     videostream.obj
+ 0001:00032e10       ??_C@_0CC@FNOCLDEG@Set?5KSPROPERTY_VIDEOCONTROL_MODE@FNODOBFM@ 00043290     videostream.obj
+ 0001:00032e40       ??_C@_0CG@NADFAPGJ@Set?5PROPSETID_VIDCAP_VIDEOCONTRO@FNODOBFM@ 000432c0     videostream.obj
+ 0001:00032e70       ??_C@_0EC@KJBBMGCK@Null?5ioStack?5or?5Device?5extension@FNODOBFM@ 000432f0     videostream.obj
+ 0001:00032ec0       ??_C@_0CC@BANOMAGL@CVideoStream?3?3SetDeviceProperty?$CI@FNODOBFM@ 00043340     videostream.obj
+ 0001:00032ef0       ??_C@_0CM@LOONDNKF@Irp?9?$DOCurrentLocation?5?$DM?$DN?5Irp?9?$DOSta@FNODOBFM@ 00043370     videostream.obj
+ 0001:00032f20       ??_C@_0DN@KGGBHBKM@?$CFs?$CFs?5Entering?5?$DN?$DN?$DO?$DO?5IRQL?3?$CFd?0?5Proc@FNODOBFM@ 000433a0     videostream.obj
+ 0001:00032f60       ??_C@_0EJ@NGECBCFB@?$CFs?$CFs?5Entering?5?$DN?$DN?$DO?$DO?5IRQL?3?$CFd?0?5Proc@FNODOBFM@ 000433e0     videostream.obj
+ 0001:00032fb0       ??_C@_06GMLBALII@?$FLFUNC?$FN?$AA@FNODOBFM@ 00043430     videostream.obj
+ 0001:00032fc0       ??_C@_06MHNHNDP@?9?9?9?9?9?9?$AA@FNODOBFM@ 00043440     videostream.obj
+ 0001:00032fd0       ??_C@_0DM@FAAIHOJH@?$CFs?$CFs?5Exiting?5?$DN?$DN?$DO?$DO?5IRQL?3?$CFd?0?5Proce@FNODOBFM@ 00043450     videostream.obj
+ 0001:00033010       ??_C@_0CJ@FBLMBDIF@GetDeviceProperty?3?5return?5status@FNODOBFM@ 00043490     videostream.obj
+ 0001:00033040       ??_C@_0EK@MPGBJAJI@Michael?5GetDeviceProperty?3We?5did@FNODOBFM@ 000434c0     videostream.obj
+ 0001:00033090       ??_C@_0BP@DAOFBKK@Michael?5Get?5XU_Ctrl?5return?5?$CFX?6?$AA@FNODOBFM@ 00043510     videostream.obj
+ 0001:000330b0       ??_C@_0CC@FFGIMDGK@Michael?5Get?5XU_Ctrl?5data?$FL?$CFd?$FN?5?$DN?5?$CF@FNODOBFM@ 00043530     videostream.obj
+ 0001:000330e0       ??_C@_0BO@CKFBGDLG@Michael?5Get?5XU_Ctrl?5len?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00043560     videostream.obj
+ 0001:00033100       ??_C@_0BN@KNNDHDHP@Michael?5Get?5XU_Ctrl?5ID?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00043580     videostream.obj
+ 0001:00033120       ??_C@_0BM@BDDCCMNL@return?5EX_Unit?5length?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 000435a0     videostream.obj
+ 0001:00033140       ??_C@_0BK@EHKGAEJF@Get?5EXunit?5control?5?3?5?$CFd?0?5?$AA@FNODOBFM@ 000435c0     videostream.obj
+ 0001:00033160       ??_C@_0CF@EHEAFEIG@GET?5KSPROPERTY_CLIENT_PROP_ASICR@FNODOBFM@ 000435e0     videostream.obj
+ 0001:00033190       ??_C@_0CJ@DOABLCOJ@Get?5PROPSETID_CLIENT_PROP_ST5022@FNODOBFM@ 00043610     videostream.obj
+ 0001:000331c0       ??_C@_0CL@PMFBIJAC@KSPROPERTY_ZOOM_PROP_MIRROR_FLIP@FNODOBFM@ 00043640     videostream.obj
+ 0001:000331f0       ??_C@_0CI@HAELJFBH@KSPROPERTY_ZOOM_PROP_TILT_POS?9?5G@FNODOBFM@ 00043670     videostream.obj
+ 0001:00033220       ??_C@_0CI@CKHHHBJO@KSPROPERTY_ZOOM_PROP_TILT_MAX?9?5G@FNODOBFM@ 000436a0     videostream.obj
+ 0001:00033250       ??_C@_0CH@MEGELLJE@KSPROPERTY_ZOOM_PROP_PAN_POS?9?5Ge@FNODOBFM@ 000436d0     videostream.obj
+ 0001:00033280       ??_C@_0CH@JOFIFPBN@KSPROPERTY_ZOOM_PROP_PAN_MAX?9?5Ge@FNODOBFM@ 00043700     videostream.obj
+ 0001:000332b0       ??_C@_0CK@LBLBMFPH@KSPROPERTY_ZOOM_PROP_UI_CONTROL?9@FNODOBFM@ 00043730     videostream.obj
+ 0001:000332e0       ??_C@_0CH@NLPFKHKE@KSPROPERTY_ZOOM_PROP_ENABLE?5?9?5Ge@FNODOBFM@ 00043760     videostream.obj
+ 0001:00033310       ??_C@_0CK@HMFBEHJB@KSPROPERTY_ZOOM_PROP_ZOOM_IN_MAX@FNODOBFM@ 00043790     videostream.obj
+ 0001:00033340       ??_C@_0CI@MECKBNGN@KSPROPERTY_ZOOM_PROP_ZOOM_IN?5?9?5G@FNODOBFM@ 000437c0     videostream.obj
+ 0001:00033370       ??_C@_0CH@GEMJPAIL@KSPROPERTY_ZOOM_PROP_STATUS?5?9?5Ge@FNODOBFM@ 000437f0     videostream.obj
+ 0001:000333a0       ??_C@_0CH@JFBMKIHG@get?5PROPSETID_ZOOM_PROP_ST50220?5@FNODOBFM@ 00043820     videostream.obj
+ 0001:000333d0       ??_C@_0CM@HDKPKGI@Get?5KSPROPERTY_CUSTOM_PROP_AUXLE@FNODOBFM@ 00043850     videostream.obj
+ 0001:00033400       ??_C@_0DH@OGPIEABG@KSPROPERTY_CUSTOM_PROP_WBCompone@FNODOBFM@ 00043880     videostream.obj
+ 0001:00033440       ??_C@_0CJ@KALMAIHB@Get?5PROPSETID_CUSTOM_PROP_ST5022@FNODOBFM@ 000438c0     videostream.obj
+ 0001:00033470       ??_C@_0CI@EGJLNJNM@KSPROPERTY_VIDEOPROCAMP_GAIN?5?9?5G@FNODOBFM@ 000438f0     videostream.obj
+ 0001:000334a0       ??_C@_0DH@MOIIDGMG@KSPROPERTY_VIDEOPROCAMP_POWERLIN@FNODOBFM@ 00043920     videostream.obj
+ 0001:000334e0       ??_C@_0DK@HHALEGED@KSPROPERTY_VIDEOPROCAMP_BACKLIGH@FNODOBFM@ 00043960     videostream.obj
+ 0001:00033520       ??_C@_0DA@OPEDOLNL@KSPROPERTY_VIDEOPROCAMP_WHITEBAL@FNODOBFM@ 000439a0     videostream.obj
+ 0001:00033550       ??_C@_0DF@IEOOLBDI@KSPROPERTY_VIDEOPROCAMP_WHITEBAL@FNODOBFM@ 000439d0     videostream.obj
+ 0001:00033590       ??_C@_0CJ@EEKPPPAC@KSPROPERTY_VIDEOPROCAMP_GAMMA?5?9?5@FNODOBFM@ 00043a10     videostream.obj
+ 0001:000335c0       ??_C@_0CN@ENJDIDFP@KSPROPERTY_VIDEOPROCAMP_SHARPNES@FNODOBFM@ 00043a40     videostream.obj
+ 0001:000335f0       ??_C@_0CO@DOBBHCJH@KSPROPERTY_VIDEOPROCAMP_SATURATI@FNODOBFM@ 00043a70     videostream.obj
+ 0001:00033620       ??_C@_0CH@HIPALIKK@KSPROPERTY_VIDEOPROCAMP_HUE?5?9?5Ge@FNODOBFM@ 00043aa0     videostream.obj
+ 0001:00033650       ??_C@_0CM@EDHGJLBE@KSPROPERTY_VIDEOPROCAMP_CONTRAST@FNODOBFM@ 00043ad0     videostream.obj
+ 0001:00033680       ??_C@_0CO@LGIBPGLP@KSPROPERTY_VIDEOPROCAMP_BRIGHTNE@FNODOBFM@ 00043b00     videostream.obj
+ 0001:000336b0       ??_C@_0CI@DJHPAHF@Get?5PROPSETID_VIDCAP_VIDEOPROCAM@FNODOBFM@ 00043b30     videostream.obj
+ 0001:000336e0       ??_C@_0DL@NPAAKMKM@KSPROPERTY_CAMERACONTROL_AUTO_EX@FNODOBFM@ 00043b60     videostream.obj
+ 0001:00033720       ??_C@_0CJ@MIAFCLDM@KSPROPERTY_CAMERACONTROL_ZOOM?5?9?5@FNODOBFM@ 00043ba0     videostream.obj
+ 0001:00033750       ??_C@_0CJ@BKOBEICN@KSPROPERTY_CAMERACONTROL_ROLL?5?9?5@FNODOBFM@ 00043bd0     videostream.obj
+ 0001:00033780       ??_C@_0CJ@IFIOIAIM@KSPROPERTY_CAMERACONTROL_TILT?5?9?5@FNODOBFM@ 00043c00     videostream.obj
+ 0001:000337b0       ??_C@_0CI@OPFNELMF@KSPROPERTY_CAMERACONTROL_PAN?5?9?5G@FNODOBFM@ 00043c30     videostream.obj
+ 0001:000337e0       ??_C@_0CJ@JKFKNMP@KSPROPERTY_CAMERACONTROL_IRIS?5?9?5@FNODOBFM@ 00043c60     videostream.obj
+ 0001:00033810       ??_C@_0CK@FEDKKKDD@KSPROPERTY_CAMERACONTROL_FOCUS?5?9@FNODOBFM@ 00043c90     videostream.obj
+ 0001:00033840       ??_C@_0CO@NOPABCDN@KSPROPERTY_VIDEOPROCAMP_FOCUS_AU@FNODOBFM@ 00043cc0     videostream.obj
+ 0001:00033870       ??_C@_0CM@KNIBNIDA@KSPROPERTY_CAMERACONTROL_PRIVACY@FNODOBFM@ 00043cf0     videostream.obj
+ 0001:000338a0       ??_C@_0CN@IFGFDDMI@KSPROPERTY_CAMERACONTROL_EXPOSUR@FNODOBFM@ 00043d20     videostream.obj
+ 0001:000338d0       ??_C@_0DB@GDABEBIO@KSPROPERTY_VIDEOPROCAMP_EXPOSURE@FNODOBFM@ 00043d50     videostream.obj
+ 0001:00033910       ??_C@_0CI@OCBPKMAP@Get?5PROPSETID_VIDCAP_CAMERACONTR@FNODOBFM@ 00043d90     videostream.obj
+ 0001:00033940       ??_C@_0DO@DFNKHGOC@PropertyOutputSize?5?$DO?$DN?5sizeof?5?$CIKS@FNODOBFM@ 00043dc0     videostream.obj
+ 0001:00033980       ??_C@_0BP@NMGHDNEM@?5KSPROPERTY_VIDEOCONTROL_MODE?6?$AA@FNODOBFM@ 00043e00     videostream.obj
+ 0001:000339a0       ??_C@_0BC@DDPHGHAH@Frame?5rate?5?3?5?$CFd?5?6?$AA@FNODOBFM@ 00043e20     videostream.obj
+ 0001:000339c0       ??_C@_0BK@GADHLDGH@STATUS_BUFFER_OVERFLOW?5?$CB?6?$AA@FNODOBFM@ 00043e40     videostream.obj
+ 0001:000339e0       ??_C@_0CF@GNLNKPCL@pData?9?$DORangeIndex?$DN?$CFd?0StreamIndex@FNODOBFM@ 00043e60     videostream.obj
+ 0001:00033a10       ??_C@_0DD@PJNBKLI@Actual?5Frame?5Rate?5?3?5?$CFd?0?5MaxAvail@FNODOBFM@ 00043e90     videostream.obj
+ 0001:00033a50       ??_C@_0EL@FNDECCGB@PropertyOutputSize?5?$DO?$DN?5sizeof?5?$CIKS@FNODOBFM@ 00043ed0     videostream.obj
+ 0001:00033aa0       ??_C@_0CM@DEEBCIOO@?5KSPROPERTY_VIDEOCONTROL_ACTUAL_@FNODOBFM@ 00043f20     videostream.obj
+ 0001:00033ad0       ??_C@_0DO@HIIDNCC@PropertyOutputSize?5?$DO?$DN?5sizeof?5?$CIKS@FNODOBFM@ 00043f50     videostream.obj
+ 0001:00033b10       ??_C@_0BP@JOINPNFH@?5KSPROPERTY_VIDEOCONTROL_CAPS?6?$AA@FNODOBFM@ 00043f90     videostream.obj
+ 0001:00033b30       ??_C@_0CG@DODHABEP@Get?5PROPSETID_VIDCAP_VIDEOCONTRO@FNODOBFM@ 00043fb0     videostream.obj
+ 0001:00033b60       ??_C@_0DE@OKAOPHMD@Null?5pDevExt?9?$DOpVideoDevice?5at?5Ge@FNODOBFM@ 00043fe0     videostream.obj
+ 0001:00033ba0       ??_C@_0DP@DPNCCMBO@Null?5ioStack?5or?5Device?5extension@FNODOBFM@ 00044020     videostream.obj
+ 0001:00033be0       ??_C@_0CC@LOPFIABH@CVideoStream?3?3GetDeviceProperty?$CI@FNODOBFM@ 00044060     videostream.obj
+ 0001:00033c10       ??_C@_0CJ@EPPENPOD@GetStreamProperty?3?5return?5status@FNODOBFM@ 00044090     videostream.obj
+ 0001:00033c40       ??_C@_0ED@HFLCEAID@GetStreamProperty?0?5We?5did?5not?5su@FNODOBFM@ 000440c0     videostream.obj
+ 0001:00033c90       ??_C@_0DD@JDNFAFDM@?$CIDBG0922?$CJGET?5DROP?5COUNT?5?9?9?9?$DO?5m_P@FNODOBFM@ 00044110     videostream.obj
+ 0001:00033cd0       ??_C@_0CJ@MKAMAACK@Get?5PROPSETID_VIDCAP_DROPPEDFRAM@FNODOBFM@ 00044150     videostream.obj
+ 0001:00033d00       ??_C@_0BL@DPMCOMGP@STATUS_BUFFER_TOO_SMALL?5?$CB?6?$AA@FNODOBFM@ 00044180     videostream.obj
+ 0001:00033d20       ??_C@_0CB@ENHIKENB@Get?5KSPROPSETID_Connection?5?3?5?$CFd?6@FNODOBFM@ 000441a0     videostream.obj
+ 0001:00033d50       ??_C@_0DH@IKNPACIM@ntStatus?5?$DN?5STATUS_INVALID_PARAME@FNODOBFM@ 000441d0     videostream.obj
+ 0001:00033d90       ??_C@_0BL@MIJBPFNN@?5m_StreamInstances?$FL?$CFd?$FN?$DN?$CFd?6?$AA@FNODOBFM@ 00044210     videostream.obj
+ 0001:00033db0       ??_C@_0EB@IPAPGJBF@Null?5ioStack?5or?5pin?5or?5Device?5ex@FNODOBFM@ 00044230     videostream.obj
+ 0001:00033e00       ??_C@_0CC@HKAPNNF@CVideoStream?3?3GetStreamProperty?$CI@FNODOBFM@ 00044280     videostream.obj
+ 0001:00033e30       ??_C@_0DL@IEDIBGID@?9?9?9?9?5End?5CStreamHandler?3?3ReadDat@FNODOBFM@ 000442b0     videostream.obj
+ 0001:00033e70       ??_C@_0GH@HOGBMONG@DataUsed?3?$CFlu?0?5aft?3?$CFI64d?0?5Present@FNODOBFM@ 000442f0     videostream.obj
+ 0001:00033ee0       ??_C@_0CD@OGAAPJEM@?$FLDEBUG?$FNDelayTime_DataPacket?3?$CFI64@FNODOBFM@ 00044360     videostream.obj
+ 0001:00033f10       ??_C@_0CB@DALMIHBP@FirstFrame?$CB?$CB?$CB?5PresentTime?3?$CFI64d?6@FNODOBFM@ 00044390     videostream.obj
+ 0001:00033f40       ??_C@_0CD@OCBCDHKA@We?5can?8t?5receive?5any?5good?5frame?4@FNODOBFM@ 000443c0     videostream.obj
+ 0001:00033f70       ??_C@_0BO@KNEGPLCL@MJ?5pDataPacket?9?$DODataUsed?5?$DN?$CFd?6?$AA@FNODOBFM@ 000443f0     videostream.obj
+ 0001:00033f90       ??_C@_0CN@JEEONFLD@STREAM_Capture?5pDataPacket?9?$DOFram@FNODOBFM@ 00044410     videostream.obj
+ 0001:00033fc0       ??_C@_0DA@JMOEFLBH@STREAM_Capture_MP2TS?5pDataPacket@FNODOBFM@ 00044440     videostream.obj
+ 0001:00033ff0       ??_C@_0BJ@NNMBPGMK@m_FirstFrameStartTime?5?$CB?6?$AA@FNODOBFM@ 00044470     videostream.obj
+ 0001:00034010       ??_C@_0DK@LIJDCFPD@?$FLDEBUG?$FNAP?5request?5length?5?$DN?5?$CFld?0?5@FNODOBFM@ 00044490     videostream.obj
+ 0001:00034050       ??_C@_0DF@NOLDNGCP@APBufferLen?$FL?$CFd?$FN?5?$DN?5?$CFd?0?5pDataPacke@FNODOBFM@ 000444d0     videostream.obj
+ 0001:00034090       ??_C@_0DN@LOADIGDJ@ReadData?$CI?$CJ?5?9?$DO?5m_SurpriseRemoval?5@FNODOBFM@ 00044510     videostream.obj
+ 0001:000340d0       ??_C@_0BJ@GBEEHONK@?$CIReadData?$CJ?5WakeUp_Run?5?$CB?6?$AA@FNODOBFM@ 00044550     videostream.obj
+ 0001:000340f0       ??_C@_0CG@FOCMJIHN@Null?5Device?5extension?5at?5ReadDat@FNODOBFM@ 00044570     videostream.obj
+ 0001:00034120       ??_C@_0EH@LFJKLBEF@?9?9?9?9?5Enter?5CStreamHandler?3?3ReadD@FNODOBFM@ 000445a0     videostream.obj
+ 0001:00034170       ??_C@_0BI@JDDPCDKG@SubmitCurrentSettings?$CI?$CJ?$AA@FNODOBFM@ 000445f0     videostream.obj
+ 0001:00034190       ??_C@_0CF@NNAFBCDB@CVideoStream?3?3ChangePowerState?$CI?$CJ@FNODOBFM@ 00044610     videostream.obj
+ 0001:000341c0       ??_C@_0CH@CJKPLPAF@ChangePowerState?5to?5the?5same?5sta@FNODOBFM@ 00044640     videostream.obj
+ 0001:000341f0       ??_C@_0CC@HAAEEGCF@Device?5is?5prevewing?5before?5sleep@FNODOBFM@ 00044670     videostream.obj
+ 0001:00034220       ??_C@_0CO@DFGONEEB@Null?5Device?5extension?5at?5ChangeP@FNODOBFM@ 000446a0     videostream.obj
+ 0001:00034250       ??_C@_0CB@EHFNEPAK@CVideoStream?3?3ChangePowerState?$CI?$CJ@FNODOBFM@ 000446d0     videostream.obj
+ 0001:00034280       ??_C@_0DL@HNINFHJ@?$DN?$DN?$DO?5Streams?$FLSTREAM_Still?$FN?4Number@FNODOBFM@ 00044700     videostream.obj
+ 0001:000342c0       ??_C@_0BO@IKDCOGDH@?$DN?$DN?$DO?5nPinDescriptorCount?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00044740     videostream.obj
+ 0001:000342e0       ??_C@_0BL@IBOOOHAO@Still?5Capture?5Method?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00044760     videostream.obj
+ 0001:00034300       ??_C@_0DN@DBFCNGIO@?$DN?$DN?$DO?5Streams?$FLSTREAM_Capture?$FN?4Numb@FNODOBFM@ 00044780     videostream.obj
+ 0001:00034340       ??_C@_0BD@NGJANABP@nImgNumModify?5?$DN?5?$CFd?$AA@FNODOBFM@ 000447c0     videostream.obj
+ 0001:00034360       ??_C@_0BH@IGLBKBNN@I420?$FL?$CFd?$FN?5?5X?$DN?5?$CFd?5Y?$DN?5?$CFd?6?$AA@FNODOBFM@ 000447e0     videostream.obj
+ 0001:00034380       ??_C@_0BI@ONBFHNPO@RGB24?$FL?$CFd?$FN?5?5X?$DN?5?$CFd?5Y?$DN?5?$CFd?6?$AA@FNODOBFM@ 00044800     videostream.obj
+ 0001:000343a0       ??_C@_1BM@EAMBFBFO@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA_?$AAM?$AAJ?$AAP?$AAE?$AAG?$AA?$AA@FNODOBFM@ 00044820     videostream.obj
+ 0001:000343c0       ??_C@_1BK@LOMLJAKI@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA_?$AAY?$AAU?$AAY?$AA2?$AA?$AA@FNODOBFM@ 00044840     videostream.obj
+ 0001:000343e0       ??_C@_1BK@ENBOIGHH@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA_?$AAI?$AA4?$AA2?$AA0?$AA?$AA@FNODOBFM@ 00044860     videostream.obj
+ 0001:00034400       ??_C@_1BM@JKIAKMDO@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA_?$AAR?$AAG?$AAB?$AA2?$AA4?$AA?$AA@FNODOBFM@ 00044880     videostream.obj
+ 0001:00034420       ??_C@_09HJKEGDCE@SN9C286?$CB?6?$AA@FNODOBFM@ 000448a0     videostream.obj
+ 0001:00034430       ??_C@_0CB@HDCMBNJN@pdx?9?$DOpVideoDevice?9?$DOBe50286?5?$DN?5?$CFd?6@FNODOBFM@ 000448b0     videostream.obj
+ 0001:00034460       ??_C@_0BK@OBJDAMJN@m_YUY2_FrmaeRateCount?$DN?$CFd?6?$AA@FNODOBFM@ 000448e0     videostream.obj
+ 0001:00034480       ??_C@_0BI@LIJMNOHH@m_YUY2_FormatCount?$DN?$CFd?0?5?$AA@FNODOBFM@ 00044900     videostream.obj
+ 0001:000344a0       ??_C@_0O@LJCGEOCB@?$DN?$DN?$DO?5?$CFd?5vs?5?$CFd?6?$AA@FNODOBFM@ 00044920     videostream.obj
+ 0001:000344b0       ??_C@_0DJ@DMCMMGFI@m_DefaultFrameIndex?$DN?$CFd?0?5CurrentM@FNODOBFM@ 00044930     videostream.obj
+ 0001:000344f0       ??_C@_0CC@FNPDJDKP@No?4?5of?5format?5array?5entries?5?3?5?$CFd@FNODOBFM@ 00044970     videostream.obj
+ 0001:00034520       ??_C@_0EB@HMGOPIIO@?$DN?$DN?$DO?5number?5of?5VideoProcAmpProper@FNODOBFM@ 000449a0     videostream.obj
+ 0001:00034570       ??_C@_0CG@JIPEFGKK@pdx?9?$DOm_AuxLedMode?4CurrentValue?5?$DN@FNODOBFM@ 000449f0     videostream.obj
+ 0001:000345a0       ??_C@_0BC@OBMAFFDM@Get?5GAIN?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044a20     videostream.obj
+ 0001:000345c0       ??_C@_0BC@KNGECGEL@Get?5Gain?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044a40     videostream.obj
+ 0001:000345e0       ??_C@_0BC@EHFIKONJ@Get?5Gain?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044a60     videostream.obj
+ 0001:00034600       ??_C@_0BC@IPLLEDKK@Get?5Gain?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044a80     videostream.obj
+ 0001:00034620       ??_C@_0BC@FIFAPBOL@Get?5Gain?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044aa0     videostream.obj
+ 0001:00034640       ??_C@_0CA@EJHCGAIJ@Get?5POWERLINEFREQUENCY?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044ac0     videostream.obj
+ 0001:00034660       ??_C@_0CN@GMHJICDI@Get?5PU_POWER_LINE_FREQUENCY_CONT@FNODOBFM@ 00044ae0     videostream.obj
+ 0001:00034690       ??_C@_0CN@IGEFAKKK@Get?5PU_POWER_LINE_FREQUENCY_CONT@FNODOBFM@ 00044b10     videostream.obj
+ 0001:000346c0       ??_C@_0CN@EOKGOHNJ@Get?5PU_POWER_LINE_FREQUENCY_CONT@FNODOBFM@ 00044b40     videostream.obj
+ 0001:000346f0       ??_C@_0CN@JJENFFJI@Get?5PU_POWER_LINE_FREQUENCY_CONT@FNODOBFM@ 00044b70     videostream.obj
+ 0001:00034720       ??_C@_0BH@NEHEBABH@Get?5BACKLIGHT?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044ba0     videostream.obj
+ 0001:00034740       ??_C@_0BH@LJKLNEJB@Get?5Backlight?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044bc0     videostream.obj
+ 0001:00034760       ??_C@_0BH@FDJHFMAD@Get?5Backlight?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044be0     videostream.obj
+ 0001:00034780       ??_C@_0BH@JLHELBHA@Get?5Backlight?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044c00     videostream.obj
+ 0001:000347a0       ??_C@_0BH@EMJPADDB@Get?5Backlight?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044c20     videostream.obj
+ 0001:000347c0       ??_C@_0CJ@GDJDKIIJ@Get?5WHITE_BALANCE_COMPONENTAuto?5@FNODOBFM@ 00044c40     videostream.obj
+ 0001:000347f0       ??_C@_0CL@LICAJKGK@Get?5WHITE_BALANCE_TemperatureAut@FNODOBFM@ 00044c70     videostream.obj
+ 0001:00034820       ??_C@_0CH@GPNHJCI@Get?5WHITE_BALANCE_COMPONENT?5Res?5@FNODOBFM@ 00044ca0     videostream.obj
+ 0001:00034850       ??_C@_0CH@KGOJHAJO@Get?5WHITE_BALANCE_COMPONENT?5Def?5@FNODOBFM@ 00044cd0     videostream.obj
+ 0001:00034880       ??_C@_0CH@HMEAAMIN@Get?5WHITE_BALANCE_COMPONENT?5Min?5@FNODOBFM@ 00044d00     videostream.obj
+ 0001:000348b0       ??_C@_0CH@LAENHHIC@Get?5WHITE_BALANCE_COMPONENT?5Max?5@FNODOBFM@ 00044d30     videostream.obj
+ 0001:000348e0       ??_C@_0CE@CNCNFAFA@pdx?9?$DOm_WBC_Green?4CurrentValue?$DN0x@FNODOBFM@ 00044d60     videostream.obj
+ 0001:00034910       ??_C@_0BO@NEOKNCHO@pdx?9?$DOm_WBC?4CurrentValue?$DN0x?$CFx?6?$AA@FNODOBFM@ 00044d90     videostream.obj
+ 0001:00034930       ??_C@_0DP@OJBBBMGJ@pdx?9?$DOm_WBC_Green?4MaxValue?$DN0x?$CFx?0p@FNODOBFM@ 00044db0     videostream.obj
+ 0001:00034970       ??_C@_0DD@LOOJODGE@pdx?9?$DOm_WBC?4MaxValue?$DN0x?$CFx?0pdx?9?$DOm_@FNODOBFM@ 00044df0     videostream.obj
+ 0001:000349b0       ??_C@_0DB@LHGDNFFP@WBC_RED_MAX_ADDR_H?$DN0x?$CFx?0WBC_RED_@FNODOBFM@ 00044e30     videostream.obj
+ 0001:000349f0       ??_C@_0BK@JAEHPKKG@Get?5WHITEBALANCE?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044e70     videostream.obj
+ 0001:00034a10       ??_C@_0DC@MLIJAOFL@Get?5PU_WHITE_BALANCE_TEMPERATURE@FNODOBFM@ 00044e90     videostream.obj
+ 0001:00034a50       ??_C@_0DC@CBLFIGMJ@Get?5PU_WHITE_BALANCE_TEMPERATURE@FNODOBFM@ 00044ed0     videostream.obj
+ 0001:00034a90       ??_C@_0DC@OJFGGLLK@Get?5PU_WHITE_BALANCE_TEMPERATURE@FNODOBFM@ 00044f10     videostream.obj
+ 0001:00034ad0       ??_C@_0DC@DOLNNJPL@Get?5PU_WHITE_BALANCE_TEMPERATURE@FNODOBFM@ 00044f50     videostream.obj
+ 0001:00034b10       ??_C@_0BD@KEFBEGBO@Get?5GAMMA?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044f90     videostream.obj
+ 0001:00034b30       ??_C@_0BD@CFJBENLB@Get?5Gamma?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044fb0     videostream.obj
+ 0001:00034b50       ??_C@_0BD@MPKNMFCD@Get?5Gamma?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044fd0     videostream.obj
+ 0001:00034b70       ??_C@_0BD@HEOCIFA@Get?5Gamma?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00044ff0     videostream.obj
+ 0001:00034b90       ??_C@_0BD@NAKFJKBB@Get?5Gamma?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045010     videostream.obj
+ 0001:00034bb0       ??_C@_0BH@FHAAGGHO@Get?5SHARPNESS?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045030     videostream.obj
+ 0001:00034bd0       ??_C@_0BH@DKNPKCPI@Get?5Sharpness?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045050     videostream.obj
+ 0001:00034bf0       ??_C@_0BH@NAODCKGK@Get?5Sharpness?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045070     videostream.obj
+ 0001:00034c10       ??_C@_0BH@BIAAMHBJ@Get?5Sharpness?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045090     videostream.obj
+ 0001:00034c30       ??_C@_0BH@MPOLHFFI@Get?5Sharpness?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 000450b0     videostream.obj
+ 0001:00034c50       ??_C@_0BI@IDLNGNDN@Get?5SATURATION?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 000450d0     videostream.obj
+ 0001:00034c70       ??_C@_0BI@MIOGNPKP@Get?5Saturation?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 000450f0     videostream.obj
+ 0001:00034c90       ??_C@_0BI@CCNKFHDN@Get?5Saturation?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045110     videostream.obj
+ 0001:00034cb0       ??_C@_0BI@OKDJLKEO@Get?5Saturation?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045130     videostream.obj
+ 0001:00034cd0       ??_C@_0BI@DNNCAIAP@Get?5Saturation?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045150     videostream.obj
+ 0001:00034cf0       ??_C@_0BB@OGBEJFJD@Get?5HUE?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045170     videostream.obj
+ 0001:00034d10       ??_C@_0BB@BJMOKNBB@Get?5Hue?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045190     videostream.obj
+ 0001:00034d30       ??_C@_0BB@PDPCCFID@Get?5Hue?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 000451b0     videostream.obj
+ 0001:00034d50       ??_C@_0BB@DLBBMIPA@Get?5Hue?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 000451d0     videostream.obj
+ 0001:00034d70       ??_C@_0BB@OMPKHKLB@Get?5Hue?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 000451f0     videostream.obj
+ 0001:00034d90       ??_C@_0BG@BOAPKOBJ@Get?5CONTRAST?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045210     videostream.obj
+ 0001:00034db0       ??_C@_0BG@COJGNCKP@Get?5Contrast?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045230     videostream.obj
+ 0001:00034dd0       ??_C@_0BG@MEKKFKDN@Get?5Contrast?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045250     videostream.obj
+ 0001:00034df0       ??_C@_0BG@MEJLHEO@Get?5Contrast?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045270     videostream.obj
+ 0001:00034e10       ??_C@_0BG@NLKCAFAP@Get?5Contrast?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045290     videostream.obj
+ 0001:00034e30       ??_C@_0BM@CKEIDMNG@VideoProcAmpProperties?$FL?$CFd?$FN?6?$AA@FNODOBFM@ 000452b0     videostream.obj
+ 0001:00034e50       ??_C@_0BI@IPFDAJHP@Get?5BRIGHTNESS?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 000452d0     videostream.obj
+ 0001:00034e70       ??_C@_0BI@MEAILLON@Get?5Brightness?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 000452f0     videostream.obj
+ 0001:00034e90       ??_C@_0BI@CODEDDHP@Get?5Brightness?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045310     videostream.obj
+ 0001:00034eb0       ??_C@_0BI@OGNHNOAM@Get?5Brightness?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045330     videostream.obj
+ 0001:00034ed0       ??_C@_0BI@DBDMGMEN@Get?5Brightness?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045350     videostream.obj
+ 0001:00034ef0       ??_C@_0EC@OBDAOCGF@?$DN?$DN?$DO?5number?5of?5CameraControlPrope@FNODOBFM@ 00045370     videostream.obj
+ 0001:00034f40       ??_C@_0CE@DFJANIEP@Get?5CT_AE_PRIORITY_CONTROL?5Def?5?$DN@FNODOBFM@ 000453c0     videostream.obj
+ 0001:00034f70       ??_C@_0CA@GBOHFBAE@Get?5CT_AE_MODE_CONTROL?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 000453f0     videostream.obj
+ 0001:00034f90       ??_C@_0BF@OCONDJJM@Get?5PRIVACY?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045410     videostream.obj
+ 0001:00034fb0       ??_C@_0BF@GJKGNNKD@Get?5PRIVACY?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045430     videostream.obj
+ 0001:00034fd0       ??_C@_0BC@DJPIMFFM@Get?5ROLL?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045450     videostream.obj
+ 0001:00034ff0       ??_C@_0BC@HFFMLGCL@Get?5Roll?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045470     videostream.obj
+ 0001:00035010       ??_C@_0BC@JPGADOLJ@Get?5Roll?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045490     videostream.obj
+ 0001:00035030       ??_C@_0BC@FHIDNDMK@Get?5Roll?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 000454b0     videostream.obj
+ 0001:00035050       ??_C@_0BC@IAGIGBIL@Get?5Roll?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 000454d0     videostream.obj
+ 0001:00035070       ??_C@_0BK@CHIBEKJJ@Get?5PanTilt?5Cur?5?$DN?5?$CFd?0?5?$CFd?6?$AA@FNODOBFM@ 000454f0     videostream.obj
+ 0001:00035090       ??_C@_0BK@PDJOHNDG@Get?5PanTilt?5Res?5?$DN?5?$CFd?0?5?$CFd?6?$AA@FNODOBFM@ 00045510     videostream.obj
+ 0001:000350b0       ??_C@_0BK@PJFFJAAA@Get?5PanTilt?5Def?5?$DN?5?$CFd?0?5?$CFd?6?$AA@FNODOBFM@ 00045530     videostream.obj
+ 0001:000350d0       ??_C@_0BK@MLLFKAEF@Get?5PanTilt?5Min?5?$DN?5?$CFd?0?5?$CFd?6?$AA@FNODOBFM@ 00045550     videostream.obj
+ 0001:000350f0       ??_C@_0BK@HCJDDLDE@Get?5PanTilt?5Max?5?$DN?5?$CFd?0?5?$CFd?6?$AA@FNODOBFM@ 00045570     videostream.obj
+ 0001:00035110       ??_C@_0BC@JBGCMJIA@Get?5Zoom?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045590     videostream.obj
+ 0001:00035130       ??_C@_0BC@PABFKFCN@Get?5Zoom?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 000455b0     videostream.obj
+ 0001:00035150       ??_C@_0BC@BKCJCNLP@Get?5Zoom?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 000455d0     videostream.obj
+ 0001:00035170       ??_C@_0BC@NCMKMAMM@Get?5Zoom?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 000455f0     videostream.obj
+ 0001:00035190       ??_C@_0BC@FCBHCIN@Get?5Zoom?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045610     videostream.obj
+ 0001:000351b0       ??_C@_0BC@GLCHFMLO@Get?5Iris?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045630     videostream.obj
+ 0001:000351d0       ??_C@_0BC@KFADABD@Get?5Iris?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045650     videostream.obj
+ 0001:000351f0       ??_C@_0BC@OAGMLIIB@Get?5Iris?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045670     videostream.obj
+ 0001:00035210       ??_C@_0BC@CIIPFFPC@Get?5Iris?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045690     videostream.obj
+ 0001:00035230       ??_C@_0BC@PPGEOHLD@Get?5Iris?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 000456b0     videostream.obj
+ 0001:00035250       ??_C@_0BI@GENAJLFE@Get?5FOCUS_AUTO?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 000456d0     videostream.obj
+ 0001:00035270       ??_C@_0BI@OPJLHPGL@Get?5FOCUS_AUTO?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 000456f0     videostream.obj
+ 0001:00035290       ??_C@_0BD@DAOOEFMM@Get?5Focus?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045710     videostream.obj
+ 0001:000352b0       ??_C@_0BD@FBJJCJGB@Get?5Focus?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045730     videostream.obj
+ 0001:000352d0       ??_C@_0BD@LLKFKBPD@Get?5Focus?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045750     videostream.obj
+ 0001:000352f0       ??_C@_0BD@HDEGEMIA@Get?5Focus?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045770     videostream.obj
+ 0001:00035310       ??_C@_0BD@KEKNPOMB@Get?5Focus?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045790     videostream.obj
+ 0001:00035330       ??_C@_0BG@DHABGMGL@Get?5Exposure?5Cur?5?$DN?$CFd?6?$AA@FNODOBFM@ 000457b0     videostream.obj
+ 0001:00035350       ??_C@_0BG@FGHGAAMG@Get?5Exposure?5Res?5?$DN?$CFd?6?$AA@FNODOBFM@ 000457d0     videostream.obj
+ 0001:00035370       ??_C@_0BG@LMEKIIFE@Get?5Exposure?5Def?5?$DN?$CFd?6?$AA@FNODOBFM@ 000457f0     videostream.obj
+ 0001:00035390       ??_C@_0BG@HEKJGFCH@Get?5Exposure?5Min?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045810     videostream.obj
+ 0001:000353b0       ??_C@_0BG@KDECNHGG@Get?5Exposure?5Max?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045830     videostream.obj
+ 0001:000353d0       ??_C@_0BM@FCGDFLED@Start?5LoadHWDefaultValues?$CB?6?$AA@FNODOBFM@ 00045850     videostream.obj
+ 0001:000353f0       ??_C@_0CB@PPBCHGND@Load?5Default?5Settings?5return?5?$CFX?6@FNODOBFM@ 00045870     videostream.obj
+ 0001:00035420       ??_C@_1BM@FMDOIEHL@?$AAF?$AAa?$AAc?$AAe?$AAT?$AAr?$AAa?$AAc?$AAk?$AA?$CF?$AA0?$AA4?$AAd?$AA?$AA@FNODOBFM@ 000458a0     videostream.obj
+ 0001:00035440       ??_C@_0BN@JEDMNMHB@DEFAULT_REGISTRY_NUMBER?5?$DO?$DN?5i?$AA@FNODOBFM@ 000458c0     videostream.obj
+ 0001:00035460       ??_C@_1BI@OPFMLDJO@?$AAT?$AAS?$AAM?$AAu?$AAx?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$AA@FNODOBFM@ 000458e0     videostream.obj
+ 0001:00035480       ??_C@_1CK@EGMECJJF@?$AAD?$AAe?$AAN?$AAo?$AAi?$AAs?$AAe?$AAM?$AAo?$AAd?$AAe?$AA_?$AAU?$AAI?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$AA@FNODOBFM@ 00045900     videostream.obj
+ 0001:000354b0       ??_C@_1BK@ENCICPKG@?$AAM?$AAe?$AAa?$AAn?$AAD?$AAi?$AAf?$AAf?$AAC?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 00045930     videostream.obj
+ 0001:000354d0       ??_C@_1BK@HNKEDOIH@?$AAM?$AAe?$AAa?$AAn?$AAD?$AAi?$AAf?$AAf?$AAY?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 00045950     videostream.obj
+ 0001:000354f0       ??_C@_1BI@IKAJLJPF@?$AAL?$AAo?$AAw?$AAL?$AAi?$AAg?$AAh?$AAt?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 00045970     videostream.obj
+ 0001:00035510       ??_C@_1BE@HMEPLMLC@?$AAN?$AAz?$AAP?$AAw?$AAr?$AAC?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 00045990     videostream.obj
+ 0001:00035530       ??_C@_1BE@INEEOHDP@?$AAN?$AAz?$AAP?$AAw?$AAr?$AAL?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 000459b0     videostream.obj
+ 0001:00035550       ??_C@_1BC@EONCGAKF@?$AAS?$AAt?$AAr?$AAg?$AAC?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 000459d0     videostream.obj
+ 0001:00035570       ??_C@_1BC@LPNJDLCI@?$AAS?$AAt?$AAr?$AAg?$AAL?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 000459f0     videostream.obj
+ 0001:00035590       ??_C@_1CI@GIKGJGEI@?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AAP?$AAa?$AAg?$AAe?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@FNODOBFM@ 00045a10     videostream.obj
+ 0001:000355c0       ??_C@_1BM@GMFDOBJA@?$AAF?$AAr?$AAa?$AAm?$AAe?$AAF?$AAi?$AAl?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@FNODOBFM@ 00045a40     videostream.obj
+ 0001:000355e0       ??_C@_1BK@LABJKOM@?$AA?2?$AAD?$AAo?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AA?$AA@FNODOBFM@ 00045a60     videostream.obj
+ 0001:00035600       ??_C@_1CA@EGALCAIO@?$AAA?$AAu?$AAt?$AAo?$AAS?$AAt?$AAa?$AAr?$AAt?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$AA@FNODOBFM@ 00045a80     videostream.obj
+ 0001:00035620       ??_C@_1BM@PPLIJBFE@?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$AA@FNODOBFM@ 00045aa0     videostream.obj
+ 0001:00035640       ??_C@_1BG@EMOKEGBL@?$AAD?$AAe?$AAf?$AAe?$AAc?$AAt?$AAC?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 00045ac0     videostream.obj
+ 0001:00035660       ??_C@_1BG@HMGGFHDK@?$AAD?$AAe?$AAf?$AAe?$AAc?$AAt?$AAY?$AAT?$AAh?$AAd?$AA?$AA@FNODOBFM@ 00045ae0     videostream.obj
+ 0001:00035680       ??_C@_1CG@GNAJEMGO@?$AAD?$AAe?$AAf?$AAe?$AAc?$AAt?$AAC?$AAo?$AAm?$AAp?$AAe?$AAn?$AAs?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@FNODOBFM@ 00045b00     videostream.obj
+ 0001:000356b0       ??_C@_1CC@CJANDHHB@?$AAW?$AAB?$AAC?$AAo?$AAm?$AAp?$AAo?$AAn?$AAe?$AAn?$AAt?$AAG?$AAr?$AAe?$AAe?$AAn?$AA?$AA@FNODOBFM@ 00045b30     videostream.obj
+ 0001:000356e0       ??_C@_1BI@BINPOKBN@?$AAD?$AAe?$AAN?$AAo?$AAi?$AAs?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@FNODOBFM@ 00045b60     videostream.obj
+ 0001:00035700       ??_C@_1BG@OHKFFPAA@?$AAA?$AAu?$AAx?$AAL?$AAe?$AAd?$AAM?$AAo?$AAd?$AAe?$AA?$AA@FNODOBFM@ 00045b80     videostream.obj
+ 0001:00035720       ??_C@_1BC@OMNMCCAA@?$AAR?$AAo?$AAt?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@FNODOBFM@ 00045ba0     videostream.obj
+ 0001:00035740       ??_C@_1O@DLGCHCJN@?$AAB?$AAW?$AAM?$AAo?$AAd?$AAe?$AA?$AA@FNODOBFM@ 00045bc0     videostream.obj
+ 0001:00035750       ??_C@_19EMFBKLJE@?$AAF?$AAl?$AAi?$AAp?$AA?$AA@FNODOBFM@ 00045bd0     videostream.obj
+ 0001:00035760       ??_C@_1O@EJKBEBNL@?$AAM?$AAi?$AAr?$AAr?$AAo?$AAr?$AA?$AA@FNODOBFM@ 00045be0     videostream.obj
+ 0001:00035770       ??_C@_1CE@LMAHEGCH@?$AAA?$AAE?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@FNODOBFM@ 00045bf0     videostream.obj
+ 0001:000357a0       ??_C@_1BA@BKKGJKKH@?$AAP?$AAr?$AAi?$AAv?$AAa?$AAc?$AAy?$AA?$AA@FNODOBFM@ 00045c20     videostream.obj
+ 0001:000357b0       ??_C@_1BM@HPGOMDBP@?$AAA?$AAE?$AAM?$AAo?$AAd?$AAe?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@FNODOBFM@ 00045c30     videostream.obj
+ 0001:000357d0       ??_C@_19KGJJPEHB@?$AAR?$AAo?$AAl?$AAl?$AA?$AA@FNODOBFM@ 00045c50     videostream.obj
+ 0001:000357e0       ??_C@_19PIEFPCMB@?$AAT?$AAi?$AAl?$AAt?$AA?$AA@FNODOBFM@ 00045c60     videostream.obj
+ 0001:000357f0       ??_C@_17NHKKIPJP@?$AAP?$AAa?$AAn?$AA?$AA@FNODOBFM@ 00045c70     videostream.obj
+ 0001:00035800       ??_C@_19ILGGKBEO@?$AAZ?$AAo?$AAo?$AAm?$AA?$AA@FNODOBFM@ 00045c80     videostream.obj
+ 0001:00035810       ??_C@_19MGNOHMOO@?$AAI?$AAr?$AAi?$AAs?$AA?$AA@FNODOBFM@ 00045c90     videostream.obj
+ 0001:00035820       ??_C@_1BE@BLOKNJDI@?$AAF?$AAo?$AAc?$AAu?$AAs?$AAA?$AAu?$AAt?$AAo?$AA?$AA@FNODOBFM@ 00045ca0     videostream.obj
+ 0001:00035840       ??_C@_1M@HJJEACF@?$AAF?$AAo?$AAc?$AAu?$AAs?$AA?$AA@FNODOBFM@ 00045cc0     videostream.obj
+ 0001:00035850       ??_C@_1BC@GJJDEHML@?$AAE?$AAx?$AAp?$AAo?$AAs?$AAu?$AAr?$AAe?$AA?$AA@FNODOBFM@ 00045cd0     videostream.obj
+ 0001:00035870       ??_C@_19IIFAPFNH@?$AAG?$AAa?$AAi?$AAn?$AA?$AA@FNODOBFM@ 00045cf0     videostream.obj
+ 0001:00035880       ??_C@_1CG@OFIGIBMJ@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAL?$AAi?$AAn?$AAe?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AA?$AA@FNODOBFM@ 00045d00     videostream.obj
+ 0001:000358b0       ??_C@_1BE@BGKGIHHN@?$AAB?$AAa?$AAc?$AAk?$AAL?$AAi?$AAg?$AAh?$AAt?$AA?$AA@FNODOBFM@ 00045d30     videostream.obj
+ 0001:000358d0       ??_C@_1CA@BOELJFEO@?$AAW?$AAB?$AAC?$AAo?$AAm?$AAp?$AAo?$AAn?$AAe?$AAn?$AAt?$AAA?$AAu?$AAt?$AAo?$AA?$AA@FNODOBFM@ 00045d50     videostream.obj
+ 0001:000358f0       ??_C@_1BI@FKEOKAJM@?$AAW?$AAB?$AAC?$AAo?$AAm?$AAp?$AAo?$AAn?$AAe?$AAn?$AAt?$AA?$AA@FNODOBFM@ 00045d70     videostream.obj
+ 0001:00035910       ??_C@_1BK@GOHDOPJO@?$AAW?$AAh?$AAi?$AAt?$AAe?$AAB?$AAa?$AAl?$AAa?$AAn?$AAc?$AAe?$AA?$AA@FNODOBFM@ 00045d90     videostream.obj
+ 0001:00035930       ??_C@_1M@ICOKDBCJ@?$AAG?$AAa?$AAm?$AAm?$AAa?$AA?$AA@FNODOBFM@ 00045db0     videostream.obj
+ 0001:00035940       ??_C@_1BE@GBFMEENM@?$AAS?$AAh?$AAa?$AAr?$AAp?$AAn?$AAe?$AAs?$AAs?$AA?$AA@FNODOBFM@ 00045dc0     videostream.obj
+ 0001:00035960       ??_C@_1BG@IKCAJIIB@?$AAS?$AAa?$AAt?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@FNODOBFM@ 00045de0     videostream.obj
+ 0001:00035980       ??_C@_17DHLCGCIN@?$AAH?$AAu?$AAe?$AA?$AA@FNODOBFM@ 00045e00     videostream.obj
+ 0001:00035990       ??_C@_1BC@JIFIKKAL@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAa?$AAs?$AAt?$AA?$AA@FNODOBFM@ 00045e10     videostream.obj
+ 0001:000359b0       ??_C@_1BG@FGGFONDG@?$AAB?$AAr?$AAi?$AAg?$AAh?$AAt?$AAn?$AAe?$AAs?$AAs?$AA?$AA@FNODOBFM@ 00045e30     videostream.obj
+ 0001:000359d0       ??_C@_1BM@ECEHBEDE@?$AAF?$AAa?$AAc?$AAe?$AAT?$AAr?$AAa?$AAc?$AAk?$AA0?$AA0?$AA0?$AA0?$AA?$AA@FNODOBFM@ 00045e50     videostream.obj
+ 0001:000359f0       ??_C@_0CM@KMIDBHIC@Launch?5CVideoStream?3?3LoadDefault@FNODOBFM@ 00045e70     videostream.obj
+ 0001:00035a20       ??_C@_0CE@HCINDKKA@retrun?5CurrentSettings?5status?5?$DN?5@FNODOBFM@ 00045ea0     videostream.obj
+ 0001:00035a50       ??_C@_0CM@NOLGMMLB@Set?5WHITEBALANCEComponentGreen?5C@FNODOBFM@ 00045ed0     videostream.obj
+ 0001:00035a80       ??_C@_0CI@JGCEAHGF@Set?5CT_AE_PRIORITY_CONTROL?5Curre@FNODOBFM@ 00045f00     videostream.obj
+ 0001:00035ab0       ??_C@_0BJ@LACMHDCG@Set?5Privacy?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045f30     videostream.obj
+ 0001:00035ad0       ??_C@_0BG@GLMJNACH@Set?5Roll?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045f50     videostream.obj
+ 0001:00035af0       ??_C@_0BN@NNJBOOCJ@Set?5PANTILT?5Current?5?$DN?$CFd?0?5?$CFd?6?$AA@FNODOBFM@ 00045f70     videostream.obj
+ 0001:00035b10       ??_C@_0BG@OMKLBBDB@Set?5Zoom?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045f90     videostream.obj
+ 0001:00035b30       ??_C@_0BG@NHOBEEPK@Set?5Iris?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045fb0     videostream.obj
+ 0001:00035b50       ??_C@_0BH@BHNJKOPH@Set?5Focus?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045fd0     videostream.obj
+ 0001:00035b70       ??_C@_0BL@PDILDMMO@Set?5FOCUSAUTO?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00045ff0     videostream.obj
+ 0001:00035b90       ??_C@_0BK@DGJDGCNN@Set?5Exposure?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00046010     videostream.obj
+ 0001:00035bb0       ??_C@_0BP@FNKFKCDE@Set?5AEModeControl?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00046030     videostream.obj
+ 0001:00035bd0       ??_C@_0CG@JFCKGMPK@Set?5Power?5Line?5Frequency?5Current@FNODOBFM@ 00046050     videostream.obj
+ 0001:00035c00       ??_C@_0BG@DCGLHJMJ@Set?5Gain?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00046080     videostream.obj
+ 0001:00035c20       ??_C@_0BM@OLHMOOJI@Set?5Back?5Light?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 000460a0     videostream.obj
+ 0001:00035c40       ??_C@_0CO@HBJNEELN@Set?5?5WhiteBalance?5Component?5Auto@FNODOBFM@ 000460c0     videostream.obj
+ 0001:00035c70       ??_C@_0CL@EBJMCKLA@Set?5WHITEBALANCEComponentAuto?5Cu@FNODOBFM@ 000460f0     videostream.obj
+ 0001:00035ca0       ??_C@_0CI@NOPFLCLC@Set?5WhiteBalance?5Component?5Curre@FNODOBFM@ 00046120     videostream.obj
+ 0001:00035cd0       ??_C@_0CH@OJLAKGGO@Set?5WHITEBALANCEComponent?5Curren@FNODOBFM@ 00046150     videostream.obj
+ 0001:00035d00       ??_C@_0CD@HHJNOIEA@Set?5WhiteBalance?5Auto?5Current?5?$DN?$CF@FNODOBFM@ 00046180     videostream.obj
+ 0001:00035d30       ??_C@_0BO@LAPHPEMD@Set?5WhiteBalance?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 000461b0     videostream.obj
+ 0001:00035d50       ??_C@_0BG@CHMKJOIC@Set?5Gmma?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 000461d0     videostream.obj
+ 0001:00035d70       ??_C@_0BL@HIKJEDCE@Set?5Sharpness?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 000461f0     videostream.obj
+ 0001:00035d90       ??_C@_0BM@NNAHEAC@Set?5Saturation?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00046210     videostream.obj
+ 0001:00035db0       ??_C@_0BF@EPBEIOIO@Set?5Hue?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00046230     videostream.obj
+ 0001:00035dd0       ??_C@_0BK@POBADBOI@Set?5Contrast?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00046250     videostream.obj
+ 0001:00035df0       ??_C@_0BK@CKKGCEE@STATUS_INVALID_PARAMETER?6?$AA@FNODOBFM@ 00046270     videostream.obj
+ 0001:00035e10       ??_C@_0BM@LKFIBFAB@Set?5Brightness?5Current?5?$DN?$CFd?6?$AA@FNODOBFM@ 00046290     videostream.obj
+ 0001:00035e30       ??_C@_0BN@ECLMKOHP@i?5?$DM?$DN?5DEFAULT_REGISTRY_NUMBER?$AA@FNODOBFM@ 000462b0     videostream.obj
+ 0001:00035e50       ??_C@_1CA@KEHMDOJN@?$AAS?$AAn?$AAa?$AAp?$AAs?$AAh?$AAo?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@FNODOBFM@ 000462d0     videostream.obj
+ 0001:00035e70       ??_C@_1CE@FMJCPGPE@?$AAW?$AAB?$AAT?$AAe?$AAm?$AAp?$AAe?$AAr?$AAa?$AAt?$AAu?$AAr?$AAe?$AAA?$AAu?$AAt?$AAo?$AA?$AA@FNODOBFM@ 000462f0     videostream.obj
+ 0001:00035ea0       ??_C@_0BD@GNBHGIPP@CurrentSettings?$CI?$CJ?6?$AA@FNODOBFM@ 00046320     videostream.obj
+ 0001:00035ec0       ??_C@_0CE@EJJFOMB@set?5ExUnit?5dummy?5request?5fail?5?$DN?5@FNODOBFM@ 00046340     videostream.obj
+ 0001:00035ef0       ??_C@_0BO@IALLKBHD@get?5ExUnit?5request?5fail?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 00046370     videostream.obj
+ 0001:00035f10       ??_C@_01EEMJAFIK@?6?$AA@FNODOBFM@ 00046390     videostream.obj
+ 0001:00035f20       ??_C@_0N@MBNFNCCP@Data?$FL?$CFd?$FN?$DN?$CFx?5?$AA@FNODOBFM@ 000463a0     videostream.obj
+ 0001:00035f30       ??_C@_0BH@CIPFEJFN@get?5ExUnit?5request?5ok?6?$AA@FNODOBFM@ 000463b0     videostream.obj
+ 0001:00035f50       ??_C@_0BO@KFHOIJEL@set?5ExUnit?5dummy?5request?5ok?5?6?$AA@FNODOBFM@ 000463d0     videostream.obj
+ 0001:00035f70       ??_C@_0BO@BNEBBFB@set?5ExUnit?5request?5fail?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 000463f0     videostream.obj
+ 0001:00035f90       ??_C@_0BI@MMKKBCNO@set?5ExUnit?5request?5ok?5?6?$AA@FNODOBFM@ 00046410     videostream.obj
+ 0001:00035fb0       ??_C@_0DE@CMLGDMIC@Get_Cur_AUXLED_Value?5?$DN?$DN?$DN?$DN?$DN?$DO?5m_is@FNODOBFM@ 00046430     videostream.obj
+ 0001:00035ff0       ??_C@_0BK@LDEEBCPA@Set_ExUnit_Control_Value?6?$AA@FNODOBFM@ 00046470     videostream.obj
+ 0001:00036010       ??_C@_0DL@KMKECFPF@Set_Cur_AUXLED_Value?5min_value?$DN?$CF@FNODOBFM@ 00046490     videostream.obj
+ 0001:00036050       ??_C@_0BD@DMHGKCJD@Set_Cur_WBC_Value?6?$AA@FNODOBFM@ 000464d0     videostream.obj
+ 0001:00036070       ??_C@_0BJ@BECKPMDP@Set_Cur_WBC_Green_Value?6?$AA@FNODOBFM@ 000464f0     videostream.obj
+ 0001:00036090       ??_C@_1BM@GCKIBHAI@?$AAS?$AAn?$AAa?$AAp?$AAS?$AAh?$AAo?$AAt?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@FNODOBFM@ 00046510     videodevice.obj
+ 0001:000360b0       ??_C@_0BF@KGHHFEND@Delay?5100?5ms?5?$CB?5i?$DN?$CFd?6?$AA@FNODOBFM@ 00046530     videodevice.obj
+ 0001:000360d0       ??_C@_0CB@MCPFINON@CVideoDevice?3?3?$HOCVideoDevice?$CI?$CJ?4?4?6@FNODOBFM@ 00046550     videodevice.obj
+ 0001:00036100       ??_C@_0CF@DODCINHI@ExFreePoolWithTag?5H264?5pDataBuf?$FL@FNODOBFM@ 00046580     videodevice.obj
+ 0001:00036130       ??_C@_0BJ@EAONFIFG@ExFreePool?5pDataBuf?$FL?$CFd?$FN?6?$AA@FNODOBFM@ 000465b0     videodevice.obj
+ 0001:00036150       ??_C@_0BO@FCEPICKB@Bulk?5MAX?5Payload?5size?5?3?50x?$CFX?6?$AA@FNODOBFM@ 000465d0     videodevice.obj
+ 0001:00036170       ??_C@_0N@DJGNNODK@BeST5R286?51?6?$AA@FNODOBFM@ 000465f0     videodevice.obj
+ 0001:00036180       ??_C@_0N@FNNNIGAF@ChipID?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 00046600     videodevice.obj
+ 0001:00036190       ??_C@_0BE@DDOLGOGK@Usb?5I?1O?5Count?5?3?5?$CFd?6?$AA@FNODOBFM@ 00046610     videodevice.obj
+ 0001:000361b0       ??_C@_0CK@LLOAPKNF@USB_ControlClassCommand?5return?5E@FNODOBFM@ 00046630     videodevice.obj
+ 0001:000361e0       ??_C@_0DA@LJDGNNAL@InitializeDevice?3?3start?5interrup@FNODOBFM@ 00046660     videodevice.obj
+ 0001:00036210       ??_C@_0N@DLCLGAGD@BeST5R286?52?6?$AA@FNODOBFM@ 00046690     videodevice.obj
+ 0001:00036220       ??_C@_0CB@MOPLHDDD@Fail?5to?5initialize?5USB?5device?5?$CB?6@FNODOBFM@ 000466a0     videodevice.obj
+ 0001:00036250       ??_C@_0BO@MIKIKHNA@Fail?5to?5Select?5alternate?50?5?$CB?6?$AA@FNODOBFM@ 000466d0     videodevice.obj
+ 0001:00036270       ??_C@_0CK@MCMEECAB@Fail?5to?5Parse?5Configuration?5Desc@FNODOBFM@ 000466f0     videodevice.obj
+ 0001:000362a0       ??_C@_0BK@HJOFAGHK@Device?5is?5on?5Full?5Speed?$CB?6?$AA@FNODOBFM@ 00046720     videodevice.obj
+ 0001:000362c0       ??_C@_0CC@FIBMPCCN@Device?5is?5on?5High?5Speed?$CB?5Michael@FNODOBFM@ 00046740     videodevice.obj
+ 0001:000362f0       ??_C@_0BM@EBFOLCOE@Fail?5to?5get?5instance?5key?5?$CB?6?$AA@FNODOBFM@ 00046770     videodevice.obj
+ 0001:00036310       ??_C@_0DD@ICDIKGKN@InitializationComplete?3?5Check?5US@FNODOBFM@ 00046790     videodevice.obj
+ 0001:00036350       ??_C@_0BE@KAHODNE@Instance?5Key?5?3?5?$CFws?6?$AA@FNODOBFM@ 000467d0     videodevice.obj
+ 0001:00036370       ??_C@_0BL@KKGIACDC@Unknow?5Windows?5System?5?$CB?$CB?5?6?$AA@FNODOBFM@ 000467f0     videodevice.obj
+ 0001:00036390       ??_C@_1JM@IAPGADLA@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@FNODOBFM@ 00046810     videodevice.obj
+ 0001:00036430       ??_C@_1JM@FMDJAILO@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@FNODOBFM@ 000468b0     videodevice.obj
+ 0001:000364d0       ??_C@_1IO@JMDEBEKL@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@FNODOBFM@ 00046950     videodevice.obj
+ 0001:00036560       ??_C@_0BO@BEJIGCBI@Windows?5ME?5or?598?1SE?5System?5?$CB?6?$AA@FNODOBFM@ 000469e0     videodevice.obj
+ 0001:00036580       ??_C@_1JK@PBGFCILA@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@FNODOBFM@ 00046a00     videodevice.obj
+ 0001:00036620       ??_C@_1KG@CNDMOEJD@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@FNODOBFM@ 00046aa0     videodevice.obj
+ 0001:000366d0       ??_C@_1IM@FIJHIOOL@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@FNODOBFM@ 00046b50     videodevice.obj
+ 0001:00036760       ??_C@_0BN@MMAFIGPF@Windows?5XP?5or?52000?5System?5?$CB?6?$AA@FNODOBFM@ 00046be0     videodevice.obj
+ 0001:00036780       ??_C@_0CM@BOFNJLFN@Cannot?5get?5?$CCDevicePropertyDriver@FNODOBFM@ 00046c00     videodevice.obj
+ 0001:000367b0       ??_C@_0CA@GIDKJLKO@CVideoDevice?3?3GetInstanceKey?$CI?$CJ?6?$AA@FNODOBFM@ 00046c30     videodevice.obj
+ 0001:000367d0       ??_C@_0CA@LFHCAJBB@Exit?5StillPinTrigger?$CI?$CJ?5with?5?$CFX?6?$AA@FNODOBFM@ 00046c50     videodevice.obj
+ 0001:000367f0       ??_C@_0CP@DKLCEEAD@StillPinTrigger?3?5preview?5size?5?$DN?5@FNODOBFM@ 00046c70     videodevice.obj
+ 0001:00036820       ??_C@_0DI@HOLDKEPD@StillPinTrigger?3?5call?5CheckStill@FNODOBFM@ 00046ca0     videodevice.obj
+ 0001:00036860       ??_C@_0BP@HNDCIGDF@Ready?5to?5get?5Still?5with?5?$CFdX?$CFd?6?$AA@FNODOBFM@ 00046ce0     videodevice.obj
+ 0001:00036880       ??_C@_0DG@EFOBDIPN@Leave?5StillPinTrigger?$CI?$CJ?5without?5@FNODOBFM@ 00046d00     videodevice.obj
+ 0001:000368c0       ??_C@_0BA@FDDJMPNN@pStillPin?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 00046d40     videodevice.obj
+ 0001:000368d0       ??_C@_0BJ@GGGOHKHJ@Enter?5StillPinTrigger?$CI?$CJ?6?$AA@FNODOBFM@ 00046d50     videodevice.obj
+ 0001:000368f0       ??_C@_09BKEDPAIH@m_pDevExt?$AA@FNODOBFM@ 00046d70     videodevice.obj
+ 0001:00036900       ??_C@_0CC@ELEPOFFG@d?3?2zhang?2avstream?2videodevice?4cp@FNODOBFM@ 00046d80     videodevice.obj
+ 0001:00036930       ??_C@_0CH@PFGBANLG@Start?5StillPinProbeCommit?5return@FNODOBFM@ 00046db0     videodevice.obj
+ 0001:00036960       ??_C@_0DL@CBAPHOCM@still?5dwMaxVideoFrameSize?$DN?$CFd?0?5dw@FNODOBFM@ 00046de0     videodevice.obj
+ 0001:000369a0       ??_C@_0BO@LCLCEGIO@Start?5Still?5Probe?5and?5Commit?6?$AA@FNODOBFM@ 00046e20     videodevice.obj
+ 0001:000369c0       ??_C@_0CJ@GADENLLK@Start?5CapturePinProbeCommit?5retu@FNODOBFM@ 00046e40     videodevice.obj
+ 0001:000369f0       ??_C@_0BM@FDNJCCMF@Second?5ProbeCommit?5?$DN?50x?$CFx?5?6?$AA@FNODOBFM@ 00046e70     videodevice.obj
+ 0001:00036a10       ??_C@_0EJ@MMMADENG@dwFrameInterval?$DN?$CFd?0?5dwMaxVideoFr@FNODOBFM@ 00046e90     videodevice.obj
+ 0001:00036a60       ??_C@_0BM@BHBHNPGF@ProbeCommit?5GetCur?5?$DN?50x?$CFx?5?6?$AA@FNODOBFM@ 00046ee0     videodevice.obj
+ 0001:00036a80       ??_C@_0BL@JMCONLAJ@First?5ProbeCommit?5?$DN?50x?$CFx?5?6?$AA@FNODOBFM@ 00046f00     videodevice.obj
+ 0001:00036aa0       ??_C@_0BF@FNEIDNNO@AvgTimePerFrame?$DN?$CFd?5?6?$AA@FNODOBFM@ 00046f20     videodevice.obj
+ 0001:00036ac0       ??_C@_0BE@ELHLCHMJ@StreamNumber?5?$DN?5?$CFd?5?6?$AA@FNODOBFM@ 00046f40     videodevice.obj
+ 0001:00036ae0       ??_C@_0BO@CHDOCFDJ@Start?5Video?5Probe?5and?5Commit?6?$AA@FNODOBFM@ 00046f60     videodevice.obj
+ 0001:00036b00       ??_C@_0CM@GMCKKOKE@Get?5from?5registry?3?5m_SnapShotSta@FNODOBFM@ 00046f80     videodevice.obj
+ 0001:00036b30       ??_C@_0BL@PFFKPAEH@ReadSnapShotStateFromReg?$CI?$CJ?$AA@FNODOBFM@ 00046fb0     videodevice.obj
+ 0001:00036b50       ??_C@_0CK@KAHGDBJP@Set?5to?5registry?3?5m_SnapShotState@FNODOBFM@ 00046fd0     videodevice.obj
+ 0001:00036b80       ??_C@_0BK@BDPFICDD@WriteSnapShotStateToReg?$CI?$CJ?$AA@FNODOBFM@ 00047000     videodevice.obj
+ 0001:00036ba0       ??_C@_0EF@HLCGOMNC@?$FLISO?$FNFail?5to?5setup?5Iso?5transfer?5@FNODOBFM@ 00047020     videodevice.obj
+ 0001:00036bf0       ??_C@_0DB@DHILENCO@KeSetEvent?$CI?$CGpVideoDevice?9?$DOm_MEPG@FNODOBFM@ 00047070     videodevice.obj
+ 0001:00036c30       ??_C@_0BL@MEMEFLKK@?$FLISO?$FN?$CB?$CB?5Reset?5iso?5pipe?5?$CB?$CB?6?$AA@FNODOBFM@ 000470b0     videodevice.obj
+ 0001:00036c50       ??_C@_0DO@LNDAKLOA@?$FLISO?$FN?$CB?$CB?$CB?5UrbIsochronousTransfer?4@FNODOBFM@ 000470d0     videodevice.obj
+ 0001:00036c90       ??_C@_0CK@BDDAPPBE@?$FLISO?$FN?$CB?$CB?$CB?5Urb?5Error?5?$CB?$CB?$CB?5?$CIErrCode?3@FNODOBFM@ 00047110     videodevice.obj
+ 0001:00036cc0       ??_C@_0CC@FIAFGJHF@?$FLISO?$FN?$CB?$CB?$CB?5Urb?5Error?5?$CB?$CB?$CB?5ReTry?5?$CB?$CB?$CB@FNODOBFM@ 00047140     videodevice.obj
+ 0001:00036cf0       ??_C@_0CK@IOGFGCAB@?$FLISO?$FN?$CB?$CB?$CB?5Irp?5Error?5?$CB?$CB?$CB?5?$CIErrCode?3@FNODOBFM@ 00047170     videodevice.obj
+ 0001:00036d20       ??_C@_0EH@BKMFOCJB@?$FLBULK?$FNFail?5to?5setup?5Bulk?5transfe@FNODOBFM@ 000471a0     videodevice.obj
+ 0001:00036d70       ??_C@_0BN@LOEDGDFO@?$FLBULK?$FN?$CB?$CB?5Reset?5BULK?5pipe?5?$CB?$CB?6?$AA@FNODOBFM@ 000471f0     videodevice.obj
+ 0001:00036d90       ??_C@_0CL@LDFMCIHD@?$FLBULK?$FN?$CB?$CB?$CB?5Urb?5Error?5?$CB?$CB?$CB?5?$CIErrCode@FNODOBFM@ 00047210     videodevice.obj
+ 0001:00036dc0       ??_C@_0CL@COAJLFGG@?$FLBULK?$FN?$CB?$CB?$CB?5Irp?5Error?5?$CB?$CB?$CB?5?$CIErrCode@FNODOBFM@ 00047240     videodevice.obj
+ 0001:00036df0       ??_C@_0DG@KHFNKFON@Fail?5to?5setup?5interrupt?5transfer@FNODOBFM@ 00047270     videodevice.obj
+ 0001:00036e30       ??_C@_0BK@OLEEFFCH@Invalid?5Interrupt?5Data?5?$CB?6?$AA@FNODOBFM@ 000472b0     videodevice.obj
+ 0001:00036e50       ??_C@_0BL@GGJEHHKH@Hardware?5button?5released?$CB?6?$AA@FNODOBFM@ 000472d0     videodevice.obj
+ 0001:00036e70       ??_C@_0BK@LMKPNNAL@Hardware?5button?5pressed?$CB?6?$AA@FNODOBFM@ 000472f0     videodevice.obj
+ 0001:00036e90       ??_C@_0DC@FGFPODMD@IntCompleteRoutine?5?$CIDevice?5enter@FNODOBFM@ 00047310     videodevice.obj
+ 0001:00036ed0       ??_C@_0CK@GFMGCDGK@?$CB?$CB?5Interrupt?5Urb?5Error?5?$CIError?5Co@FNODOBFM@ 00047350     videodevice.obj
+ 0001:00036f00       ??_C@_0CK@JJNAJEML@?$CB?$CB?5Interrupt?5Irp?5Error?5?$CIError?5Co@FNODOBFM@ 00047380     videodevice.obj
+ 0001:00036f30       ??_C@_0BF@HGJNMHFK@?$CBIntCompleteRoutine?6?$AA@FNODOBFM@ 000473b0     videodevice.obj
+ 0001:00036f50       ??_C@_0DM@IBGADIHA@m_MPEG2DataBufObj?$FL?$CFd?$FN?3?5State?5fro@FNODOBFM@ 000473d0     videodevice.obj
+ 0001:00036f90       ??_C@_0DJ@MGDCJMIA@m_MPEG2DataBufObj?$FL?$CFd?$FN?3?5State?5fro@FNODOBFM@ 00047410     videodevice.obj
+ 0001:00036fd0       ??_C@_0DL@BCIFFGLO@m_MPEG2DataBufObj?$FL?$CFd?$FN?3?5State?5fro@FNODOBFM@ 00047450     videodevice.obj
+ 0001:00037010       ??_C@_0DC@OEMEFPBB@DataBuf?$FL?$CFd?$FN?3?5State?5from?5DATA_REA@FNODOBFM@ 00047490     videodevice.obj
+ 0001:00037050       ??_C@_0CP@ONEEJGLD@DataBuf?$FL?$CFd?$FN?3?5State?5from?5NO_DATA?5@FNODOBFM@ 000474d0     videodevice.obj
+ 0001:00037080       ??_C@_0DB@GDLPBOG@DataBuf?$FL?$CFd?$FN?3?5State?5from?5DATA_REA@FNODOBFM@ 00047500     videodevice.obj
+ 0001:000370c0       ??_C@_0EB@NFJCHPCE@?$FLDBG?$FN?$CK?$CK?$CK?5NewFrame?$FL?$CFd?$FN?5from?5m_MPE@FNODOBFM@ 00047540     videodevice.obj
+ 0001:00037110       ??_C@_0DI@PNCNPJOO@m_MPEG2DataBufObj?$FL?$CFd?$FN?3?5State?5fro@FNODOBFM@ 00047590     videodevice.obj
+ 0001:00037150       ??_C@_0DL@JGLAOMOD@?$FLDBG?$FN?$CK?$CK?$CK?5NewFrame?$FL?$CFd?$FN?5from?5DataB@FNODOBFM@ 000475d0     videodevice.obj
+ 0001:00037190       ??_C@_0DH@JHGCPEDF@?$FLDBG?$FNDataBuf?$FL?$CFd?$FN?3?5State?5from?5DAT@FNODOBFM@ 00047610     videodevice.obj
+ 0001:000371d0       ??_C@_0CO@DPHNFIFE@DataBuf?$FL?$CFd?$FN?3?5State?5from?5DATA_REA@FNODOBFM@ 00047650     videodevice.obj
+ 0001:00037200       ??_C@_0BB@KPNIIOLB@Pipe?52?5PTS?5?$DN?5?$CFX?6?$AA@FNODOBFM@ 00047680     videodevice.obj
+ 0001:00037220       ??_C@_0DA@LHPJCMKK@No?5available?5buffer?5to?5store?5ISO@FNODOBFM@ 000476a0     videodevice.obj
+ 0001:00037250       ??_C@_0BB@NIEGFMEB@Pipe?51?5PTS?5?$DN?5?$CFX?6?$AA@FNODOBFM@ 000476d0     videodevice.obj
+ 0001:00037270       ??_C@_0FL@LIFEGENF@?$FLDBG?$FN?$CB?$CB?5Image?5Size?5is?5over?5the?5s@FNODOBFM@ 000476f0     videodevice.obj
+ 0001:000372d0       ??_C@_0BO@OIHBPLJI@This?5Packet?5is?5Still?5Frame?4?5?6?$AA@FNODOBFM@ 00047750     videodevice.obj
+ 0001:000372f0       ??_C@_0BD@IHLICAK@New?5frame?5come?5?$CB?$CB?6?$AA@FNODOBFM@ 00047770     videodevice.obj
+ 0001:00037310       ??_C@_0DD@NHLCFPOM@Invalid?5payload?5header?5length?5?$DN?$CF@FNODOBFM@ 00047790     videodevice.obj
+ 0001:00037350       ??_C@_0DE@PGMJGIHN@?$CIXferLen?5?$DM?5PayloadHeader?9?$DObLengt@FNODOBFM@ 000477d0     videodevice.obj
+ 0001:00037390       ??_C@_0CM@MIJDJEFO@?$CI?$CBpXferBuf?5?$HM?$HM?5?$CIXferLen?5?$DN?$DN?50?$CJ?$CJ?5St@FNODOBFM@ 00047810     videodevice.obj
+ 0001:000373c0       ??_C@_0CM@BJLOCGMF@SetASICShellSize?5iWidth?5?$DN?5?$CFd?0?5iH@FNODOBFM@ 00047840     videodevice.obj
+ 0001:000373f0       ??_C@_0CE@EFFBLHAJ@CheckCapturePinBandwidth?5return?5@FNODOBFM@ 00047870     videodevice.obj
+ 0001:00037420       ??_C@_0CA@DDHIIBHO@No?5supported?5format?5Matched?5?$CB?$CB?6?$AA@FNODOBFM@ 000478a0     videodevice.obj
+ 0001:00037440       ??_C@_0CD@FOGCKEFH@CapturePinProbeCommit?5return?50x?$CF@FNODOBFM@ 000478c0     videodevice.obj
+ 0001:00037470       ??_C@_0CE@JHPCEJNI@m_ImageFormat?$FLSTREAM_Capture?$FN?5?$DN?5@FNODOBFM@ 000478f0     videodevice.obj
+ 0001:000374a0       ??_C@_0BM@CMINGIDB@m_dwCurVideoFrameSize?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00047920     videodevice.obj
+ 0001:000374c0       ??_C@_08MHBGENF@?$CFd?5?3?5?$CFd?6?$AA@FNODOBFM@ 00047940     videodevice.obj
+ 0001:000374d0       ??_C@_09FBAADMID@x?$DN?$CFd?0y?$DN?$CFd?$AA@FNODOBFM@ 00047950     videodevice.obj
+ 0001:000374e0       ??_C@_0BE@JJELDGBB@Current?5Max?5FPS?$DN?$CFd?6?$AA@FNODOBFM@ 00047960     videodevice.obj
+ 0001:00037500       ??_C@_0BC@JHJEIFPH@User?5wish?5FPS?$DN?$CFd?6?$AA@FNODOBFM@ 00047980     videodevice.obj
+ 0001:00037520       ??_C@_0DM@BIFKNKFE@User?5sets?5frame?5rate?5larger?5than@FNODOBFM@ 000479a0     videodevice.obj
+ 0001:00037560       ??_C@_0CH@GHLLHAJK@Find?5FormatIndex?$DN?$CFd?5and?5FrameInd@FNODOBFM@ 000479e0     videodevice.obj
+ 0001:00037590       ??_C@_0BM@FDFNDAMP@M2TS?5CapturePinProbeCommit?6?$AA@FNODOBFM@ 00047a10     videodevice.obj
+ 0001:000375b0       ??_C@_0CC@FDBGCFA@CheckStillPinBandwidth?5return?5?$CFX@FNODOBFM@ 00047a30     videodevice.obj
+ 0001:000375e0       ??_C@_0BH@DPBEOENJ@Invalid?5output?5format?6?$AA@FNODOBFM@ 00047a60     videodevice.obj
+ 0001:00037600       ??_C@_0CG@NJOKNEOP@No?5supported?5still?5format?5Matche@FNODOBFM@ 00047a80     videodevice.obj
+ 0001:00037630       ??_C@_0CB@CGLGEIDM@StillPinProbeCommit?5return?50x?$CFX?6@FNODOBFM@ 00047ab0     videodevice.obj
+ 0001:00037660       ??_C@_0BA@IFDFNIBP@Still?5Format?$DN?$CFd?$AA@FNODOBFM@ 00047ae0     videodevice.obj
+ 0001:00037670       ??_C@_0BB@JDDNNDHC@?$CI?$CFd?$CJ?5Y?$DN?5?$CFd?5?3?5?$CFd?6?$AA@FNODOBFM@ 00047af0     videodevice.obj
+ 0001:00037690       ??_C@_0BB@IJIJPBN@?$CI?$CFd?$CJ?5X?$DN?5?$CFd?5?3?5?$CFd?6?$AA@FNODOBFM@ 00047b10     videodevice.obj
+ 0001:000376b0       ??_C@_0DM@LJKIAFHM@CheckStillPinBandwidth?5Find?5biCo@FNODOBFM@ 00047b30     videodevice.obj
+ 0001:000376f0       ??_C@_0CG@DMKLFBBE@Exit?5CVideoDevice?3?3Run?$CI?$CJ?5status?5@FNODOBFM@ 00047b70     videodevice.obj
+ 0001:00037720       ??_C@_0CL@KNPCNGEP@image?5format?5?$DO?5VGA?0?5disable?5Zomm@FNODOBFM@ 00047ba0     videodevice.obj
+ 0001:00037750       ??_C@_0BG@FBDKLPNN@image?5format?5changed?6?$AA@FNODOBFM@ 00047bd0     videodevice.obj
+ 0001:00037770       ??_C@_0CE@EPLEEDME@Change?5Stream?5State?5to?5KSSTATE_R@FNODOBFM@ 00047bf0     videodevice.obj
+ 0001:000377a0       ??_C@_0DB@COEJJKMJ@IMG_FMT_others?5m_pDevExt?9?$DOm_Flip@FNODOBFM@ 00047c20     videodevice.obj
+ 0001:000377e0       ??_C@_0DD@LGAABAAC@IMG_FMT_RGB24?5m_pDevExt?9?$DOm_Flip?4@FNODOBFM@ 00047c60     videodevice.obj
+ 0001:00037820       ??_C@_0CM@NLFGLEEC@2nd?5pipe?5Iso?5Transfer?5OK?5?$CB?5Strea@FNODOBFM@ 00047ca0     videodevice.obj
+ 0001:00037850       ??_C@_0CL@PELOCBDD@2nd?5pipe?5Fail?5to?5setup?5Iso?5trans@FNODOBFM@ 00047cd0     videodevice.obj
+ 0001:00037880       ??_C@_0BE@FCEDOIKM@?5Pipes?5Information?6?$AA@FNODOBFM@ 00047d00     videodevice.obj
+ 0001:000378a0       ??_C@_0CL@KKOEMOJA@Exit?5CVideoDevice?3?3Run?$CI?$CJ?5status?5@FNODOBFM@ 00047d20     videodevice.obj
+ 0001:000378d0       ??_C@_0CD@GMINMAOI@Iso?5Transfer?5OK?5?$CB?5StreamNumber?$DN?$CF@FNODOBFM@ 00047d50     videodevice.obj
+ 0001:00037900       ??_C@_0CC@JCJGLAEN@Fail?5to?5setup?5Iso?5transfer?$CI?$CFd?$CJ?5?$CB@FNODOBFM@ 00047d80     videodevice.obj
+ 0001:00037930       ??_C@_0BB@LADBFMIF@Run?5m_Time?5?$DN?$CFd?5?6?$AA@FNODOBFM@ 00047db0     videodevice.obj
+ 0001:00037950       ??_C@_0CD@EJJMLIFM@set?5USB?5Bandwidth?5?3?5?$CFd?1?$CImax?$DN?$CFd?$CJ?5@FNODOBFM@ 00047dd0     videodevice.obj
+ 0001:00037980       ??_C@_0CP@KACLENOA@Fail?5to?5set?5USB?5Bandwidth?4?6?5?$DN?$DN?$DN?$DO@FNODOBFM@ 00047e00     videodevice.obj
+ 0001:000379b0       ??_C@_0CC@JOCJJDLI@Fail?5to?5set?5USB?5Bandwidth?5?3?5?$CFd?5?$CB@FNODOBFM@ 00047e30     videodevice.obj
+ 0001:000379e0       ??_C@_0CI@DBJPGKA@?$CB?$CB?5SetAlternate?5ISO?5Transfer?5?$CI?$CFd@FNODOBFM@ 00047e60     videodevice.obj
+ 0001:00037a10       ??_C@_0N@DKOJAKFE@BeST5R286?53?6?$AA@FNODOBFM@ 00047e90     videodevice.obj
+ 0001:00037a20       ??_C@_0CF@POFMNIFJ@PipeAbortOrReset?5return?5status?5?$DN@FNODOBFM@ 00047ea0     videodevice.obj
+ 0001:00037a50       ??_C@_0DP@MDNGJCH@Exit?5CVideoDevice?3?3Run?$CI?$CJ?5return?5@FNODOBFM@ 00047ed0     videodevice.obj
+ 0001:00037a90       ??_C@_0BF@NOPOKFJC@CVideoDevice?3?3Run?$CI?$CJ?6?$AA@FNODOBFM@ 00047f10     videodevice.obj
+ 0001:00037ab0       ??_C@_0BH@GKBHABEO@CVideoDevice?3?3Pause?$CI?$CJ?6?$AA@FNODOBFM@ 00047f30     videodevice.obj
+ 0001:00037ad0       ??_C@_0CI@FKPJKJJC@Delay?5100?5ms?5?$CB?5i?$DN?$CFd?5StopMuxThrea@FNODOBFM@ 00047f50     videodevice.obj
+ 0001:00037b00       ??_C@_0CB@PECCJEOC@Free?5USB?5Bandwidth?5fail?$CB?5?$CI0x?$CFX?$CJ?6@FNODOBFM@ 00047f80     videodevice.obj
+ 0001:00037b30       ??_C@_0BG@MPGFCHBO@CVideoDevice?3?3Stop?$CI?$CJ?6?$AA@FNODOBFM@ 00047fb0     videodevice.obj
+ 0001:00037b50       ??_C@_0CP@LDDJPABE@Exit?5CVideoDevice?3?3ReadStill?$CI?$CJ?5w@FNODOBFM@ 00047fd0     videodevice.obj
+ 0001:00037b80       ??_C@_0BH@LFEBMLDB@Image?5Size?5is?5wrong?4?4?6?$AA@FNODOBFM@ 00048000     videodevice.obj
+ 0001:00037ba0       ??_C@_0BL@OJJHENPN@Unexpected?5Error?5occure?$CB?$CB?6?$AA@FNODOBFM@ 00048020     videodevice.obj
+ 0001:00037bc0       ??_C@_0CN@INIJANIN@Full?5Speed?0?5YUY2?3?5Pass?5without?5p@FNODOBFM@ 00048040     videodevice.obj
+ 0001:00037bf0       ??_C@_0CB@LEJIIEOJ@MJPG?3?5Pass?5without?5processing?4?4?6@FNODOBFM@ 00048070     videodevice.obj
+ 0001:00037c20       ??_C@_0CG@CBHHMPKD@Receive?5one?5still?5frame?5for?5outp@FNODOBFM@ 000480a0     videodevice.obj
+ 0001:00037c50       ??_C@_0CM@CLBPIMNM@copy?5one?5image?5as?5still?5frame?5fo@FNODOBFM@ 000480d0     videodevice.obj
+ 0001:00037c80       ??_C@_0BL@MIGGPOFN@still?5read?$CI?$CJ?3?5Retry?5?$CFd?5?4?4?6?$AA@FNODOBFM@ 00048100     videodevice.obj
+ 0001:00037ca0       ??_C@_0DG@GHMALEFA@Still?5Capture?5Method?5?$DN?5?$CFd?0?5m_dwS@FNODOBFM@ 00048120     videodevice.obj
+ 0001:00037ce0       ??_C@_0BL@FLNJKEJC@CVideoDevice?3?3ReadStill?$CI?$CJ?6?$AA@FNODOBFM@ 00048160     videodevice.obj
+ 0001:00037d00       ??_C@_0BK@HHDBEBDA@Endpoint?5reset?5at?5MJPEG?5?6?$AA@FNODOBFM@ 00048180     videodevice.obj
+ 0001:00037d20       ??_C@_0CI@LKIPHOOO@m_SnapShotState?5?3?5Save?5Image?5fil@FNODOBFM@ 000481a0     videodevice.obj
+ 0001:00037d50       ??_C@_1CG@KFGFCGOK@?$AA?2?$AAD?$AAo?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AAC?$AA?3?$AA?2?$AA?$CF?$AAw?$AAs?$AA?$AA@FNODOBFM@ 000481d0     videodevice.obj
+ 0001:00037d80       ??_C@_0CB@OKHOACIK@Save?5Still?5image?5file?5size?5?$DN?5?$CFd?6@FNODOBFM@ 00048200     videodevice.obj
+ 0001:00037db0       ??_C@_0BO@KLFPDMEC@Save?5snapshot?5to?5file?$CB?5?$CFdX?$CFd?6?$AA@FNODOBFM@ 00048230     videodevice.obj
+ 0001:00037dd0       ??_C@_0CL@LJGFOKFG@m_SnapShotState?5?3?5Start?5Save?5Ima@FNODOBFM@ 00048250     videodevice.obj
+ 0001:00037e00       ??_C@_0BD@JJNCBOBD@3?4?5pStillPin?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 00048280     videodevice.obj
+ 0001:00037e20       ??_C@_0P@GIBHLBB@Face?5Tracking?6?$AA@FNODOBFM@ 000482a0     videodevice.obj
+ 0001:00037e30       ??_C@_0DN@GKAKLKN@Full?5Speed?0?5YUY2?3?5Pass?5without?5p@FNODOBFM@ 000482b0     videodevice.obj
+ 0001:00037e70       ??_C@_0DB@EJADJPO@YUY2?3?5Pass?5without?5processing?4?4m@FNODOBFM@ 000482f0     videodevice.obj
+ 0001:00037eb0       ??_C@_0DA@OINPDJAH@M2TS?3?5Pass?5without?5processing?4?4?5@FNODOBFM@ 00048330     videodevice.obj
+ 0001:00037ee0       ??_C@_0BF@NHJDELJ@290?5MJPG?5Length?5?$DM?52?6?$AA@FNODOBFM@ 00048360     videodevice.obj
+ 0001:00037f00       ??_C@_0BG@MCGDGFAH@290?5MJPG?5Case3?3?5Pass?6?$AA@FNODOBFM@ 00048380     videodevice.obj
+ 0001:00037f20       ??_C@_0BL@BDFGKKOB@290?5MJPG?5Case1?3?5loss?50xd9?6?$AA@FNODOBFM@ 000483a0     videodevice.obj
+ 0001:00037f40       ??_C@_0CB@EJFDLJDI@290?5MJPG?5Case2?3?5loss?50xff?0?50xd9?6@FNODOBFM@ 000483c0     videodevice.obj
+ 0001:00037f70       ??_C@_0BE@LJDAPJNP@Report_Black_Image?6?$AA@FNODOBFM@ 000483f0     videodevice.obj
+ 0001:00037f90       ??_C@_0BL@LCBGICLD@m_AlternateSettingNo?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00048410     videodevice.obj
+ 0001:00037fb0       ??_C@_0BI@CBJBFKKC@Frame?5Error?5count?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00048430     videodevice.obj
+ 0001:00037fd0       ??_C@_0CP@KKOOLDNN@?$FLDBG?$FNFail?5to?5read?5enough?5image?5d@FNODOBFM@ 00048450     videodevice.obj
+ 0001:00038000       ??_C@_0CO@PCNJKJ@Receive?5Still?5frame?5but?5no?5buffe@FNODOBFM@ 00048480     videodevice.obj
+ 0001:00038030       ??_C@_0CG@FNMPOINC@Receive?5broken?5Still?5frame?5?$CI?$CFd?1?$CF@FNODOBFM@ 000484b0     videodevice.obj
+ 0001:00038060       ??_C@_0BD@EODAJOEL@2?4?5pStillPin?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 000484e0     videodevice.obj
+ 0001:00038080       ??_C@_0CG@NBBJFMID@Copy?5this?5frame?5into?5still?5buffe@FNODOBFM@ 00048500     videodevice.obj
+ 0001:000380b0       ??_C@_0BH@HOJEHGAC@Bypass?5Still?5frames?4?4?6?$AA@FNODOBFM@ 00048530     videodevice.obj
+ 0001:000380d0       ??_C@_0DP@JOJJPJAC@processing?5Still?5frame?5Ready?0?5so@FNODOBFM@ 00048550     videodevice.obj
+ 0001:00038110       ??_C@_0BD@ONGGBIOC@1?4?5pStillPin?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 00048590     videodevice.obj
+ 0001:00038130       ??_C@_0CH@PJENDCDI@KeWaitForSingleObject?5StreamNumb@FNODOBFM@ 000485b0     videodevice.obj
+ 0001:00038160       ??_C@_0DB@CJKFLAGL@Exit?52Pipes?5CVideoDevice?3?3Read?$CI?$CJ@FNODOBFM@ 000485e0     videodevice.obj
+ 0001:000381a0       ??_C@_0BH@EGIKKDKB@S420?9?$DOYUY2?5w?$DN?$CFd?0?5h?$DN?$CFd?6?$AA@FNODOBFM@ 00048620     videodevice.obj
+ 0001:000381c0       ??_C@_0HC@LCGHBGOG@?$FLerror?$FN?$FLmj?$FNIncorrect?5Length?5P1Le@FNODOBFM@ 00048640     videodevice.obj
+ 0001:00038240       ??_C@_0BK@HLKLFLGL@Pipe2?9?$DOPTS?5?$DO?5Pipe1?9?$DOPTS?5?6?$AA@FNODOBFM@ 000486c0     videodevice.obj
+ 0001:00038260       ??_C@_0BJ@GAFPGFPM@Pipe1?9?$DOPTS?5?$DO?5Pipe2?9?$DOPTS?6?$AA@FNODOBFM@ 000486e0     videodevice.obj
+ 0001:00038280       ??_C@_0GN@FPPGOHPI@?$FLerror?$FN?$FLmj?$FNIncorrect?5PTS?5P1Lengt@FNODOBFM@ 00048700     videodevice.obj
+ 0001:000382f0       ??_C@_0GK@DNNIOAKN@?$FLmj?$FNPipe1?9?$DOLength?5?$DN?5?$CFd?5Pipe2?9?$DOLe@FNODOBFM@ 00048770     videodevice.obj
+ 0001:00038360       ??_C@_0FA@DBLIHKGM@Pipe1?9?$DODataLength?5?$DN?5?$CFd?5Pipe2?9?$DODa@FNODOBFM@ 000487e0     videodevice.obj
+ 0001:000383b0       ??_C@_0BP@EJBAMJNC@?$FLDBG?$FNFail?5to?5get?5data?5buffer?4?6?$AA@FNODOBFM@ 00048830     videodevice.obj
+ 0001:000383d0       ??_C@_0BE@BIAONME@pContentPipe2?5?$DN?50?5?6?$AA@FNODOBFM@ 00048850     videodevice.obj
+ 0001:000383f0       ??_C@_0BD@IOMNELHD@pContentPipe1?$DN?50?5?6?$AA@FNODOBFM@ 00048870     videodevice.obj
+ 0001:00038410       ??_C@_0BC@MAHNKBKE@bFirstFrame?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00048890     videodevice.obj
+ 0001:00038430       ??_C@_0DH@EBELGACI@?$CBm_pCShell?5?$HM?$HM?5?$CBm_pDevExt?5return?5@FNODOBFM@ 000488b0     videodevice.obj
+ 0001:00038470       ??_C@_0CC@IDCLDEDN@Left?5m_MPEG2ValidDataLength?5?$DN?5?$CFd@FNODOBFM@ 000488f0     videodevice.obj
+ 0001:000384a0       ??_C@_0DD@DKADOCMO@M2TS?$CI2?$CJ?3?5DataLength?$CI?$CFd?$CJ?5m_MPEG2R@FNODOBFM@ 00048920     videodevice.obj
+ 0001:000384e0       ??_C@_0DD@LKFJEOHL@M2TS?$CI1?$CJ?3?5DataLength?$CI?$CFd?$CJ?5m_MPEG2R@FNODOBFM@ 00048960     videodevice.obj
+ 0001:00038520       ??_C@_0BN@FMJIODHO@m_MPEG2ValidDataLength?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 000489a0     videodevice.obj
+ 0001:00038540       ??_C@_0DJ@HAMCPODP@Shawn?5?$DN?$DO?5Read?5?3?5M2TS?5Timeout?5?$DN?$DO?5@FNODOBFM@ 000489c0     videodevice.obj
+ 0001:00038580       ??_C@_0CA@HGHKDAFJ@?$FLTEST?$FNKeWaitForSingleObject?4?4?5?6?$AA@FNODOBFM@ 00048a00     videodevice.obj
+ 0001:000385a0       ??_C@_0CF@OGDAIDLP@CVideoDevice?3?3Read?$CI?$CJ?5aft_prefer?5@FNODOBFM@ 00048a20     videodevice.obj
+ 0001:000385d0       ??_C@_0CP@GMPENFNP@Start?5interrupt?5transfer?5return?5@FNODOBFM@ 00048a50     videodevice.obj
+ 0001:00038600       ??_C@_0BF@EADJJBEJ@m_UsbIoCount?5?$DN?5?$CI?$CFd?$CJ?6?$AA@FNODOBFM@ 00048a80     videodevice.obj
+ 0001:00038620       ??_C@_0BP@MBEHGBAB@Start?5interrupt?5transfer?5?$CI?$CFd?$CJ?6?$AA@FNODOBFM@ 00048aa0     videodevice.obj
+ 0001:00038640       ??_C@_0CI@PEJOGJDM@CVideoDevice?3?3StartInterruptTran@FNODOBFM@ 00048ac0     videodevice.obj
+ 0001:00038670       ??_C@_0CP@BJNEMGLH@CVideoDevice?3?3StopInterruptPipe?$CI@FNODOBFM@ 00048af0     videodevice.obj
+ 0001:000386a0       ??_C@_0CD@DBENGEHI@CVideoDevice?3?3StopInterruptPipe?$CI@FNODOBFM@ 00048b20     videodevice.obj
+ 0001:000386d0       ??_C@_0CP@BJJJFEEO@?$CB?$CB?$CB?5Exit?5CVideoDevice?3?3SurpriseR@FNODOBFM@ 00048b50     videodevice.obj
+ 0001:00038700       ??_C@_0CH@LEOLDHGN@?$CB?$CB?$CB?5CVideoDevice?3?3SurpriseRemova@FNODOBFM@ 00048b80     videodevice.obj
+ 0001:00038730       ??_C@_0CM@JBADEOKJ@Exit?5Thread?5CVideoDevice?3?3EventH@FNODOBFM@ 00048bb0     videodevice.obj
+ 0001:00038760       ??_C@_0CK@FCCDMFC@m_SnapShotState?5?3?5Waiting?5for?5AP@FNODOBFM@ 00048be0     videodevice.obj
+ 0001:00038790       ??_C@_0CI@NJMJGOPB@m_SnapShotState?5?9?$DO?5WAITING_FOR_A@FNODOBFM@ 00048c10     videodevice.obj
+ 0001:000387c0       ??_C@_0CF@KPKHFHND@m_SnapShotState?5?9?$DO?5TWAIN_IS_RUNN@FNODOBFM@ 00048c40     videodevice.obj
+ 0001:000387f0       ??_C@_0BO@COKNBHIB@m_SnapShotState?5?9?$DO?5SNAP_SHOT?6?$AA@FNODOBFM@ 00048c70     videodevice.obj
+ 0001:00038810       ??_C@_0CD@JPEFJLMN@EventHandler?52?4?5?$DN?$DO?5pStillPin?5?$DN?5?$CF@FNODOBFM@ 00048c90     videodevice.obj
+ 0001:00038840       ??_C@_0CM@HFKGFJKE@m_SnapShotState?3?5m_SaveSnapShotF@FNODOBFM@ 00048cc0     videodevice.obj
+ 0001:00038870       ??_C@_0CJ@NPLKKLBE@m_SnapShotState?5?3?5Set?5SaveSnapSh@FNODOBFM@ 00048cf0     videodevice.obj
+ 0001:000388a0       ??_C@_0CC@CHKIOLLD@m_SnapShotState?5?9?$DO?5AP_IS_RUNNING@FNODOBFM@ 00048d20     videodevice.obj
+ 0001:000388d0       ??_C@_0BO@LKBIBKDE@m_SnapShotState?5?3?5Time?5Out?5?$CB?6?$AA@FNODOBFM@ 00048d50     videodevice.obj
+ 0001:000388f0       ??_C@_0CJ@BALJJPJA@m_SnapShotState?5?3?5Waiting?5for?5AP@FNODOBFM@ 00048d70     videodevice.obj
+ 0001:00038920       ??_C@_0BA@HMIGBNG@AP?5is?5Opened?5?$CB?6?$AA@FNODOBFM@ 00048da0     videodevice.obj
+ 0001:00038930       ??_C@_0BP@DHBJCBCM@m_SnapShotState?5?9?$DO?5AUTO_START?6?$AA@FNODOBFM@ 00048db0     videodevice.obj
+ 0001:00038950       ??_C@_0CG@IKAEKLBL@m_SnapShotState?5?9?$DO?5AP_IS_NOT_RUN@FNODOBFM@ 00048dd0     videodevice.obj
+ 0001:00038980       ??_C@_0BM@IADMKAPN@Invoke?5Still?5Pin?5Process?4?4?6?$AA@FNODOBFM@ 00048e00     videodevice.obj
+ 0001:000389a0       ??_C@_0CD@KGDNDGIN@EventHandler?51?4?5?$DN?$DO?5pStillPin?5?$DN?5?$CF@FNODOBFM@ 00048e20     videodevice.obj
+ 0001:000389d0       ??_C@_0O@CGBJGNHJ@Return?5to?5D0?6?$AA@FNODOBFM@ 00048e50     videodevice.obj
+ 0001:000389e0       ??_C@_0EE@IAGDGAFM@we?5are?5doing?5zoom?5ctrl?5that?5will@FNODOBFM@ 00048e60     videodevice.obj
+ 0001:00038a30       ??_C@_0CL@GCHEGJGI@call?5WriteDeviceInfoToReg?5and?5re@FNODOBFM@ 00048eb0     videodevice.obj
+ 0001:00038a60       ??_C@_0DO@PIPPBJD@PowerState?5?$DN?$DN?5?$CFx?0?5m_bDeviceIdle?5@FNODOBFM@ 00048ee0     videodevice.obj
+ 0001:00038aa0       ??_C@_0CO@PKJFPJID@Launch?5Thread?5CVideoDevice?3?3Even@FNODOBFM@ 00048f20     videodevice.obj
+ 0001:00038ad0       ??_C@_0N@CDILCOBA@EXPOSURE?5?$CFd?6?$AA@FNODOBFM@ 00048f50     videodevice.obj
+ 0001:00038ae0       ??_C@_0CL@EDHBPIFA@?$CK?$CK?$CK?$CKSet?5WHITEBALANCETEMP?5AUTO?5Cu@FNODOBFM@ 00048f60     videodevice.obj
+ 0001:00038b10       ??_C@_0DE@HINMJJEK@UpdateImageControlProperties?$CI?$CFd?0@FNODOBFM@ 00048f90     videodevice.obj
+ 0001:00038b50       ??_C@_0CM@NHOAGLAL@exit?5CAM_ParseConfigurationDescr@FNODOBFM@ 00048fd0     videodevice.obj
+ 0001:00038b80       ??_C@_0BK@FDNBLNJ@m_FrameRatesIndex?$FL?$CFd?$FN?$DN?$CFd?6?$AA@FNODOBFM@ 00049000     videodevice.obj
+ 0001:00038ba0       ??_C@_0BO@JBEDCHMG@SupportedFrameRates?$FL?$CFd?$FN?$DN0x?$CFX?6?$AA@FNODOBFM@ 00049020     videodevice.obj
+ 0001:00038bc0       ??_C@_0DA@IOLCKPMI@?$DN?$DN?$DO?5Number?5of?5Video?5Format?$DN?$CFd?0?5S@FNODOBFM@ 00049040     videodevice.obj
+ 0001:00038bf0       ??_C@_0BM@KHDNNHNP@new?5PropertySetsCount?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00049070     videodevice.obj
+ 0001:00038c10       ??_C@_0FE@CHLDBAOF@bFormatIndex?5?$DN?50x?$CFx?0?5bDataOffset@FNODOBFM@ 00049090     videodevice.obj
+ 0001:00038c70       ??_C@_0CF@OBKBIMDM@?$DN?$DN?$DO?5VIDCLASS_M2TS_FORMAT_DESCRIP@FNODOBFM@ 000490f0     videodevice.obj
+ 0001:00038ca0       ??_C@_0CJ@OMGBCGHP@?$DN?$DN?$DO?5VIDCLASS_MPEG_FRAME_DESCRIPT@FNODOBFM@ 00049120     videodevice.obj
+ 0001:00038cd0       ??_C@_0BE@MDEBEBLM@PropertyCount?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00049150     videodevice.obj
+ 0001:00038cf0       ??_C@_0BN@DDMLPEDE@Get?5Exunit?5length?5fail?5?$DN?5?$CFX?6?$AA@FNODOBFM@ 00049170     videodevice.obj
+ 0001:00038d10       ??_C@_0BP@HNLIJHLH@i?$DN?$CFd?5nExUnit?$DN?$CFd?5ParamLen?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00049190     videodevice.obj
+ 0001:00038d30       ??_C@_0BB@HLOMCEHE@m_ExUnitID?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 000491b0     videodevice.obj
+ 0001:00038d50       ??_C@_0CD@CBAPPJAI@Michael?5Copy?5EX?5unit?5GUID?5to?5Nod@FNODOBFM@ 000491d0     videodevice.obj
+ 0001:00038d80       ??_C@_0BI@OJJEJPGP@ExUnitGUID?3?5?$CFX?5?$CFX?5?$CFX?5?$CFX?$AA@FNODOBFM@ 00049200     videodevice.obj
+ 0001:00038da0       ??_C@_0CH@EFHADBEK@?$DN?$DN?$DO?5VIDCLASS_EXTENSION_UNIT_DESC@FNODOBFM@ 00049220     videodevice.obj
+ 0001:00038dd0       ??_C@_0DA@DOGHFOPI@Format?$FL?$CFd?$FN?5?5X?$DN?5?$CFd?5Y?$DN?5?$CFd?5Supporte@FNODOBFM@ 00049250     videodevice.obj
+ 0001:00038e00       ??_C@_0CM@FDLMDFFB@?$DN?$DN?$DO?5ID?$DN?$CFd?0?5?$CFd?5x?5?$CFd?0?5FrameInterva@FNODOBFM@ 00049280     videodevice.obj
+ 0001:00038e30       ??_C@_0DA@FOIOEMKP@?$DN?$DN?$DO?5VIDCLASS_UNCOMPRESSED_FRAME_@FNODOBFM@ 000492b0     videodevice.obj
+ 0001:00038e60       ??_C@_0CI@DBNLPKLL@?$DN?$DN?$DO?5VIDCLASS_PROCESSING_UNIT_DES@FNODOBFM@ 000492e0     videodevice.obj
+ 0001:00038e90       ??_C@_0CB@KFOCBCNA@desc?9?$DObNumFrameDescriptors?5?$DN?5?$CFd?6@FNODOBFM@ 00049310     videodevice.obj
+ 0001:00038ec0       ??_C@_0BN@OKIOHBJE@?$DN?$DN?$DO?5guidFormat?3?5?$CFX?5?$CFX?5?$CFX?5?$CFX?6?$AA@FNODOBFM@ 00049340     videodevice.obj
+ 0001:00038ee0       ??_C@_0CM@FPAALI@?$DN?$DN?$DO?5VIDCLASS_UNCOMPRESSED_FORMAT@FNODOBFM@ 00049360     videodevice.obj
+ 0001:00038f10       ??_C@_0BO@INNFAMOC@?$DN?$DN?$DO?5Still?5Image?5Numbers?5?$DN?5?$CFd?6?$AA@FNODOBFM@ 00049390     videodevice.obj
+ 0001:00038f30       ??_C@_0CI@PGPEINFL@?$DN?$DN?$DO?5VIDCLASS_STILL_FRAME_DESCRIP@FNODOBFM@ 000493b0     videodevice.obj
+ 0001:00038f60       ??_C@_0BI@KEPGCDFM@?$DN?$DN?$DO?5Terminal?5Type?5?$DN?5?$CFX?6?$AA@FNODOBFM@ 000493e0     videodevice.obj
+ 0001:00038f80       ??_C@_0CI@PLBDFPKM@?$DN?$DN?$DO?5VIDCLASS_OUTPUT_TERMINAL_DES@FNODOBFM@ 00049400     videodevice.obj
+ 0001:00038fb0       ??_C@_0BF@JIMKEJOI@?$DN?$DN?$DO?5bmControls?5?$DN?5?$CFX?6?$AA@FNODOBFM@ 00049430     videodevice.obj
+ 0001:00038fd0       ??_C@_0CH@COHHGNHM@?$DN?$DN?$DO?5VIDCLASS_INPUT_TERMINAL_DESC@FNODOBFM@ 00049450     videodevice.obj
+ 0001:00039000       ??_C@_0BJ@KMFOOJEH@bStillCaptureMethod?5?$DN?5?$CFx?$AA@FNODOBFM@ 00049480     videodevice.obj
+ 0001:00039020       ??_C@_04NJFMLIJB@?$DN?$DN?$DO?5?$AA@FNODOBFM@ 000494a0     videodevice.obj
+ 0001:00039030       ??_C@_0CL@FBPFOIN@?$DN?$DN?$DO?5VIDCLASS_VIDEO_INPUT_HEADER_@FNODOBFM@ 000494b0     videodevice.obj
+ 0001:00039060       ??_C@_0BI@ICLJKIHG@?$DN?$DN?$DO?5inColection?5?$DN?50x?$CFX?6?$AA@FNODOBFM@ 000494e0     videodevice.obj
+ 0001:00039080       ??_C@_0BM@MEIFMHPP@?$DN?$DN?$DO?5clock?5frequence?5?$DN?50x?$CFX?6?$AA@FNODOBFM@ 00049500     videodevice.obj
+ 0001:000390a0       ??_C@_0BI@CLAKIBBK@?$DN?$DN?$DO?5TotalLength?5?$DN?50x?$CFX?6?$AA@FNODOBFM@ 00049520     videodevice.obj
+ 0001:000390c0       ??_C@_0BM@DJLGFDPH@head?$FL3?$FN?5?$DN?5?$CFX?0?5head?$FL4?$FN?5?$DN?5?$CFX?6?$AA@FNODOBFM@ 00049540     videodevice.obj
+ 0001:000390e0       ??_C@_0BO@DOCJAOEO@?$DN?$DN?$DO?5bcdVDC?5?$DN?50x?$CFX?0?5Addr?5?$DN?5?$CFX?6?$AA@FNODOBFM@ 00049560     videodevice.obj
+ 0001:00039100       ??_C@_0CB@HPIONMIO@sibtype?5addr?5?$DN?5?$CFX?0?5head?$FL2?$FN?5?$DN?5?$CFX?6@FNODOBFM@ 00049580     videodevice.obj
+ 0001:00039130       ??_C@_0CB@EKKIBLIK@?$DN?$DN?$DO?5type?5?$DN?50x?$CFX?0?5subtype?5?$DN?50x?$CFX?6@FNODOBFM@ 000495b0     videodevice.obj
+ 0001:00039160       ??_C@_0BE@HGLCLEJA@?$DN?$DN?$DO?5bLength?5?$DN?50x?$CFX?6?$AA@FNODOBFM@ 000495e0     videodevice.obj
+ 0001:00039180       ??_C@_0CJ@FJIOLGGB@?$DN?$DN?$DO?5VIDCLASS_INTERFACE_HEADER_DE@FNODOBFM@ 00049600     videodevice.obj
+ 0001:000391b0       ??_C@_0BH@OCDAIHCC@DESC?0?5sub?5type?5?$DN?50x?$CFX?6?$AA@FNODOBFM@ 00049630     videodevice.obj
+ 0001:000391d0       ??_C@_0CJ@NBFEODMD@MaxPktSize?5?$DN?5?$CFd?0?5NumberOfTransac@FNODOBFM@ 00049650     videodevice.obj
+ 0001:00039200       ??_C@_0BF@FNMPDLMB@wMaxPacketSize?$DN0x?$CFX?6?$AA@FNODOBFM@ 00049680     videodevice.obj
+ 0001:00039220       ??_C@_0CG@OKBFELDM@Bulk?5pipe?5reported?0?5Enable?5Bulk?5@FNODOBFM@ 000496a0     videodevice.obj
+ 0001:00039250       ??_C@_0CK@HEDABLBP@BusBWArray?$FL?$CFd?$FN?5Iso?5AlternateSett@FNODOBFM@ 000496d0     videodevice.obj
+ 0001:00039280       ??_C@_0CP@LOMGAHLM@M2TS_BusBWArray?$FL?$CFd?$FN?5Iso?5Alternat@FNODOBFM@ 00049700     videodevice.obj
+ 0001:000392b0       ??_C@_0CH@HOLEHIOB@DESC?0?5Read?5length?5?$DN?50x?$CFX?0?5type?5?$DN@FNODOBFM@ 00049730     videodevice.obj
+ 0001:000392e0       ??_C@_0DE@JHNFIDHA@enter?5CAM_ParseConfigurationDesc@FNODOBFM@ 00049760     videodevice.obj
+ 0001:00039320       ??_C@_1CA@OIMBFFPO@?$AAS?$AAt?$AAi?$AAl?$AAl?$AAP?$AAi?$AAn?$AA_?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$AA@FNODOBFM@ 000497a0     videodevice.obj
+ 0001:00039340       ??_C@_0CB@LMMJJNLL@Terminate?5EventHandlerRoutine?$CI?$CJ?6@FNODOBFM@ 000497c0     videodevice.obj
+ 0001:00039370       ??_C@_0BG@BAFOJJFK@EventHandlerRoutine?$CI?$CJ?$AA@FNODOBFM@ 000497f0     videodevice.obj
+ 0001:00039390       ??_C@_0CN@EECLMPKB@Fail?5to?5read?1write?5ASIC?5?$CB?5?$CIError@FNODOBFM@ 00049810     videodevice.obj
+ 0001:000393c0       ??_C@_0CP@IOEFJMOM@?6?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN@FNODOBFM@ 00049840     videodevice.obj
+ 0001:000393f0       ??_C@_05BFHEBJNP@?$CF02X?5?$AA@FNODOBFM@ 00049870     videodevice.obj
+ 0001:00039400       ??_C@_08CFLHNCPI@Data?5?$DN?$DO?5?$AA@FNODOBFM@ 00049880     videodevice.obj
+ 0001:00039410       ??_C@_0EN@GHDHIHI@CVideoDevice?3?3ASIC_Communication@FNODOBFM@ 00049890     videodevice.obj
+ 0001:00039460       ??_C@_0CD@BJAAFGDH@CVideoDevice?3?3ASIC_Communication@FNODOBFM@ 000498e0     videodevice.obj
+ 0001:00039490       ??_C@_0CA@BOHHANKB@SF_Communication?5ntStatus?5?$DN?5?$CFx?6?$AA@FNODOBFM@ 00049910     videodevice.obj
+ 0001:000394b0       ??_C@_0DI@BEFBNAJD@SF_Communication?5?9?5R?1W?$DN?$CFd?0?5Bytes@FNODOBFM@ 00049930     videodevice.obj
+ 0001:000394f0       ??_C@_0CC@BMAMDDCO@GetSectorTableAddr?5ntStatus?5?$DN?5?$CFx@FNODOBFM@ 00049970     videodevice.obj
+ 0001:00039520       ??_C@_0BI@OHPHKPMB@GetSectorTableAddr?5?$DN?$DN?$DO?6?$AA@FNODOBFM@ 000499a0     videodevice.obj
+ 0001:00039540       ??_C@_0BM@GGADLHCC@SF_Communication?5success?5?$CFx?$AA@FNODOBFM@ 000499c0     videodevice.obj
+ 0001:00039560       ??_C@_0CI@GCCEFLNF@MJ?5Width?5?$CFd?0?5Height?5?$DN?5?$CFd?0?5interv@FNODOBFM@ 000499e0     videodevice.obj
+ 0001:00039590       ??_C@_0BM@KDLCGNFK@Res?5?$CFd?5?3?5Wid?5?$DN?5?$CFd?0?5Hei?5?$DN?5?$CFd?$AA@FNODOBFM@ 00049a10     videodevice.obj
+ 0001:000395b0       ??_C@_0BF@CKKEAIIJ@Res?5?$CFd?5?3?5FR?5Int?5?$DN?5?$CFx?$AA@FNODOBFM@ 00049a30     videodevice.obj
+ 0001:000395d0       ??_C@_0BL@GJFBHKBM@SF_Communication?5fail?54?5?$CFx?$AA@FNODOBFM@ 00049a50     videodevice.obj
+ 0001:000395f0       ??_C@_0BL@NLHBKGAM@SF_Communication?5fail?53?5?$CFx?$AA@FNODOBFM@ 00049a70     videodevice.obj
+ 0001:00039610       ??_C@_0BL@OGBBIPLM@SF_Communication?5fail?52?5?$CFx?$AA@FNODOBFM@ 00049a90     videodevice.obj
+ 0001:00039630       ??_C@_0BL@KBLBPFGM@SF_Communication?5fail?51?5?$CFx?$AA@FNODOBFM@ 00049ab0     videodevice.obj
+ 0001:00039650       ??_C@_0CG@PLKAIAMM@Fail?5to?5create?5hTSMuxThread?5thre@FNODOBFM@ 00049ad0     videodevice.obj
+ 0001:00039680       ??_C@_0DO@ICLAPPLP@KeSetEvent?$CI?$CGpVideoDevice?9?$DOm_MEPG@FNODOBFM@ 00049b00     videodevice.obj
+ 0001:000396c0       ??_C@_0DL@CFOHAENL@TSMuxRoutine?5m_MPEG2ValidDataLen@FNODOBFM@ 00049b40     videodevice.obj
+ 0001:00039700       ??_C@_0CD@JMOOPKKH@pContent?9?$DODataLength?$DM2000?5len?5?$DN?$CF@FNODOBFM@ 00049b80     videodevice.obj
+ 0001:00039730       ??_C@_0EE@FMMOIPBE@TSMuxRoutine?5OutputBufSize?5?$DN?$CFd?5p@FNODOBFM@ 00049bb0     videodevice.obj
+ 0001:00039780       ??_C@_0BM@IAGIPEMA@g_llDTS_Accumulator?5?$CL?$DN?5?$CFld?6?$AA@FNODOBFM@ 00049c00     videodevice.obj
+ 0001:000397a0       ??_C@_0BM@JGAFBFKC@g_llPTS_Accumulator?5?$CL?$DN?5?$CFld?6?$AA@FNODOBFM@ 00049c20     videodevice.obj
+ 0001:000397c0       ??_C@_0BM@PGOGGPIA@g_llPCR_Accumulator?5?$CL?$DN?5?$CFld?6?$AA@FNODOBFM@ 00049c40     videodevice.obj
+ 0001:000397e0       ??_C@_0BD@IKJONBMG@Accumulator?5?$DN?5?$CFld?6?$AA@FNODOBFM@ 00049c60     videodevice.obj
+ 0001:00039800       ??_C@_0CG@NCJHHNNH@TmpTime?4QuadPart?5?$DN?5?$CFld?5FrameInt?5@FNODOBFM@ 00049c80     videodevice.obj
+ 0001:00039830       ??_C@_0DK@NKGCIBAL@TSMuxRoutine?5PsTerminateSystemTh@FNODOBFM@ 00049cb0     videodevice.obj
+ 0001:00039870       ??_C@_0CF@JLOCEAFM@TSMuxRoutine?5KeWaitForSingleObje@FNODOBFM@ 00049cf0     videodevice.obj
+ 0001:000398a0       ??_C@_0DG@GJGJIABO@Report_Black_Image?5ImgFormat?5?$DN?5?$CF@FNODOBFM@ 00049d20     videodevice.obj
+ 0001:000398e0       ??_C@_05LBJGJDBC@TS?4ts?$AA@FNODOBFM@ 00049d60     transportstream.obj
+ 0002:00000000       __imp_@KfAcquireSpinLock@4 00049d80     wdm:HAL.DLL
+ 0002:00000004       __imp__KeGetCurrentIrql@0  00049d84     wdm:HAL.DLL
+ 0002:00000008       __imp_@KfReleaseSpinLock@8 00049d88     wdm:HAL.DLL
+ 0002:0000000c       \177HAL_NULL_THUNK_DATA    00049d8c     wdm:HAL.DLL
+ 0002:00000010       __imp__USBD_CreateConfigurationRequestEx@8 00049d90     usbd:USBD.SYS
+ 0002:00000014       __imp__USBD_ParseConfigurationDescriptorEx@28 00049d94     usbd:USBD.SYS
+ 0002:00000018       \177USBD_NULL_THUNK_DATA   00049d98     usbd:USBD.SYS
+ 0002:0000001c       __imp__KsPinGetAndGate@4   00049d9c     ks:ks.sys
+ 0002:00000020       __imp__KsPinGetReferenceClockInterface@8 00049da0     ks:ks.sys
+ 0002:00000024       __imp__KsPinGetFirstCloneStreamPointer@4 00049da4     ks:ks.sys
+ 0002:00000028       __imp__KsStreamPointerGetNextClone@4 00049da8     ks:ks.sys
+ 0002:0000002c       __imp__KsStreamPointerDelete@4 00049dac     ks:ks.sys
+ 0002:00000030       __imp__KsPinAcquireProcessingMutex@4 00049db0     ks:ks.sys
+ 0002:00000034       __imp__KsPinGetLeadingEdgeStreamPointer@8 00049db4     ks:ks.sys
+ 0002:00000038       __imp__KsStreamPointerAdvance@4 00049db8     ks:ks.sys
+ 0002:0000003c       __imp__KsStreamPointerAdvanceOffsetsAndUnlock@16 00049dbc     ks:ks.sys
+ 0002:00000040       __imp__KsStreamPointerUnlock@8 00049dc0     ks:ks.sys
+ 0002:00000044       __imp__KsPinReleaseProcessingMutex@4 00049dc4     ks:ks.sys
+ 0002:00000048       __imp__KsPinAttemptProcessing@8 00049dc8     ks:ks.sys
+ 0002:0000004c       __imp___KsEdit@20          00049dcc     ks:ks.sys
+ 0002:00000050       __imp__KsGetParent@4       00049dd0     ks:ks.sys
+ 0002:00000054       __imp__KsGetFilterFromIrp@4 00049dd4     ks:ks.sys
+ 0002:00000058       __imp__KsGetDevice@4       00049dd8     ks:ks.sys
+ 0002:0000005c       __imp__KsInitializeDriver@12 00049ddc     ks:ks.sys
+ 0002:00000060       __imp__KsCreateFilterFactory@32 00049de0     ks:ks.sys
+ 0002:00000064       __imp__KsAcquireDevice@4   00049de4     ks:ks.sys
+ 0002:00000068       __imp__KsAddItemToObjectBag@12 00049de8     ks:ks.sys
+ 0002:0000006c       __imp__KsReleaseDevice@4   00049dec     ks:ks.sys
+ 0002:00000070       __imp__KsGetPinFromIrp@4   00049df0     ks:ks.sys
+ 0002:00000074       \177ks_NULL_THUNK_DATA     00049df4     ks:ks.sys
+ 0002:00000078       __imp__RtlInitUnicodeString@8 00049df8     wdm:ntoskrnl.exe
+ 0002:0000007c       __imp__ZwClose@4           00049dfc     wdm:ntoskrnl.exe
+ 0002:00000080       __imp__PsCreateSystemThread@28 00049e00     wdm:ntoskrnl.exe
+ 0002:00000084       __imp__RtlDeleteRegistryValue@12 00049e04     wdm:ntoskrnl.exe
+ 0002:00000088       __imp__KeGetCurrentThread@0 00049e08     wdm:ntoskrnl.exe
+ 0002:0000008c       __imp__IoGetCurrentProcess@0 00049e0c     wdm:ntoskrnl.exe
+ 0002:00000090       __imp__KeQuerySystemTime@4 00049e10     wdm:ntoskrnl.exe
+ 0002:00000094       __imp__ExQueueWorkItem@8   00049e14     wdm:ntoskrnl.exe
+ 0002:00000098       __imp__RtlQueryRegistryValues@20 00049e18     wdm:ntoskrnl.exe
+ 0002:0000009c       __imp__KeQueryTimeIncrement@0 00049e1c     wdm:ntoskrnl.exe
+ 0002:000000a0       __imp__memset              00049e20     wdm:ntoskrnl.exe
+ 0002:000000a4       __imp__KeReleaseSemaphore@16 00049e24     wdm:ntoskrnl.exe
+ 0002:000000a8       __imp__RtlWriteRegistryValue@24 00049e28     wdm:ntoskrnl.exe
+ 0002:000000ac       __imp__IoIsWdmVersionAvailable@8 00049e2c     wdm:ntoskrnl.exe
+ 0002:000000b0       __imp__IoGetDeviceProperty@20 00049e30     wdm:ntoskrnl.exe
+ 0002:000000b4       __imp__ZwWriteFile@36      00049e34     wdm:ntoskrnl.exe
+ 0002:000000b8       __imp__ZwCreateFile@44     00049e38     wdm:ntoskrnl.exe
+ 0002:000000bc       __imp__PsTerminateSystemThread@4 00049e3c     wdm:ntoskrnl.exe
+ 0002:000000c0       __imp__KeSetPriorityThread@8 00049e40     wdm:ntoskrnl.exe
+ 0002:000000c4       _KeTickCount               00049e44     wdm:ntoskrnl.exe
+ 0002:000000c4       __imp__KeTickCount         00049e44     wdm:ntoskrnl.exe
+ 0002:000000c8       __imp__sprintf             00049e48     wdm:ntoskrnl.exe
+ 0002:000000cc       __imp__KeBugCheckEx@20     00049e4c     wdm:ntoskrnl.exe
+ 0002:000000d0       __imp___vsnprintf          00049e50     wdm:ntoskrnl.exe
+ 0002:000000d4       __imp__swprintf            00049e54     wdm:ntoskrnl.exe
+ 0002:000000d8       __imp__RtlCompareMemory@12 00049e58     wdm:ntoskrnl.exe
+ 0002:000000dc       __imp__KeDelayExecutionThread@12 00049e5c     wdm:ntoskrnl.exe
+ 0002:000000e0       __imp_@InterlockedIncrement@4 00049e60     wdm:ntoskrnl.exe
+ 0002:000000e4       __imp_@InterlockedDecrement@4 00049e64     wdm:ntoskrnl.exe
+ 0002:000000e8       __imp__ExAllocatePool@8    00049e68     wdm:ntoskrnl.exe
+ 0002:000000ec       __imp__memcpy              00049e6c     wdm:ntoskrnl.exe
+ 0002:000000f0       __imp__ExAllocatePoolWithTag@12 00049e70     wdm:ntoskrnl.exe
+ 0002:000000f4       __imp__IoAllocateIrp@8     00049e74     wdm:ntoskrnl.exe
+ 0002:000000f8       __imp_@InterlockedCompareExchange@12 00049e78     wdm:ntoskrnl.exe
+ 0002:000000fc       __imp_@InterlockedExchange@8 00049e7c     wdm:ntoskrnl.exe
+ 0002:00000100       __imp__IoFreeIrp@4         00049e80     wdm:ntoskrnl.exe
+ 0002:00000104       __imp__PoRequestPowerIrp@24 00049e84     wdm:ntoskrnl.exe
+ 0002:00000108       __imp__KeInitializeEvent@12 00049e88     wdm:ntoskrnl.exe
+ 0002:0000010c       __imp__IoBuildDeviceIoControlRequest@36 00049e8c     wdm:ntoskrnl.exe
+ 0002:00000110       __imp__KeWaitForSingleObject@20 00049e90     wdm:ntoskrnl.exe
+ 0002:00000114       __imp__KeResetEvent@4      00049e94     wdm:ntoskrnl.exe
+ 0002:00000118       __imp__IoCancelIrp@4       00049e98     wdm:ntoskrnl.exe
+ 0002:0000011c       __imp__KeSetEvent@12       00049e9c     wdm:ntoskrnl.exe
+ 0002:00000120       __imp__RtlAssert@16        00049ea0     wdm:ntoskrnl.exe
+ 0002:00000124       __imp_@IofCallDriver@8     00049ea4     wdm:ntoskrnl.exe
+ 0002:00000128       __imp__KeInitializeSpinLock@4 00049ea8     wdm:ntoskrnl.exe
+ 0002:0000012c       __imp__IoInitializeIrp@12  00049eac     wdm:ntoskrnl.exe
+ 0002:00000130       __imp__KeInitializeSemaphore@12 00049eb0     wdm:ntoskrnl.exe
+ 0002:00000134       __imp__DbgPrint            00049eb4     wdm:ntoskrnl.exe
+ 0002:00000138       __imp__KeInitializeMutex@8 00049eb8     wdm:ntoskrnl.exe
+ 0002:0000013c       __imp__ExFreePool@4        00049ebc     wdm:ntoskrnl.exe
+ 0002:00000140       __imp__RtlRaiseException@4 00049ec0     wdm:ntoskrnl.exe
+ 0002:00000144       \177ntoskrnl_NULL_THUNK_DATA 00049ec4     wdm:ntoskrnl.exe
+ 0002:0000016c       _PROPSETID_CUSTOM_PROP_ST50220 00049eec     debugutil.obj
+ 0002:0000017c       _PROPSETID_ZOOM_PROP_ST50220 00049efc     debugutil.obj
+ 0002:0000018c       _PROPSETID_CLIENT_PROP_ST50220 00049f0c     debugutil.obj
+ 0002:0000019c       _MEDIASUBTYPE_RGB24        00049f1c     debugutil.obj
+ 0002:000001ac       _MEDIASUBTYPE_YUY2         00049f2c     debugutil.obj
+ 0002:000001bc       _MEDIASUBTYPE_MJPG         00049f3c     debugutil.obj
+ 0002:000001cc       _MEDIASUBTYPE_I420         00049f4c     debugutil.obj
+ 0002:000001dc       _PIN_CATEGORY_CAPTURE      00049f5c     debugutil.obj
+ 0002:000001ec       _PIN_CATEGORY_STILL        00049f6c     debugutil.obj
+ 0002:000001fc       ??_C@_0L@INJALMLF@OV7670_ISP?$AA@ 00049f7c     basetype.obj
+ 0002:00000208       ??_C@_08GKNMHEM@S5K4AAFX?$AA@ 00049f88     basetype.obj
+ 0002:00000214       ??_C@_08OODNEMCK@S5K53BEB?$AA@ 00049f94     basetype.obj
+ 0002:00000220       ??_C@_06ECCPAMDO@CX1332?$AA@ 00049fa0     basetype.obj
+ 0002:00000228       ??_C@_07OFCLDIAD@ICM107B?$AA@ 00049fa8     basetype.obj
+ 0002:00000230       ??_C@_06GBBJMDNI@SOI968?$AA@ 00049fb0     basetype.obj
+ 0002:00000238       ??_C@_06PDOHFGLM@OV9655?$AA@ 00049fb8     basetype.obj
+ 0002:00000240       ??_C@_06IOJAKCPJ@OV9650?$AA@ 00049fc0     basetype.obj
+ 0002:00000248       ??_C@_07GPBGIACH@MT9M011?$AA@ 00049fc8     basetype.obj
+ 0002:00000250       ??_C@_06OJGOKOOI@MI1320?$AA@ 00049fd0     basetype.obj
+ 0002:00000258       ??_C@_06OLCIBALB@MI1310?$AA@ 00049fd8     basetype.obj
+ 0002:00000260       ??_C@_06OKOKHKIG@MI1300?$AA@ 00049fe0     basetype.obj
+ 0002:00000268       ??_C@_06DCCEMIPG@OV7670?$AA@ 00049fe8     basetype.obj
+ 0002:00000270       ??_C@_06DDOGKCMB@OV7660?$AA@ 00049ff0     basetype.obj
+ 0002:00000278       ??_C@_07OKCEGEFO@HV7131R?$AA@ 00049ff8     basetype.obj
+ 0002:00000280       ??_C@_07MAJKEBNB@MT9V111?$AA@ 0004a000     basetype.obj
+ 0002:00000288       ??_C@_06NDAHCPIE@MI0360?$AA@ 0004a008     basetype.obj
+ 0002:00000290       ?ImgWidList@@3QBHB         0004a010     basetype.obj
+ 0002:000002e0       ?ImgWidList2@@3QBHB        0004a060     basetype.obj
+ 0002:00000330       ?ImgHgtList@@3QBHB         0004a0b0     basetype.obj
+ 0002:00000380       ?USBBandWidthList@@3QBHB   0004a100     basetype.obj
+ 0002:000003a4       ?USB2BandWidthList@@3QBHB  0004a124     basetype.obj
+ 0002:000003c8       ?Y_QTAB_FINE@@3QBEB        0004a148     basetype.obj
+ 0002:00000408       ?UV_QTAB_FINE@@3QBEB       0004a188     basetype.obj
+ 0002:000004d0       __real@3f91deefe0000000    0004a250     facetracking.obj
+ 0002:000004d8       __real@4036000000000000    0004a258     facetracking.obj
+ 0002:000004e0       __real@4040000000000000    0004a260     facetracking.obj
+ 0002:000004e8       __real@4010000000000000    0004a268     facetracking.obj
+ 0002:000004f0       __real@4008000000000000    0004a270     facetracking.obj
+ 0002:000004f8       __real@0000000000000000    0004a278     facetracking.obj
+ 0002:00000500       __real@461c3c00            0004a280     facetracking.obj
+ 0002:00000508       __real@4022000000000000    0004a288     facetracking.obj
+ 0002:00000510       __real@400921cac083126f    0004a290     facetracking.obj
+ 0002:00000518       __real@3f91deefe4ffc979    0004a298     facetracking.obj
+ 0002:00000520       __real@bff0000000000000    0004a2a0     facetracking.obj
+ 0002:00000528       __real@40c3880000000000    0004a2a8     facetracking.obj
+ 0002:00003870       __real@4030000000000000    0004d5f0     jpeg.obj
+ 0002:00003878       __real@4000000000000000    0004d5f8     jpeg.obj
+ 0002:00003880       __real@3fe0000000000000    0004d600     jpeg.obj
+ 0002:00003888       __real@4080000000000000    0004d608     jpeg.obj
+ 0002:00003890       __GUID_fb6c428a_0353_11d1_905f_0000c0cc16ba 0004d610     streamdata.obj
+ 0002:000038a0       __GUID_fb6c4281_0353_11d1_905f_0000c0cc16ba 0004d620     streamdata.obj
+ 0002:000038b0       ?CapturePinDispatch@@3U_KSPIN_DISPATCH@@B 0004d630     streamdata.obj
+ 0002:000038d8       ?StillPinDispatch@@3U_KSPIN_DISPATCH@@B 0004d658     streamdata.obj
+ 0002:00003900       ?CapturePinAllocatorFraming@@3UKSALLOCATOR_FRAMING_EX@@B 0004d680     streamdata.obj
+ 0002:00003970       ?FrameRateProperties@@3QBUKSPROPERTY_ITEM@@B 0004d6f0     streamdata.obj
+ 0002:00003a10       ?VideoProcAmpProperty@@3QBUKSPROPERTY_ITEM@@B 0004d790     streamdata.obj
+ 0002:00003ba0       ?CameraControlProperty@@3QBUKSPROPERTY_ITEM@@B 0004d920     streamdata.obj
+ 0002:00003d08       ?CustomProperties@@3QBUKSPROPERTY_ITEM@@B 0004da88     streamdata.obj
+ 0002:000040f0       ?ClientProperties@@3QBUKSPROPERTY_ITEM@@B 0004de70     streamdata.obj
+ 0002:00004140       ?ZoomProperties@@3QBUKSPROPERTY_ITEM@@B 0004dec0     streamdata.obj
+ 0002:00004438       ?ExtensionControlProperty@@3QBUKSPROPERTY_ITEM@@B 0004e1b8     streamdata.obj
+ 0002:00004578       ?CaptureFilterDispatch@@3U_KSFILTER_DISPATCH@@B 0004e2f8     streamdata.obj
+ 0002:00004588       ?CaptureFilterCategories@@3QBU_GUID@@B 0004e308     streamdata.obj
+ 0002:000045a8       ?PinConnectionPropertyItems@@3QBUKSPROPERTY_ITEM@@B 0004e328     streamdata.obj
+ 0002:000045d0       ?VideoStreamConnectionProperties@@3QBUKSPROPERTY_ITEM@@B 0004e350     streamdata.obj
+ 0002:00004620       ?VideoStreamDroppedFramesProperties@@3QBUKSPROPERTY_ITEM@@B 0004e3a0     streamdata.obj
+ 0002:00004648       ?VideoStreamPropertySetsTable@@3QBUKSPROPERTY_SET@@B 0004e3c8     streamdata.obj
+ 0002:00004670       ?StandardPinInterfaces@@3QBUKSIDENTIFIER@@B 0004e3f0     streamdata.obj
+ 0002:00004688       ?StandardPinMediums@@3QBUKSIDENTIFIER@@B 0004e408     streamdata.obj
+ 0002:000046a0       __GUID_c6e13344_30ac_11d0_a18c_00a0c9118956 0004e420     streamdata.obj
+ 0002:000046b0       __GUID_1d58c920_ac9b_11cf_a5d6_28db04c10000 0004e430     streamdata.obj
+ 0002:000046c0       __GUID_941c7ac0_c559_11d0_8a2b_00a0c9255ac1 0004e440     streamdata.obj
+ 0002:000046d0       __GUID_9b365890_165f_11d0_a195_0020afd156e4 0004e450     streamdata.obj
+ 0002:000046e0       __GUID_6a2e0670_28e4_11d0_a18c_00a0c9118956 0004e460     streamdata.obj
+ 0002:000046f0       __GUID_c6e13360_30ac_11d0_a18c_00a0c9118956 0004e470     streamdata.obj
+ 0002:00004700       __GUID_c6e13370_30ac_11d0_a18c_00a0c9118956 0004e480     streamdata.obj
+ 0002:00004770       __GUID_dff229e1_f70f_11d0_b917_00a0c9223196 0004e4f0     videostream.obj
+ 0002:00004780       __GUID_97e99ba0_bdea_11cf_a5d6_28db04c10000 0004e500     videostream.obj
+ 0002:00004790       __GUID_05589f80_c356_11ce_bf01_00aa0055595a 0004e510     videostream.obj
+ 0002:000047a0       __GUID_0f6417d6_c318_11d0_a43f_00a0c9223196 0004e520     videodevice.obj
+ 0002:000047b0       __GUID_e06d8023_db46_11cf_b4d1_00805f6cbbea 0004e530     videodevice.obj
+ 0002:000047c0       __GUID_e436eb83_524f_11ce_9f53_0020af0ba770 0004e540     videodevice.obj
+ 0002:000047d0       __GUID_73646976_0000_0010_8000_00aa00389b71 0004e550     videodevice.obj
+ 0002:000047e0       __GUID_00000000_0000_0000_0000_000000000000 0004e560     videodevice.obj
+ 0002:000047f8       __DEFAULT_CW_in_mem        0004e578     libcntpr:common.obj
+ 0002:000047fa       __pi_by_2_to_61            0004e57a     libcntpr:common.obj
+ 0002:00004834       ??_C@_0L@KDOEJCKC@_nextafter?$AA@ 0004e5b4     libcntpr:fpexcept.obj
+ 0002:00004840       ??_C@_05JGDBENOH@_logb?$AA@ 0004e5c0     libcntpr:fpexcept.obj
+ 0002:00004848       ??_C@_03ONILCKOB@_yn?$AA@  0004e5c8     libcntpr:fpexcept.obj
+ 0002:0000484c       ??_C@_03NAKIGLHK@_y1?$AA@  0004e5cc     libcntpr:fpexcept.obj
+ 0002:00004850       ??_C@_03MJLDFKDL@_y0?$AA@  0004e5d0     libcntpr:fpexcept.obj
+ 0002:00004854       ??_C@_05GKKHEGJL@frexp?$AA@ 0004e5d4     libcntpr:fpexcept.obj
+ 0002:0000485c       ??_C@_04KEPJIHGP@fmod?$AA@ 0004e5dc     libcntpr:fpexcept.obj
+ 0002:00004864       ??_C@_06MEIMCGCF@_hypot?$AA@ 0004e5e4     libcntpr:fpexcept.obj
+ 0002:0000486c       ??_C@_05KBKMEMPO@_cabs?$AA@ 0004e5ec     libcntpr:fpexcept.obj
+ 0002:00004874       ??_C@_05CEJMAHNP@ldexp?$AA@ 0004e5f4     libcntpr:fpexcept.obj
+ 0002:0000487c       ??_C@_04EHEDPDJG@modf?$AA@ 0004e5fc     libcntpr:fpexcept.obj
+ 0002:00004884       ??_C@_04ODHECPBC@fabs?$AA@ 0004e604     libcntpr:fpexcept.obj
+ 0002:0000488c       ??_C@_05PBJFFIGL@floor?$AA@ 0004e60c     libcntpr:fpexcept.obj
+ 0002:00004894       ??_C@_04GFPJNGEK@ceil?$AA@ 0004e614     libcntpr:fpexcept.obj
+ 0002:0000489c       ??_C@_03IIINPABG@tan?$AA@  0004e61c     libcntpr:fpexcept.obj
+ 0002:000048a0       ??_C@_03LALBNOCG@cos?$AA@  0004e620     libcntpr:fpexcept.obj
+ 0002:000048a4       ??_C@_03BLEJJJBH@sin?$AA@  0004e624     libcntpr:fpexcept.obj
+ 0002:000048a8       ??_C@_04EIAKFFMI@sqrt?$AA@ 0004e628     libcntpr:fpexcept.obj
+ 0002:000048b0       ??_C@_05KNGEOGJB@atan2?$AA@ 0004e630     libcntpr:fpexcept.obj
+ 0002:000048b8       ??_C@_04MLLJIGOK@atan?$AA@ 0004e638     libcntpr:fpexcept.obj
+ 0002:000048c0       ??_C@_04PDIFKINK@acos?$AA@ 0004e640     libcntpr:fpexcept.obj
+ 0002:000048c8       ??_C@_04FIHNOPOL@asin?$AA@ 0004e648     libcntpr:fpexcept.obj
+ 0002:000048d0       ??_C@_04FJHINJAO@tanh?$AA@ 0004e650     libcntpr:fpexcept.obj
+ 0002:000048d8       ??_C@_04HPJJNFIM@cosh?$AA@ 0004e658     libcntpr:fpexcept.obj
+ 0002:000048e0       ??_C@_04COOMCNPB@sinh?$AA@ 0004e660     libcntpr:fpexcept.obj
+ 0002:000048e8       ??_C@_05HGHHAHAP@log10?$AA@ 0004e668     libcntpr:fpexcept.obj
+ 0002:000048f0       ??_C@_03MGHMBJCF@log?$AA@  0004e670     libcntpr:fpexcept.obj
+ 0002:000048f4       ??_C@_03JGHBODFD@pow?$AA@  0004e674     libcntpr:fpexcept.obj
+ 0002:000048f8       ??_C@_03KHJOGHMM@exp?$AA@  0004e678     libcntpr:fpexcept.obj
+ 0003:00000000       ?g_dwDbgUtilFlags@@3KA     0004e700     debugutil.obj
+ 0003:00000008       ?SensorNameList@@3PAPBDA   0004e708     basetype.obj
+ 0003:00000050       ?iUSBBandWidth@@3PAY08HA   0004e750     basetype.obj
+ 0003:00000098       ?dDataSizeMul@@3PANA       0004e798     basetype.obj
+ 0003:000001c0       ?ImageFormatControl@@3JA   0004e8c0     streamdata.obj
+ 0003:000001c4       ?BUS_BW_ARRAY_SIZE@@3KA    0004e8c4     streamdata.obj
+ 0003:000001c8       ?BusBWArray@@3PAUMaxPktSizePerInterface@@A 0004e8c8     streamdata.obj
+ 0003:000002b8       ?RangeAndStepProp@@3PAUKSPROPERTY_STEPPING_LONG@@A 0004e9b8     streamdata.obj
+ 0003:00000408       ?BrightnessMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004eb08     streamdata.obj
+ 0003:00000430       ?BrightnessValues@@3UKSPROPERTY_VALUES@@A 0004eb30     streamdata.obj
+ 0003:00000450       ?ContrastMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004eb50     streamdata.obj
+ 0003:00000478       ?ContrastValues@@3UKSPROPERTY_VALUES@@A 0004eb78     streamdata.obj
+ 0003:00000498       ?HueMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004eb98     streamdata.obj
+ 0003:000004c0       ?HueValues@@3UKSPROPERTY_VALUES@@A 0004ebc0     streamdata.obj
+ 0003:000004e0       ?SaturationMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ebe0     streamdata.obj
+ 0003:00000508       ?SaturationValues@@3UKSPROPERTY_VALUES@@A 0004ec08     streamdata.obj
+ 0003:00000528       ?SharpnessMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ec28     streamdata.obj
+ 0003:00000550       ?SharpnessValues@@3UKSPROPERTY_VALUES@@A 0004ec50     streamdata.obj
+ 0003:00000570       ?GammaMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ec70     streamdata.obj
+ 0003:00000598       ?GammaValues@@3UKSPROPERTY_VALUES@@A 0004ec98     streamdata.obj
+ 0003:000005b8       ?WhitebalanceMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ecb8     streamdata.obj
+ 0003:000005e0       ?WhitebalanceValues@@3UKSPROPERTY_VALUES@@A 0004ece0     streamdata.obj
+ 0003:00000600       ?BacklightMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ed00     streamdata.obj
+ 0003:00000628       ?BacklightValues@@3UKSPROPERTY_VALUES@@A 0004ed28     streamdata.obj
+ 0003:00000648       ?PowerlineFrequencyMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ed48     streamdata.obj
+ 0003:00000670       ?PowerlineFrequencyValues@@3UKSPROPERTY_VALUES@@A 0004ed70     streamdata.obj
+ 0003:00000690       ?GainMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ed90     streamdata.obj
+ 0003:000006b8       ?GainValues@@3UKSPROPERTY_VALUES@@A 0004edb8     streamdata.obj
+ 0003:000006d8       ?ExposureMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004edd8     streamdata.obj
+ 0003:00000700       ?ExposureValues@@3UKSPROPERTY_VALUES@@A 0004ee00     streamdata.obj
+ 0003:00000720       ?FocusMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ee20     streamdata.obj
+ 0003:00000748       ?FocusValues@@3UKSPROPERTY_VALUES@@A 0004ee48     streamdata.obj
+ 0003:00000768       ?IrisMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ee68     streamdata.obj
+ 0003:00000790       ?IrisValues@@3UKSPROPERTY_VALUES@@A 0004ee90     streamdata.obj
+ 0003:000007b0       ?ZoomMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004eeb0     streamdata.obj
+ 0003:000007d8       ?ZoomValues@@3UKSPROPERTY_VALUES@@A 0004eed8     streamdata.obj
+ 0003:000007f8       ?PanMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004eef8     streamdata.obj
+ 0003:00000820       ?PanValues@@3UKSPROPERTY_VALUES@@A 0004ef20     streamdata.obj
+ 0003:00000840       ?TiltMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ef40     streamdata.obj
+ 0003:00000868       ?TiltValues@@3UKSPROPERTY_VALUES@@A 0004ef68     streamdata.obj
+ 0003:00000888       ?RollMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004ef88     streamdata.obj
+ 0003:000008b0       ?RollValues@@3UKSPROPERTY_VALUES@@A 0004efb0     streamdata.obj
+ 0003:000008d0       ?PrivacyMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004efd0     streamdata.obj
+ 0003:000008f8       ?PrivacyValues@@3UKSPROPERTY_VALUES@@A 0004eff8     streamdata.obj
+ 0003:00000918       ?AEPriorityMembersList@@3PAUKSPROPERTY_MEMBERSLIST@@A 0004f018     streamdata.obj
+ 0003:00000940       ?AEPriorityValues@@3UKSPROPERTY_VALUES@@A 0004f040     streamdata.obj
+ 0003:00000960       ?DevicePropertySetsTable@@3PAUKSPROPERTY_SET@@A 0004f060     streamdata.obj
+ 0003:00000a78       ?FilterAutomationTable@@3UKSAUTOMATION_TABLE_@@A 0004f178     streamdata.obj
+ 0003:00000aa0       ?NodeAutomationTable@@3UKSAUTOMATION_TABLE_@@A 0004f1a0     streamdata.obj
+ 0003:00000ac8       ?CaptureFilterNodeDescriptors@@3PAU_KSNODE_DESCRIPTOR@@A 0004f1c8     streamdata.obj
+ 0003:00000af8       ?CaptureFilterDescriptor@@3U_KSFILTER_DESCRIPTOR@@A 0004f1f8     streamdata.obj
+ 0003:00000b38       ?g_PINNAME_VIDEO_CAPTURE@@3U_GUID@@A 0004f238     streamdata.obj
+ 0003:00000b48       ?g_PINNAME_VIDEO_STILL@@3U_GUID@@A 0004f248     streamdata.obj
+ 0003:00000b58       ?PinAutomationTable@@3UKSAUTOMATION_TABLE_@@A 0004f258     streamdata.obj
+ 0003:00000b80       ?STREAMCapturePinDescriptor@@3U_KSPIN_DESCRIPTOR_EX@@A 0004f280     streamdata.obj
+ 0003:00000bd0       ?STREAMCaptureMP2TSPinDescriptor@@3U_KSPIN_DESCRIPTOR_EX@@A 0004f2d0     streamdata.obj
+ 0003:00000c20       ?STREAMStillPinDescriptor@@3U_KSPIN_DESCRIPTOR_EX@@A 0004f320     streamdata.obj
+ 0003:00000c70       ?StandardMedium@@3UKSIDENTIFIER@@A 0004f370     streamdata.obj
+ 0003:00000c88       ?Streams@@3PAU_HW_STREAM_INFORMATION@@A 0004f388     streamdata.obj
+ 0003:00000d78       ?VIDCAPTOSTIItem@@3PAUKSEVENT_ITEM@@A 0004f478     streamdata.obj
+ 0003:00000df0       ?SONIX_KSEVENTSETID_VIDCAPTOSTI@@3U_GUID@@A 0004f4f0     streamdata.obj
+ 0003:00000e00       ?VIDCAPTOSTIEventSet@@3PAUKSEVENT_SET@@A 0004f500     streamdata.obj
+ 0003:00000e10       ?crc32_table@@3PAKA        0004f510     transportstream.obj
+ 0003:00001210       ___security_cookie         0004f910     BufferOverflowK:gs_support.obj
+ 0003:00001214       ___security_cookie_complement 0004f914     BufferOverflowK:gs_support.obj
+ 0003:00001220       __fltused                  0004f920     libcntpr:stubs.obj
+ 0003:00001224       __ldused                   0004f924     libcntpr:stubs.obj
+ 0003:00001270       __indefinite               0004f970     libcntpr:87disp.obj
+ 0003:0000127a       __piby2                    0004f97a     libcntpr:87disp.obj
+ 0003:0000128c       __cpower                   0004f98c     libcntpr:87disp.obj
+ 0003:00001388       __matherr_flag             0004fa88     libcntpr:matherr.obj
+ 0003:000013a8       __d_inf                    0004faa8     libcntpr:util.obj
+ 0003:000013b0       __d_ind                    0004fab0     libcntpr:util.obj
+ 0003:000013b8       __d_max                    0004fab8     libcntpr:util.obj
+ 0003:000013c0       __d_min                    0004fac0     libcntpr:util.obj
+ 0003:000013c8       __d_mzero                  0004fac8     libcntpr:util.obj
+ 0003:000013e0       ?gbSSE@@3HA                0004fae0     basetype.obj
+ 0003:000013e4       ?gbSSE2@@3HA               0004fae4     basetype.obj
+ 0003:000013f0       ?g_lValue@@3KA             0004faf0     streamdata.obj
+ 0003:000013f8       ?StreamProperties@@3PAJA   0004faf8     streamdata.obj
+ 0003:00001450       ?drImageFormat@@3PAUtagKS_DATARANGE_VIDEO@@A 0004fb50     streamdata.obj
+ 0003:00004290       ?drImageFormat_MP2TS@@3PAUtagKS_DATARANGE_VIDEO@@A 00052990     streamdata.obj
+ 0003:000070d0       ?drStillImageFormat@@3PAUtagKS_DATARANGE_VIDEO@@A 000557d0     streamdata.obj
+ 0003:00009f10       ?StreamFormatsArray@@3PAPATKSDATAFORMAT@@A 00058610     streamdata.obj
+ 0003:00009fb0       ?StreamFormatsArray_MP2TS@@3PAPATKSDATAFORMAT@@A 000586b0     streamdata.obj
+ 0003:0000a050       ?StillStreamFormatsArray@@3PAPATKSDATAFORMAT@@A 00058750     streamdata.obj
+ 0003:0000a0f0       ?ExtensionControlProperties@@3PAY07UKSPROPERTY_ITEM@@A 000587f0     streamdata.obj
+ 0003:0000aaf0       ?DevicePropertySets@@3PAUKSPROPERTY_SET@@A 000591f0     streamdata.obj
+ 0003:0000ab90       ?M2TS_BusBWArray@@3PAUMaxPktSizePerInterface@@A 00059290     streamdata.obj
+ 0003:0000ac80       ?VideoProcAmpProperties@@3PAUKSPROPERTY_ITEM@@A 00059380     streamdata.obj
+ 0003:0000ae10       ?CameraControlProperties@@3PAUKSPROPERTY_ITEM@@A 00059510     streamdata.obj
+ 0003:0000afc8       ?ExUnitPropertySetsTable@@3PAUKSPROPERTY_SET@@A 000596c8     streamdata.obj
+ 0003:0000b068       ?CaptureFilterPinDescriptors@@3PAU_KSPIN_DESCRIPTOR_EX@@A 00059768     streamdata.obj
+ 0003:0000b160       ?g_PCRInterval@@3HA        00059860     transportstream.obj
+ 0003:0000b164       ?g_VideoFrameIdx@@3HA      00059864     transportstream.obj
+ 0003:0000b168       ?g_llPTS_Accumulator@@3_JA 00059868     transportstream.obj
+ 0003:0000b170       ?g_InputFileDirectory@@3PADA 00059870     transportstream.obj
+ 0003:0000b238       ?g_Counter@@3PAUSTRUCT_PROGRAM@@A 00059938     transportstream.obj
+ 0003:0000b260       ?g_InputFrameNumber@@3HA   00059960     transportstream.obj
+ 0003:0000b264       ?g_PTS_DTS_Flags@@3HA      00059964     transportstream.obj
+ 0003:0000b268       ?g_FrameNamePrefix@@3PADA  00059968     transportstream.obj
+ 0003:0000b330       ?g_llDTS_Accumulator@@3_JA 00059a30     transportstream.obj
+ 0003:0000b338       ?g_PROGRAM_COUNT@@3HA      00059a38     transportstream.obj
+ 0003:0000b340       ?g_OutputFileName@@3PADA   00059a40     transportstream.obj
+ 0003:0000b408       ?g_llPCR_Accumulator@@3_JA 00059b08     transportstream.obj
+ 0003:0000b410       ___fastflag                00059b10     libcntpr:stubs.obj
+ 0003:0000b414       _errno                     00059b14     <common>
+ 0004:00187960       ?CFace_CFace@@YGPAU_CFace@@XZ 001e14e0 f   facetracking.obj
+ 0004:00187cd0       ?CFace__CFace@@YGXPAU_CFace@@@Z 001e1850 f   facetracking.obj
+ 0004:00187d20       ?CFace_Reset@@YGXPAU_CFace@@@Z 001e18a0 f   facetracking.obj
+ 0004:00187dd0       ?CFace_ReSetParam@@YGXPAU_CFace@@@Z 001e1950 f   facetracking.obj
+ 0004:00187fc0       ?CFace_FlipMirrorImage@@YGXPAU_CFace@@@Z 001e1b40 f   facetracking.obj
+ 0004:00188110       ?CFace_InitProcessImage@@YGXPAU_CFace@@@Z 001e1c90 f   facetracking.obj
+ 0004:00188270       ?find_median@@YGHPAHH@Z    001e1df0 f   facetracking.obj
+ 0004:00188420       ?CFace_searchStableFace@@YGXPAU_CFace@@@Z 001e1fa0 f   facetracking.obj
+ 0004:00188bd0       ?CFace_DrawFaceRect@@YGXPAU_CFace@@PAE@Z 001e2750 f   facetracking.obj
+ 0004:00188e30       ?CFace_FindFace@@YGXPAU_CFace@@PAE@Z 001e29b0 f   facetracking.obj
+ 0004:00188ea0       ?CFace_CheckMissFace@@YGXPAU_CFace@@@Z 001e2a20 f   facetracking.obj
+ 0004:00189020       ?CFace_DoZoomOut@@YGXPAU_CFace@@@Z 001e2ba0 f   facetracking.obj
+ 0004:00189080       ?CFace_DoZoom@@YGXPAU_CFace@@@Z 001e2c00 f   facetracking.obj
+ 0004:001891b0       ?CFace_FaceTrack@@YGXPAU_CFace@@PAE@Z 001e2d30 f   facetracking.obj
+ 0004:00189440       ?CFace_CreateScaleRotateTable@@YGXPAU_CFace@@MMH@Z 001e2fc0 f   facetracking.obj
+ 0004:001896f0       ?CFace_ParseFaceLooktable@@YGXPAU_CFace@@@Z 001e3270 f   facetracking.obj
+ 0004:00189990       ?CFace_ScaleRotateImg@@YGXPAU_CFace@@HHPAH1@Z 001e3510 f   facetracking.obj
+ 0004:00189ab0       ?CFace_ParseSingleImage@@YGXPAU_CFace@@HHHH@Z 001e3630 f   facetracking.obj
+ 0004:0018a1a0       ?CFace_Concatenation@@YGXPAU_CFace@@HH@Z 001e3d20 f   facetracking.obj
+ 0004:0018a470       ?CFace_Rotate2Origin@@YGHAAUSTRUCT_DETECT_FACE@@HH@Z 001e3ff0 f   facetracking.obj
+ 0004:0018a660       ?CFace_Convert2FacePos@@YGHPAU_CFace@@PAUSTRUCT_DETECT_FACE@@@Z 001e41e0 f   facetracking.obj
+ 0004:0018a870       ?CFace_GetReport@@YGPAUFaceReport@@PAU_CFace@@@Z 001e43f0 f   facetracking.obj
+ 0004:0018a890       ?CFace_ReadFaceTrackParamFromReg@@YGXPAU_CFace@@PAK@Z 001e4410 f   facetracking.obj
+ 0004:0018aa60       ?DispatchCreate@CCaptureFilter@@SGJPAU_KSFILTER@@PAU_IRP@@@Z 001e45e0 f   filter.obj
+ 0004:0018abf0       ?DispatchClose@CCaptureFilter@@SGJPAU_KSFILTER@@PAU_IRP@@@Z 001e4770 f   filter.obj
+ 0004:0018ace0       ?SetProperty@CCaptureFilter@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z 001e4860 f   filter.obj
+ 0004:0018ae60       ?GetProperty@CCaptureFilter@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z 001e49e0 f   filter.obj
+ 0004:0018afe0       ??0CStillPin@@QAE@PAU_KSPIN@@@Z 001e4b60 f   still.obj
+ 0004:0018b070       ?DispatchCreate@CStillPin@@SGJPAU_KSPIN@@PAU_IRP@@@Z 001e4bf0 f   still.obj
+ 0004:0018b2d0       ?DispatchClose@CStillPin@@SGJPAU_KSPIN@@PAU_IRP@@@Z 001e4e50 f   still.obj
+ 0004:0018b380       ?CaptureVideoInfoHeader@CStillPin@@AAEPAUtagKS_VIDEOINFOHEADER@@XZ 001e4f00 f   still.obj
+ 0004:0018b480       ?InvokePinProcess@CStillPin@@QAEXXZ 001e5000 f   still.obj
+ 0004:0018b580       ?Process@CStillPin@@AAEJXZ 001e5100 f   still.obj
+ 0004:0018b820       ?CleanupReferences@CStillPin@@AAEJXZ 001e53a0 f   still.obj
+ 0004:0018b8d0       ?SetState@CStillPin@@AAEJW4KSSTATE@@0@Z 001e5450 f   still.obj
+ 0004:0018bba0       ?IntersectHandler@CStillPin@@SGJPAU_KSFILTER@@PAU_IRP@@PAUKSP_PIN@@PATKSDATAFORMAT@@3KPAXPAK@Z 001e5720 f   still.obj
+ 0004:0018bfb0       ?DispatchSetFormat@CStillPin@@SGJPAU_KSPIN@@PATKSDATAFORMAT@@PAUKSMULTIPLE_ITEM@@PBT3@PBUKSATTRIBUTE_LIST@@@Z 001e5b30 f   still.obj
+ 0004:0018c1e0       ??_C@_0BI@PCFOOMAA@james?5?3?5oFace?5?$DN?$DN?5NULL?5?6?$AA@NNGAKEGL@ 001e5d60     facetracking.obj
+ 0004:0018c200       ??_C@_0CO@BKJILLNF@Leave?5CCaptureFilter?3?3DispatchCr@NNGAKEGL@ 001e5d80     filter.obj
+ 0004:0018c230       ??_C@_0CG@EPLCJKMC@Enter?5CCaptureFilter?3?3DispatchCr@NNGAKEGL@ 001e5db0     filter.obj
+ 0004:0018c260       ??_C@_0CF@FOPNHIJF@EX?3?5Pageable?5code?5called?5at?5IRQL@NNGAKEGL@ 001e5de0     filter.obj
+ 0004:0018c290       ??_C@_0CK@OJJEAEPA@Enter?5CCaptureFilter?3?3DispatchCl@NNGAKEGL@ 001e5e10     filter.obj
+ 0004:0018c2c0       ??_C@_0P@HGJINEGO@pCaptureDevice?$AA@NNGAKEGL@ 001e5e40     filter.obj
+ 0004:0018c2d0       ??_C@_07NFCHBAOP@pFilter?$AA@NNGAKEGL@ 001e5e50     filter.obj
+ 0004:0018c2e0       ??_C@_0BN@ICNBHFCP@d?3?2zhang?2avstream?2filter?4cpp?$AA@NNGAKEGL@ 001e5e60     filter.obj
+ 0004:0018c300       ??_C@_0CO@OKEOKCHM@Enter?5CCaptureFilter?3?3SetPropert@NNGAKEGL@ 001e5e80     filter.obj
+ 0004:0018c330       ??_C@_0P@BPOIPNHJ@pCaptureFilter?$AA@NNGAKEGL@ 001e5eb0     filter.obj
+ 0004:0018c340       ??_C@_0CD@CNNMIAHL@Enter?5CCaptureFilter?3?3SetPropert@NNGAKEGL@ 001e5ec0     filter.obj
+ 0004:0018c370       ??_C@_08EMBNBNLN@property?$AA@NNGAKEGL@ 001e5ef0     filter.obj
+ 0004:0018c380       ??_C@_03OANPFNKC@irp?$AA@NNGAKEGL@ 001e5f00     filter.obj
+ 0004:0018c390       ??_C@_0CO@PMCDEDBO@Enter?5CCaptureFilter?3?3GetPropert@NNGAKEGL@ 001e5f10     filter.obj
+ 0004:0018c3c0       ??_C@_0CD@FJGCEMDH@Enter?5CCaptureFilter?3?3GetPropert@NNGAKEGL@ 001e5f40     filter.obj
+ 0004:0018c3f0       ??_C@_0CL@KENNMEMM@Exit?5CStillPin?3?3DispatchCreate?5S@NNGAKEGL@ 001e5f70     still.obj
+ 0004:0018c420       ??_C@_0CB@CCIJFDPE@Enter?5CStillPin?3?3DispatchCreate?6@NNGAKEGL@ 001e5fa0     still.obj
+ 0004:0018c450       ??_C@_0CA@BNGNPONJ@Enter?5CStillPin?3?3DispatchClose?6?$AA@NNGAKEGL@ 001e5fd0     still.obj
+ 0004:0018c470       ??_C@_0CJ@HAFNBCL@Enter?5CStillPin?3?3CaptureVideoInf@NNGAKEGL@ 001e5ff0     still.obj
+ 0004:0018c4a0       ??_C@_08LCAGOEDG@m_Device?$AA@NNGAKEGL@ 001e6020     still.obj
+ 0004:0018c4b0       ??_C@_05DHGBKDOG@m_Pin?$AA@NNGAKEGL@ 001e6030     still.obj
+ 0004:0018c4c0       ??_C@_0BM@KEKPECOG@d?3?2zhang?2avstream?2still?4cpp?$AA@NNGAKEGL@ 001e6040     still.obj
+ 0004:0018c4e0       ??_C@_0BN@IAEGOPBN@CStillPin?3?3InvokePinProcess?6?$AA@NNGAKEGL@ 001e6060     still.obj
+ 0004:0018c500       ??_C@_0CB@JDOJFELH@Leave?5CStillPin?3?3Process?5?$CI0x?$CFX?$CJ?6@NNGAKEGL@ 001e6080     still.obj
+ 0004:0018c530       ??_C@_0BH@NIAAMADB@buffer?5Remaining?5?$DN?5?$CFd?6?$AA@NNGAKEGL@ 001e60b0     still.obj
+ 0004:0018c550       ??_C@_0CE@JCFFJCHD@Stream?5State?5is?5not?5KSSTATE_RUN?5@NNGAKEGL@ 001e60d0     still.obj
+ 0004:0018c580       ??_C@_0EC@BKFDLBFA@DeviceState?5is?5not?5KSSTATE_RUN?5o@NNGAKEGL@ 001e6100     still.obj
+ 0004:0018c5d0       ??_C@_0BK@KJPPELF@Enter?5CStillPin?3?3Process?6?$AA@NNGAKEGL@ 001e6150     still.obj
+ 0004:0018c5f0       ??_C@_0BD@HIFJIANG@ST50220?5AVStream?3?5?$AA@NNGAKEGL@ 001e6170     still.obj
+ 0004:0018c610       ??_C@_0CE@PCDBKKII@Enter?5CStillPin?3?3CleanupReferenc@NNGAKEGL@ 001e6190     still.obj
+ 0004:0018c640       ??_C@_0CM@JJABGGC@Leave?5CStillPin?3?3SetState?5with?5s@NNGAKEGL@ 001e61c0     still.obj
+ 0004:0018c670       ??_C@_0EC@LINELNLN@Enter?5CStillPin?3?3SetState?5to?5KSS@NNGAKEGL@ 001e61f0     still.obj
+ 0004:0018c6c0       ??_C@_0DP@JPCNEIEN@Enter?5CStillPin?3?3SetState?5to?5KSS@NNGAKEGL@ 001e6240     still.obj
+ 0004:0018c700       ??_C@_0CA@CHHBKLEP@m_Device?5of?5CStillPin?5is?5NULL?$CB?6?$AA@NNGAKEGL@ 001e6280     still.obj
+ 0004:0018c720       ??_C@_0CJ@ECBKLIGB@Enter?5CStillPin?3?3SetState?5from?5?$CF@NNGAKEGL@ 001e62a0     still.obj
+ 0004:0018c750       ??_C@_0DK@ELNEEEPN@End?5of?5VIDEOINFOHEADER?5specifier@NNGAKEGL@ 001e62d0     still.obj
+ 0004:0018c790       ??_C@_0EH@LELCMLCM@REVIEW?5?9?5Perform?5other?5validatio@NNGAKEGL@ 001e6310     still.obj
+ 0004:0018c7e0       ??_C@_0DM@OECOCBNN@Verify?5buffer?5large?5enough?0?5retu@NNGAKEGL@ 001e6360     still.obj
+ 0004:0018c820       ??_C@_0DM@OABGPICD@the?5passed?5buffer?5size?5is?50?0?5ret@NNGAKEGL@ 001e63a0     still.obj
+ 0004:0018c860       ??_C@_0DE@PDOPPPBH@Check?5that?5biSize?0?5return?5STATUS@NNGAKEGL@ 001e63e0     still.obj
+ 0004:0018c8a0       ??_C@_0BD@PDDJCOJE@X?$DN?$CFd?0?5Y?$DN?$CFd?0?5BI?$DN?$CFd?6?$AA@NNGAKEGL@ 001e6420     still.obj
+ 0004:0018c8c0       ??_C@_0DL@DFHLMLDM@Check?5that?5the?5other?5fields?5matc@NNGAKEGL@ 001e6440     still.obj
+ 0004:0018c900       ??_C@_08CFDHEOEO@DataSize?$AA@NNGAKEGL@ 001e6480     still.obj
+ 0004:0018c910       ??_C@_0BE@GPOFNLIB@DescriptorDataRange?$AA@NNGAKEGL@ 001e6490     still.obj
+ 0004:0018c930       ??_C@_0BA@HJIEDKFC@CallerDataRange?$AA@NNGAKEGL@ 001e64b0     still.obj
+ 0004:0018c940       ??_C@_0M@ILDFEJAA@PinInstance?$AA@NNGAKEGL@ 001e64c0     still.obj
+ 0004:0018c950       ??_C@_03EAONPCJM@Irp?$AA@NNGAKEGL@ 001e64d0     still.obj
+ 0004:0018c960       ??_C@_06IBDJIBGI@Filter?$AA@NNGAKEGL@ 001e64e0     still.obj
+ 0004:0018c970       ??_C@_0CD@PDAACPDB@Enter?5CStillPin?3?3IntersectHandle@NNGAKEGL@ 001e64f0     still.obj
+ 0004:0018c9a0       ??_C@_0CE@OOCGGEDA@Enter?5CStillPin?3?3DispatchSetForm@NNGAKEGL@ 001e6520     still.obj
+ 0005:00000005       ___security_init_cookie    001e6585 f   BufferOverflowK:gs_support.obj
+ 0005:0000003e       _GsDriverEntry@8           001e65be f   BufferOverflowK:gs_support.obj
+ 0005:00000050       __IMPORT_DESCRIPTOR_ntoskrnl 001e65d0     wdm:ntoskrnl.exe
+ 0005:00000064       __IMPORT_DESCRIPTOR_HAL    001e65e4     wdm:HAL.DLL
+ 0005:00000078       __IMPORT_DESCRIPTOR_ks     001e65f8     ks:ks.sys
+ 0005:0000008c       __IMPORT_DESCRIPTOR_USBD   001e660c     usbd:USBD.SYS
+ 0005:000000a0       __NULL_IMPORT_DESCRIPTOR   001e6620     wdm:ntoskrnl.exe
+
+ entry point at        0005:0000003e
+
+ Static symbols
+
